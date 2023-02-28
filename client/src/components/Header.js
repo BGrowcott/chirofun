@@ -35,7 +35,7 @@ const Header = () => {
                         className="collapse navbar-collapse justify-content-end"
                         id="navbarNav"
                     >
-                        <ul className="navbar-nav text-uppercase">
+                        <ul className="navbar-nav align-items-center text-uppercase">
                             <li className="nav-item">
                                 <Link className="nav-link" to={"/portfolio"}>
                                     Portfolio
@@ -52,41 +52,45 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <a
-                                    className="nav-link disabled"
-                                    href="#"
-                                    aria-disabled="true"
-                                >
-                                    <FontAwesomeIcon
-                                        className="fw-bold"
-                                        icon={brands("instagram")}
-                                    />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a
-                                    className="nav-link disabled"
-                                    href="#"
-                                    aria-disabled="true"
-                                >
-                                    <FontAwesomeIcon
-                                        className="fw-bold"
-                                        icon={brands("youtube")}
-                                    />
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a
-                                    className="nav-link disabled"
-                                    href="#"
-                                    aria-disabled="true"
-                                >
-                                    <FontAwesomeIcon
-                                        className="fw-bold"
-                                        icon={brands("linkedin")}
-                                    />
-                                </a>
-                            </li>
+                                <ul style={ {fontSize: "1.25rem"} } className="d-flex list-unstyled">
+                                    <li className="nav-item">
+                                        <a
+                                            className="nav-link"
+                                            href="https://www.instagram.com/ossiegoldhill/"
+                                            target="_blank"
+                                        >
+                                            <FontAwesomeIcon
+                                                className="fw-bold"
+                                                icon={brands("instagram")}
+                                            />
+                                        </a>
+                                    </li>
+                                    <li className="mx-3 nav-item">
+                                        <a
+                                            className="nav-link"
+                                            href="https://www.youtube.com/channel/UCvEB5BgGyPHVxC1MmqqW7pQ"
+                                            target="_blank"
+                                        >
+                                            <FontAwesomeIcon
+                                                className="fw-bold"
+                                                icon={brands("youtube")}
+                                            />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a
+                                            className="nav-link"
+                                            href="https://www.linkedin.com/in/ossiegoldhill/"
+                                            target="_blank"
+                                        >
+                                            <FontAwesomeIcon
+                                                className="fw-bold"
+                                                icon={brands("linkedin")}
+                                            />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>   
                         </ul>
                     </div>
                 </div>
