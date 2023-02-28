@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text&display=swap");
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Golos Text', sans-serif;;
+}
+
+main {
+    height: 100%;
+    margin: 0% 2%;
+}

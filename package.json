@@ -1,0 +1,26 @@
+{
+  "name": "osbear-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for photographer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js --ignore client",
+    "dev": "concurrently \"cd server && nodemon\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BGrowcott/osbear-portfolio.git"
+  },
+  "author": "Ben Growcott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BGrowcott/osbear-portfolio/issues"
+  },
+  "homepage": "https://github.com/BGrowcott/osbear-portfolio#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
