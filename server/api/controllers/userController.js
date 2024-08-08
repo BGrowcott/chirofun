@@ -21,7 +21,7 @@ module.exports = {
 
             res.json(token);
         } catch (error) {
-            res.json(500).json(error);
+            res.status(500).json({message: error.message});
         }
     },
     async signup(req, res) {
@@ -32,7 +32,7 @@ module.exports = {
             const token = signToken(user);
             res.json(token);
         } catch (error) {
-            res.json(500).json(error);
+            res.status(500).json({message: error.message});
         }
     },
 };
