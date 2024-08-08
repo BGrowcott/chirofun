@@ -14,12 +14,12 @@ const Home = () => {
             <div className="col-12 col-md-3">
                 <div
                     id="profile"
-                    className="rounded bg-light border p-2 d-flex flex-column justify-content-between align-items-center"
+                    className="bg-light border p-2 d-flex flex-column justify-content-between align-items-center"
                 >
                     <h1 id="nameHeading" className="text-center">
                         Ossie Goldhill
                     </h1>
-                    <img id="portrait" src={portrait}></img>
+                    <img className="d-none d-md-block" id="portrait" src={portrait}></img>
                     <p className="mt-2">
                         I specialise in creating food-centric content. Working
                         with clients from small independent restaurants to

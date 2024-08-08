@@ -36,10 +36,15 @@ const Header = () => {
                         id="navbarNav"
                     >
                         <ul className="navbar-nav align-items-center text-uppercase">
-                            <li className="nav-item">
+                            <li className="nav-item navDropDownContainer">
                                 <Link className="nav-link" to={"/portfolio"}>
                                     Portfolio
                                 </Link>
+                                <div className="navDropDownContents d-none d-sm-block bg-dark p-2 rounded">
+                                    <a className="nav-link">drop option</a>
+                                    <a className="nav-link">drop option</a>
+                                    <a className="nav-link">drop option</a>
+                                </div>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to={"/about"}>
