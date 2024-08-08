@@ -1,7 +1,7 @@
 {
-  "name": "osbear-portfolio",
+  "name": "chirofun",
   "version": "1.0.0",
-  "description": "Portfolio for photographer",
+  "description": "Informational website for a Chiropractor",
   "main": "server.js",
   "scripts": {
     "start": "node server/server.js --ignore client",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BGrowcott/osbear-portfolio.git"
+    "url": "git+https://github.com/BGrowcott/chirofun.git"
   },
   "author": "Ben Growcott",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BGrowcott/osbear-portfolio/issues"
+    "url": "https://github.com/BGrowcott/chirofun/issues"
   },
-  "homepage": "https://github.com/BGrowcott/osbear-portfolio#readme",
+  "homepage": "https://github.com/BGrowcott/chirofun#readme",
   "devDependencies": {
     "concurrently": "^7.6.0"
   }
