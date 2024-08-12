@@ -4,7 +4,7 @@ import Home from "../pages/Home";
 
 function Main() {
     return (
-        <main className="mt-3">
+        <main>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/contact" element={<Contact />} />

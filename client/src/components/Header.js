@@ -15,11 +15,11 @@ const Header = () => {
 
     return (
         <header>
-            <nav className="navbar navbar-expand-sm navbar-light p-0" style={{ backgroundColor: "#88aed3" }}>
+            <nav className="navbar navbar-expand-sm navbar-light p-0" style={{ backgroundImage: "linear-gradient(90deg, #81cedf, #d6f0ff 40%)" }}>
                 <div className="container-fluid ps-0">
                     <Link className="navbar-brand p-0 d-flex align-items-center" to={"/"}>
                         <img width={"50"} src={logo} /> 
-                        <h1 className="ms-3 h2 text-white fw-bold text-shadow">Birmingham Chiropractic</h1>                      
+                        <h1 className="ms-3 h3 text-white fw-bold text-shadow">Birmingham Chiropractic</h1>                      
                     </Link>
                     <button
                         className="navbar-toggler"
