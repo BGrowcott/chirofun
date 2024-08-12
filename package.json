@@ -22,5 +22,8 @@
   "homepage": "https://github.com/BGrowcott/chirofun#readme",
   "devDependencies": {
     "concurrently": "^7.6.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.26.0"
   }
 }

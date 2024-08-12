@@ -1,74 +1,94 @@
 @import url("https://fonts.googleapis.com/css2?family=Golos+Text&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 #root {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Golos Text', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Golos Text", sans-serif;
+  background-color: #eee5e5;
 }
 
 main {
-    margin-bottom: auto;
-    height: 100%;
+  margin-bottom: auto;
+  height: 100%;
 }
 
 .bg-light-fade {
-    background-color: #c0daf5d2;
+  background-color: #c0daf5d2;
 }
 
 #profile {
-    position: sticky;
-    top: 16px;
-    box-shadow: 0px 0px 5px grey inset;
+  position: sticky;
+  top: 16px;
+  box-shadow: 0px 0px 5px grey inset;
 }
 
 .navDropDownContents {
-    max-height: 0px;
-    overflow: hidden;
-    position: absolute;
-    transition: 0.5s all;
+  max-height: 0px;
+  overflow: hidden;
+  position: absolute;
+  transition: 0.5s all;
 }
 
-.navDropDownContainer:hover .navDropDownContents{
-    max-height: 180px;
+.navDropDownContainer:hover .navDropDownContents {
+  max-height: 180px;
 }
 
 #contactForm div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contactFormInput {
-    border: none;
-    border-top: 1px solid rgb(205, 205, 205);
-    padding: 8px;
-    border-radius: 3px;
-    background-color: #ffffff87;
+  border: none;
+  border-top: 1px solid rgb(205, 205, 205);
+  padding: 8px;
+  border-radius: 3px;
+  background-color: #ffffff87;
 }
 
 .contactFormInput:focus-visible {
-    transition: 0.5s all;
-    outline: none;
-    box-shadow: 0px 0px 5px grey inset;
-    background-color: white;
+  transition: 0.5s all;
+  outline: none;
+  box-shadow: 0px 0px 5px grey inset;
+  background-color: white;
 }
 
 .text-shadow {
-    text-shadow: 2px 2px black;
+  text-shadow: 2px 2px black;
 }
 
 .hero-img {
-    height: 35vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-position-y: top;
+  height: 65vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position-y: top;
 }
 
 .cert-logo {
-    height: 60px;
-    max-width: 150px;
+  height: 60px;
+  max-width: 150px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.welcome-text {
+  color: #37392e;
+  font-size: 45px;
+  font-weight: 1000;
+}
+
+.homepage-links {
+  width: 20%;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
 }
