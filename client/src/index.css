@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: space-between;
   font-family: "Golos Text", sans-serif;
-  background-color: #eee5e5;
+  background-color: #f9f7f7;
 }
 
 main {
@@ -74,9 +74,10 @@ main {
   max-width: 150px;
 }
 
-.links-container {
+.links-intro-container {
   display: flex;
   justify-content: center;
+  margin-top: 60px;
 }
 
 .welcome-title {
@@ -96,7 +97,6 @@ main {
 }
 
 .homepage-links {
-  background-color: brown;
   width: 250px;
   height: 250px;
   background-size: cover;
@@ -104,5 +104,72 @@ main {
 }
 
 .links {
-  background-color: aquamarine;
+  margin-top: 30px;
+}
+
+.link-text {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.offer-services-container {
+  margin-top: 350px;
+  height: 800px;
+  background-color: #f4efef;
+}
+
+.offer-services-container h3 {
+  width: 60px;
+  height: 100px;
+  background-color: #37392e;
+  margin-left: 500px;
+}
+
+.services-container {
+  position: relative;
+}
+
+.services {
+  position: absolute;
+  left: 20%;
+  z-index: 2;
+  height: 65%;
+  width: 1100px;
+  background-color: #19647e;
+}
+
+.service-links {
+}
+
+.book-new-links {
+  position: relative;
+}
+
+.new-patient-link {
+  position: absolute;
+  left: 80%;
+  height: 100px;
+  width: 300px;
+  margin-top: 100px;
+  border-radius: 5px;
+  background-color: #28afb0;
+}
+
+.new-patient-link p {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 10px;
+  color: #37392e;
+}
+
+.building-container {
+  position: relative;
+}
+
+.building {
+  position: absolute;
+  bottom: 40%;
+  height: 90%;
+  width: 600px;
 }

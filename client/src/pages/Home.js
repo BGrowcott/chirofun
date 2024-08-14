@@ -5,6 +5,7 @@ import cert3 from "../images/GCC-Registered_black.png";
 import team from "../images/team.jpg";
 import contact from "../images/phone.avif";
 import testimonials from "../images/testi.jpg";
+import building from "../images/chiro-img.png";
 
 const Home = () => {
   return (
@@ -37,7 +38,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="links-container container flex-column">
+      <div className="links-intro-container container flex-column">
         <div className="row">
           <h2 className="welcome-title justify-content-center">
             Welcome to Birmingham Chiropractic
@@ -52,8 +53,8 @@ const Home = () => {
             pellentesque odio at erat scelerisque varius.
           </p>
         </div>
-        <div className="row d-flex justify-content-center links">
-          <div className="col">
+        <div className="row links">
+          <div className="col d-flex flex-column align-items-center justify-content-center">
             <div
               className="homepage-links"
               src={team}
@@ -62,7 +63,7 @@ const Home = () => {
             ></div>
             <p className="link-text">Meet the team</p>
           </div>
-          <div className="col">
+          <div className="col col1 d-flex flex-column align-items-center justify-content-center">
             <div
               className="homepage-links"
               src={testimonials}
@@ -71,7 +72,7 @@ const Home = () => {
             ></div>
             <p className="link-text">Testimonials</p>
           </div>
-          <div className="col">
+          <div className="col d-flex flex-column align-items-center justify-content-center">
             <div
               className="homepage-links"
               src={contact}
@@ -80,6 +81,22 @@ const Home = () => {
             ></div>
             <p className="link-text">Contact us</p>
           </div>
+        </div>
+      </div>
+
+      <div className="row offer-services-container">
+        <div className="col services-container d-flex justify-content-end align-items-end">
+          <div className="services row">
+            <div className="service-links col-11"></div>
+            <div className="new-link-container d-flex align-items-center col-1">
+              <div className="new-patient-link d-flex justify-content-center align-items-center">
+                <p>New Patient</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-5 building-container">
+          <img className="building" src={building} alt="Building"></img>
         </div>
       </div>
     </section>
