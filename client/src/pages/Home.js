@@ -37,34 +37,48 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="links-container container">
+      <div className="links-container container flex-column">
         <div className="row">
-          <h2 className="welcome-text">Welcome to Birmingham Chiropractic</h2>
+          <h2 className="welcome-title justify-content-center">
+            Welcome to Birmingham Chiropractic
+          </h2>
+          <p className="welcome-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            lacinia, sapien a consectetur sodales, metus lorem faucibus est, sit
+            amet facilisis dolor tortor a nisi. Integer pulvinar odio a nisi
+            facilisis, et rutrum neque commodo. Donec id finibus ligula. Duis a
+            elit dapibus, laoreet ipsum sit amet, mollis justo. Vestibulum leo
+            sapien, rutrum ac augue eget, imperdiet tempor sapien. Ut
+            pellentesque odio at erat scelerisque varius.
+          </p>
         </div>
-        <div className="row">
+        <div className="row d-flex justify-content-center links">
           <div className="col">
             <div
               className="homepage-links"
-              //   src={team}
+              src={team}
               style={{ backgroundImage: `url(${team})` }}
               alt="Doctor"
             ></div>
+            <p className="link-text">Meet the team</p>
           </div>
           <div className="col">
             <div
               className="homepage-links"
-              //   src={testimonials}
+              src={testimonials}
               style={{ backgroundImage: `url(${testimonials})` }}
               alt="Doctor"
             ></div>
+            <p className="link-text">Testimonials</p>
           </div>
           <div className="col">
             <div
               className="homepage-links"
-              //   src={contact}
+              src={contact}
               style={{ backgroundImage: `url(${contact})` }}
               alt="Doctor"
             ></div>
+            <p className="link-text">Contact us</p>
           </div>
         </div>
       </div>

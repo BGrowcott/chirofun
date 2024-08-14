@@ -77,18 +77,32 @@ main {
 .links-container {
   display: flex;
   justify-content: center;
-  background-color: aquamarine;
 }
 
-.welcome-text {
-  color: #37392e;
+.welcome-title {
   font-size: 45px;
   font-weight: 1000;
 }
 
+.welcome-text {
+  font-size: 20px;
+}
+
+.welcome-text,
+.welcome-title {
+  color: #37392e;
+  text-align: center;
+  margin-top: 30px;
+}
+
 .homepage-links {
-  width: 20%;
-  height: 80px;
+  background-color: brown;
+  width: 250px;
+  height: 250px;
   background-size: cover;
   background-position: center;
+}
+
+.links {
+  background-color: aquamarine;
 }
