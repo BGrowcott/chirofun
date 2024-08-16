@@ -6,6 +6,9 @@ import team from "../images/team.jpg";
 import contact from "../images/phone.avif";
 import testimonials from "../images/testi.jpg";
 import building from "../images/chiro-img.png";
+import foot from "../images/foot.png";
+import spine from "../images/spine-model-.jpg";
+import runner from "../images/woman-running.jpg";
 
 const Home = () => {
   return (
@@ -86,8 +89,33 @@ const Home = () => {
 
       <div className="row offer-services-container">
         <div className="col services-container d-flex justify-content-end align-items-end">
-          <div className="services row">
-            <div className="service-links col-11"></div>
+          <h3 className="col services-title">What we do</h3>
+          <div className="services row d-flex">
+            <div className="service-links-text col-11 d-flex flex-column justify-content-between">
+              <p className="service-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                lacinia, sapien a consectetur sodales, metus lorem faucibus est,
+                sit amet facilisis dolor tortor a nisi. Integer pulvinar odio a
+                nisi facilisis, et rutrum neque commodo. Donec id finibus
+                ligula. Duis a elit dapibus, laoreet ipsum sit amet, mollis
+                justo. Vestibulum leo sapien, rutrum ac augue eget, imperdiet
+                tempor sapien. Ut pellentesque odio at erat scelerisque varius.
+              </p>
+              <div className="links-container row">
+                <div className="col d-flex flex-column justify-content-center align-items-center">
+                  <img src={foot}></img>
+                  <p>Orthotics</p>
+                </div>
+                <div className="col d-flex flex-column justify-content-center align-items-center">
+                  <img src={spine}></img>
+                  <p>Chiropractic</p>
+                </div>
+                <div className="col d-flex flex-column justify-content-center align-items-center">
+                  <img src={runner}></img>
+                  <p>Sports Remedial</p>
+                </div>
+              </div>
+            </div>
             <div className="new-link-container d-flex align-items-center col-1">
               <div className="new-patient-link d-flex justify-content-center align-items-center">
                 <p>New Patient</p>
@@ -99,6 +127,7 @@ const Home = () => {
           <img className="building" src={building} alt="Building"></img>
         </div>
       </div>
+      <div className="next-section"></div>
     </section>
   );
 };

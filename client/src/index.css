@@ -87,6 +87,8 @@ main {
 
 .welcome-text {
   font-size: 20px;
+  font-weight: 700;
+  color: #37392e;
 }
 
 .welcome-text,
@@ -101,6 +103,7 @@ main {
   height: 250px;
   background-size: cover;
   background-position: center;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .links {
@@ -111,35 +114,69 @@ main {
   font-size: 30px;
   font-weight: 800;
   margin-top: 10px;
+  color: #37392e;
 }
 
 .offer-services-container {
   margin-top: 350px;
-  height: 800px;
+  height: 900px;
   background-color: #f4efef;
-}
-
-.offer-services-container h3 {
-  width: 60px;
-  height: 100px;
-  background-color: #37392e;
-  margin-left: 500px;
+  padding-bottom: 120px;
 }
 
 .services-container {
   position: relative;
 }
 
+.services-title {
+  margin-bottom: 640px;
+  margin-left: 214px;
+  font-size: 60px;
+  color: #37392e;
+}
+
 .services {
   position: absolute;
   left: 20%;
   z-index: 2;
-  height: 65%;
+  height: 75%;
   width: 1100px;
+  padding-bottom: 40px;
   background-color: #19647e;
 }
 
-.service-links {
+.service-links-text {
+}
+
+.service-links-text img {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+}
+
+.service-text {
+  margin: 60px 100px 70px 60px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #f4efef;
+}
+
+.links-container {
+  margin: 0 50px 20px 0;
+}
+
+.links-container img {
+  height: 170px;
+  width: 170px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.links-container p {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 14px;
+  color: #f4efef;
 }
 
 .book-new-links {
@@ -148,9 +185,9 @@ main {
 
 .new-patient-link {
   position: absolute;
-  left: 80%;
-  height: 100px;
-  width: 300px;
+  left: 87%;
+  height: 80px;
+  width: 270px;
   margin-top: 100px;
   border-radius: 5px;
   background-color: #28afb0;
@@ -172,4 +209,9 @@ main {
   bottom: 40%;
   height: 90%;
   width: 600px;
+}
+
+.next-section {
+  height: 1000px;
+  background-color: #f9f7f7;
 }
