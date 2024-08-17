@@ -263,11 +263,13 @@ main {
   color: #f4efef;
 }
 
-.cert-container {
-  height: 500px;
+.map-container {
+  height: 700px;
 }
 
-.cert-icons-small {
+.cert-container {
+  height: 500px;
+  background-color: #f9f7f7;
 }
 
 .cert1 {
@@ -283,8 +285,4 @@ main {
 .cert3 {
   height: 150px;
   width: 200px;
-}
-
-.map-container {
-  height: 500px;
 }
