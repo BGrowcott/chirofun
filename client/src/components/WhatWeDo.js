@@ -3,7 +3,7 @@ import WhatWeDoNav from "./WhatWeDoNav";
 
 function WhatWeDo() {
     return (
-        <div className="container-lg">
+        <div>
             <div className="row mt-5">
                 <div className="col-12 col-md-6">
                     <div className="p-3">
@@ -20,7 +20,6 @@ function WhatWeDo() {
                             at erat scelerisque varius.
                         </p>
                     </div>
-
                     {/* <div className="services row">
                     <div className="service-links-text col-11 d-flex flex-column justify-content-between">
                         <p className="service-text">
@@ -64,6 +63,7 @@ function WhatWeDo() {
                     ></img>
                 </div>
             </div>
+            <hr></hr>
 
             <WhatWeDoNav></WhatWeDoNav>
         </div>

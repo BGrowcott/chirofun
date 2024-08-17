@@ -1,10 +1,5 @@
 .footer-container {
   background-color: #19647e;
-  height: 800px;
-}
-
-.footer-title-links-container {
-  margin-top: 20px;
 }
 
 .footer-info-container {
@@ -13,17 +8,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
-}
-
-.footer-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  height: 300px;
-  width: 200px;
-  padding: 10px;
 }
 
 .footer-info h4 {

@@ -13,11 +13,11 @@ function Hero() {
             ></div>
             <div
                 className="bg-light-fade position-absolute start-50 translate-middle p-2 rounded"
-                style={{ top: "75%" }}
+                style={{ top: "65%" }}
             >
                 <div className="text-center">
                     <h2 className="fw-bold">
-                        Welcome to Birmingham Chiropractic
+                        Birmingham Chiropractic
                     </h2>
                     <p className="fw-bold">Outstanding back and neck care.</p>
                     <div className="justify-content-around d-none d-md-flex">
