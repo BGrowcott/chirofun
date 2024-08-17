@@ -9,6 +9,7 @@ import building from "../images/chiro-img.png";
 import foot from "../images/foot.png";
 import spine from "../images/spine-model-.jpg";
 import runner from "../images/woman-running.jpg";
+import office from "../images/doctors-office.jpg";
 
 const Home = () => {
   return (
@@ -118,7 +119,7 @@ const Home = () => {
             </div>
             <div className="new-link-container d-flex align-items-center col-1">
               <div className="new-patient-link d-flex justify-content-center align-items-center">
-                <p>New Patient</p>
+                <p>New Patient </p>
               </div>
             </div>
           </div>
@@ -127,7 +128,48 @@ const Home = () => {
           <img className="building" src={building} alt="Building"></img>
         </div>
       </div>
-      <div className="next-section"></div>
+      <div className="reviews-office-img-container row">
+        <div className="col reviews">
+          <div className="reviews-container d-flex flex-column justify-content-center align-items-center">
+            <div className="review-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              lacinia, sapien a consectetur sodales, metus lorem faucibus est,
+              sit amet facilisis dolor tortor a nisi.
+            </div>
+            <div className="reviewer-name">Tobie Tibbs</div>
+            <div className="stars">Stars</div>
+            <button className="more-reviews-button">
+              More reviews &#10575;
+            </button>
+          </div>
+        </div>
+        <div className="col office-img-container">
+          <img className="office-img" src={office}></img>
+        </div>
+      </div>
+
+      <div className="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310858.6476642281!2d-2.145728242009912!3d52.50478425737822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc0e681a7553%3A0x84836f9f82fbb006!2sBirmingham%20Chiropractic!5e0!3m2!1sen!2suk!4v1723897064336!5m2!1sen!2suk"
+          width="100%"
+          height="100%"
+          style={{ border: "none" }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div className="cert-container row">
+        <div className="col d-flex justify-content-center align-items-center">
+          <img className="cert1" src={cert1}></img>
+        </div>
+        <div className="col d-flex justify-content-center align-items-center">
+          <img className="cert2" src={cert2}></img>
+        </div>
+        <div className="col d-flex justify-content-center align-items-center">
+          <img className="cert3" src={cert3}></img>
+        </div>
+      </div>
     </section>
   );
 };
