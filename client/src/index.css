@@ -7,7 +7,8 @@
   flex-direction: column;
   justify-content: space-between;
   font-family: "Golos Text", sans-serif;
-  background-color: #f9f7f7;
+  background-image: url("./images/bg.png");
+  background-repeat: repeat-y;
 }
 
 main {
@@ -285,4 +286,16 @@ main {
 .cert3 {
   height: 150px;
   width: 200px;
+}
+
+.link-card {
+  box-shadow: 0px 0px 3px grey;
+  bottom: 0px;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.link-card:hover {
+  box-shadow: 2px 2px 8px grey;
+  bottom: 5px;
 }

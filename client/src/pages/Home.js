@@ -1,7 +1,7 @@
 import cert1 from "../images/ClinicFiveStarTreatment.png";
 import cert2 from "../images/BestRatedBirm.jpg";
 import cert3 from "../images/GCC-Registered_black.png";
-
+import austin from "../images/austin.jpeg";
 import office from "../images/doctors-office.jpg";
 import Hero from "../components/Hero";
 import OtherInfoNav from "../components/OtherInfoNav";
@@ -12,22 +12,41 @@ const Home = () => {
         <section>
             <Hero></Hero>
             <div className="container-md">
-                <div className="mt-2">
+                <div className="mt-2 mb-5">
                     <div>
                         <h2 className="h4 text-center">
                             Welcome to Birmingham Chiropractic
                         </h2>
-                        <p className="text-center fs-5">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Sed lacinia, sapien a consectetur sodales,
-                            metus lorem faucibus est, sit amet facilisis dolor
-                            tortor a nisi. Integer pulvinar odio a nisi
-                            facilisis, et rutrum neque commodo. Donec id finibus
-                            ligula. Duis a elit dapibus, laoreet ipsum sit amet,
-                            mollis justo. Vestibulum leo sapien, rutrum ac augue
-                            eget, imperdiet tempor sapien. Ut pellentesque odio
-                            at erat scelerisque varius.
-                        </p>
+                        <div className="">
+                            <div className="border shadow"
+                                style={{
+                                    backgroundImage: `url(${austin})`,
+                                    height: "150px",
+                                    width: "150px",
+                                    borderRadius: "100%",
+                                    backgroundRepeat: "no-repeat",
+                                    backgroundPosition: "center",
+                                    backgroundSize: "cover",
+                                    backgroundPositionY: "top",
+                                    backgroundPositionX: "left",
+                                    shapeOutside: "circle(50%)",
+                                    flex: "none",
+                                    float: "left"
+                                }}
+                            ></div>
+                            <p className="fs-5">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Sed lacinia, sapien a
+                                consectetur sodales, metus lorem faucibus est,
+                                sit amet facilisis dolor tortor a nisi. Integer
+                                pulvinar odio a nisi facilisis, et rutrum neque
+                                commodo. Donec id finibus ligula. Duis a elit
+                                dapibus, laoreet ipsum sit amet, mollis justo.
+                                Vestibulum leo sapien, rutrum ac augue eget,
+                                imperdiet tempor sapien. Ut pellentesque odio at
+                                erat scelerisque varius.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <hr></hr>
@@ -65,7 +84,7 @@ const Home = () => {
 
                 {/* TODO: Make this into it's own component */}
                 <div className="row mt-3">
-                  <hr></hr>
+                    <hr></hr>
                     <div className="col-12 col-md-9">
                         <div className="map-container">
                             <iframe
@@ -81,15 +100,29 @@ const Home = () => {
                     </div>
                     <div className="col-12 col-md-3">
                         <div className="text-center">
-                           <span className="fw-bold">Opening Hours</span>
+                            <span className="fw-bold">Opening Hours</span>
                             <ul className="list-group list-group-flush">
-                                <li className="list-group-item">Monday: 9am-7pm</li>
-                                <li className="list-group-item">Tuesday: 9am-7pm</li>
-                                <li className="list-group-item">Wednesday: Closed</li>
-                                <li className="list-group-item">Thrusday: 9am-7pm</li>
-                                <li className="list-group-item">Friday: 9am-2pm</li>
-                                <li className="list-group-item">Saturday: 9:30am-2pm</li>
-                                <li className="list-group-item">Sunday: Closed</li>
+                                <li className="list-group-item">
+                                    Monday: 9am-7pm
+                                </li>
+                                <li className="list-group-item">
+                                    Tuesday: 9am-7pm
+                                </li>
+                                <li className="list-group-item">
+                                    Wednesday: Closed
+                                </li>
+                                <li className="list-group-item">
+                                    Thrusday: 9am-7pm
+                                </li>
+                                <li className="list-group-item">
+                                    Friday: 9am-2pm
+                                </li>
+                                <li className="list-group-item">
+                                    Saturday: 9:30am-2pm
+                                </li>
+                                <li className="list-group-item">
+                                    Sunday: Closed
+                                </li>
                             </ul>
                         </div>
                     </div>

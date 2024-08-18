@@ -29,7 +29,7 @@ const Header = () => {
                     >
                         <img width={"50"} src={logo} />
                         <h1 className="ms-3 h3 text-white fw-bold text-shadow">
-                            Birmingham Chiropractic
+                            <span className="d-block">Birmingham</span> Chiropractic
                         </h1>
                     </Link>
                     <button

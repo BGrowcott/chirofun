@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer-container text-white p-2">
           <div className="container">
             <div className="row text-center">
-                <div className="col-4">
+                <div className="col-12 col-md-4 d-none d-md-block">
                     <div className="d-flex flex-column">
                         <p className="fw-bold">Quick Links</p>
                         <ul className="list-group list-group-flush">
@@ -16,7 +16,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-12 col-md-4 d-none d-md-block">
                     <div className="d-flex flex-column">
                         <p className="fw-bold">Services</p>
                         <ul className="list-group list-group-flush">
@@ -26,7 +26,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="col-4">
+                <div className="col-12 col-md-4">
                     <div className="d-flex flex-column">
                         <p className="fw-bold">Contact</p>
                         <div>
@@ -35,7 +35,7 @@ const Footer = () => {
                                 King's Heath, <br />
                                 Birmingham B14 6DR
                             </p>
-                            <a className="text-white" href="tel:07898903772">07898 903772</a>
+                            <a className="text-white" href="tel:07898903772">07898 903772</a> | <a className="text-white" href="mail:info@birminghamchiropractic.uk.com">info@birminghamchiropractic.uk.com</a>
                         </div>
                     </div>
                 </div>
