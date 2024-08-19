@@ -16,7 +16,7 @@ const Header = () => {
     return (
         <header>
             <nav
-                className="navbar navbar-expand-sm navbar-light p-0"
+                className="navbar navbar-expand-md navbar-light p-0"
                 style={{
                     backgroundImage:
                         "linear-gradient(90deg, #81cedf, #d6f0ff 40%)",
@@ -29,7 +29,8 @@ const Header = () => {
                     >
                         <img width={"50"} src={logo} />
                         <h1 className="ms-3 h3 text-white fw-bold text-shadow">
-                            <span className="d-block">Birmingham</span> Chiropractic
+                            <span className="d-block">Birmingham</span>{" "}
+                            Chiropractic
                         </h1>
                     </Link>
                     <button
@@ -47,31 +48,40 @@ const Header = () => {
                         className="collapse navbar-collapse justify-content-end"
                         id="navbarNav"
                     >
-                        <ul className="navbar-nav align-items-center text-uppercase">
+                        <ul className="navbar-nav align-items-center text-uppercase fs-5">
                             <li className="nav-item navDropDownContainer">
-                                <Link className="nav-link" to={"/portfolio"}>
+                                <Link
+                                    className="nav-link mx-xl-5 mx-lg-3"
+                                    to={"/portfolio"}
+                                >
                                     What We Do
                                 </Link>
                                 <div
                                     className="navDropDownContents d-none d-sm-block rounded"
-                                    style={{ backgroundColor: "rgb(214 240 255)", zIndex: "1" }}
+                                    style={{
+                                        backgroundColor: "rgb(214 240 255)",
+                                        zIndex: "1",
+                                    }}
                                 >
-                                    <a className="nav-link">drop option</a>
-                                    <a className="nav-link">drop option</a>
-                                    <a className="nav-link">drop option</a>
+                                    <a className="nav-link">Orthotics</a>
+                                    <a className="nav-link">Chiropractic</a>
+                                    <a className="nav-link">Sports Remedial</a>
                                 </div>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to={"/about"}>
+                                <Link
+                                    className="nav-link mx-xl-5 mx-lg-3"
+                                    to={"/about"}
+                                >
                                     About Us
                                 </Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item mx-xl-5 mx-lg-3">
                                 <Link className="nav-link" to={"/contact"}>
                                     Get In Touch
                                 </Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item me-xl-5 me-lg-3">
                                 <ul
                                     style={{ fontSize: "1.25rem" }}
                                     className="d-flex list-unstyled"
@@ -82,10 +92,12 @@ const Header = () => {
                                             href=""
                                             target="_blank"
                                         >
-                                            <FontAwesomeIcon
-                                                className="fw-bold"
-                                                icon={brands("instagram")}
-                                            />
+                                            <div className="nav-brand-container">
+                                                <FontAwesomeIcon
+                                                    className="fw-bold fa-lg"
+                                                    icon={brands("instagram")}
+                                                />
+                                            </div>
                                         </a>
                                     </li>
                                     <li className="mx-3 nav-item">
@@ -94,10 +106,12 @@ const Header = () => {
                                             href=""
                                             target="_blank"
                                         >
-                                            <FontAwesomeIcon
-                                                className="fw-bold"
-                                                icon={brands("youtube")}
-                                            />
+                                            <div className="nav-brand-container">
+                                                <FontAwesomeIcon
+                                                    className="fw-bold fa-lg"
+                                                    icon={brands("youtube")}
+                                                />
+                                            </div>
                                         </a>
                                     </li>
                                     <li className="nav-item">
@@ -106,10 +120,12 @@ const Header = () => {
                                             href=""
                                             target="_blank"
                                         >
-                                            <FontAwesomeIcon
-                                                className="fw-bold"
-                                                icon={brands("linkedin")}
-                                            />
+                                            <div className="nav-brand-container">
+                                                <FontAwesomeIcon
+                                                    className="fw-bold fa-lg"
+                                                    icon={brands("linkedin")}
+                                                />
+                                            </div>
                                         </a>
                                     </li>
                                 </ul>

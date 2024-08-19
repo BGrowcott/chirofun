@@ -14,7 +14,7 @@ const Home = () => {
             <div className="container-md">
                 <div className="mt-2 mb-5">
                     <div>
-                        <h2 className="h4 text-center">
+                        <h2 className="h3 fw-bold text-center josefinSans-text text-dark">
                             Welcome to Birmingham Chiropractic
                         </h2>
                         <div className="">
@@ -83,7 +83,7 @@ const Home = () => {
                 </div> */}
 
                 {/* TODO: Make this into it's own component */}
-                <div className="row mt-3">
+                <div className="row my-5">
                     <hr></hr>
                     <div className="col-12 col-md-9">
                         <div className="map-container">

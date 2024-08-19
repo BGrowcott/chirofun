@@ -13,7 +13,7 @@ function OtherInfoNav() {
 
     return (
         // TODO: Make all images the same size by editing the images themselves
-        <div className="row">
+        <div className="row gy-3">
             {cards.map((it) => (
                 <div className="col-12 col-md-4" key={it.key}>
                     <LinkCard
