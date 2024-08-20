@@ -13,7 +13,7 @@ function Hero() {
             ></div>
             <div
                 className="bg-light-fade position-absolute start-50 translate-middle p-2 rounded shadow"
-                style={{ top: "65%" }}
+                style={{ top: "55%" }}
             >
                 <div className="text-center">
                     <h2 className="fw-bold josefinSans-text">

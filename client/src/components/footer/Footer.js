@@ -13,9 +13,9 @@ const Footer = () => {
                 </a>
             </div>
             <div className="footer-container p-2">
-                <div className="container">
-                    <div className="row text-center">
-                        <div className="col-12 col-md-4 d-none d-md-block">
+                <div className="">
+                    <div className="row gx-5 justitfy-content-around text-center">
+                        <div className="col-12 col-md-4 d-none d-md-block px-5">
                             <div className="d-flex flex-column">
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item bg-transparent text-white">
@@ -30,7 +30,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-12 col-md-4 d-none d-md-block">
+                        <div className="col-12 col-md-4 d-none d-md-block px-5">
                             <div className="d-flex flex-column">
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item bg-transparent text-white">
@@ -45,8 +45,8 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-12 col-md-4">
-                            <div className="d-flex flex-column text-end">
+                        <div className="col-12 col-md-4 px-5">
+                            <div className="d-flex flex-column text-md-end">
                                 <div>
                                     <p>
                                         Chiropractic, 264 Alcester Rd South,{" "}

@@ -6,7 +6,7 @@ function WhatWeDo() {
         <div>
             <div className="row mt-5">
                 <div className="col-12 col-md-6">
-                    <div className="p-3">
+                    <div className="p-3 bg-white rounded" style={{boxShadow: "0px 0px 5px slategrey inset"}}>
                         <h3 className="fw-bold text-center josefinSans-text text-dark">What we do</h3>
                         <p className="fs-5">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
