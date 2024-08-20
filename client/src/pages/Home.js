@@ -18,7 +18,8 @@ const Home = () => {
                             Welcome to Birmingham Chiropractic
                         </h2>
                         <div className="">
-                            <div className="border shadow"
+                            <div
+                                className="border shadow"
                                 style={{
                                     backgroundImage: `url(${austin})`,
                                     height: "150px",
@@ -31,7 +32,7 @@ const Home = () => {
                                     backgroundPositionX: "left",
                                     shapeOutside: "circle(50%)",
                                     flex: "none",
-                                    float: "left"
+                                    float: "left",
                                 }}
                             ></div>
                             <p className="fs-5">
@@ -98,32 +99,18 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-3">
-                        <div className="text-center">
-                            <span className="fw-bold">Opening Hours</span>
-                            <ul className="list-group list-group-flush">
-                                <li className="list-group-item">
-                                    Monday: 9am-7pm
-                                </li>
-                                <li className="list-group-item">
-                                    Tuesday: 9am-7pm
-                                </li>
-                                <li className="list-group-item">
-                                    Wednesday: Closed
-                                </li>
-                                <li className="list-group-item">
-                                    Thrusday: 9am-7pm
-                                </li>
-                                <li className="list-group-item">
-                                    Friday: 9am-2pm
-                                </li>
-                                <li className="list-group-item">
-                                    Saturday: 9:30am-2pm
-                                </li>
-                                <li className="list-group-item">
-                                    Sunday: Closed
-                                </li>
-                            </ul>
-                        </div>
+                      <div className="text-center">
+                        <span className="fw-bold">Opening Hours</span>
+                        <ul className="list-group list-group-flush">
+                          <li className="list-group-item">Monday: 9am-7pm</li>
+                          <li className="list-group-item">Tuesday: 9am-7pm</li>
+                          <li className="list-group-item">Wednesday: Closed</li>
+                          <li className="list-group-item">Thrusday: 9am-7pm</li>
+                          <li className="list-group-item">Friday: 9am-2pm</li>
+                          <li className="list-group-item">Saturday: 9:30am-2pm</li>
+                          <li className="list-group-item">Sunday: Closed</li>
+                        </ul>
+                      </div>
                     </div>
                 </div>
             </div>

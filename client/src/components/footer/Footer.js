@@ -49,9 +49,8 @@ const Footer = () => {
                             <div className="d-flex flex-column text-md-end">
                                 <div>
                                     <p>
-                                        Chiropractic, 264 Alcester Rd South,{" "}
-                                        <br />
-                                        King's Heath, <br />
+                                        Chiropractic, 264 Alcester Rd South,<br />
+                                        King's Heath,<br />
                                         Birmingham B14 6DR
                                     </p>
                                     <a
