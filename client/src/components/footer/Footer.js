@@ -12,9 +12,9 @@ const Footer = () => {
                     Start Feeling Better Today!
                 </a>
             </div>
-            <div className="footer-container p-2">
-                <div className="">
-                    <div className="row gx-5 justitfy-content-around text-center">
+            <div className="footer-container">
+                <div className="container-fluid">
+                    <div className="row text-center">
                         <div className="col-12 col-md-4 d-none d-md-block px-5">
                             <div className="d-flex flex-column">
                                 <ul className="list-group list-group-flush">
