@@ -12,23 +12,23 @@ function Hero() {
                 style={{ backgroundImage: `url(${hero})` }}
             ></div>
             <div
-                className="bg-light-fade position-absolute start-50 translate-middle p-2 rounded"
-                style={{ top: "65%" }}
+                className="bg-light-fade position-absolute start-50 translate-middle p-2 rounded shadow"
+                style={{ top: "55%" }}
             >
-                <div className="text-center">
-                    <h2 className="fw-bold">
+                <div className="text-center p-0 p-md-3">
+                    <h2 className="fw-bold josefinSans-text">
                         Birmingham Chiropractic
                     </h2>
                     <p className="fw-bold">Outstanding back and neck care.</p>
                     <div className="justify-content-around d-none d-md-flex">
                         <img className="cert-logo" src={cert1}></img>
-                        <img className="cert-logo" src={cert2}></img>
+                        <img className="cert-logo mx-2" src={cert2}></img>
                         <img className="cert-logo" src={cert3}></img>
                     </div>
                     <a
                         target="_blank"
                         href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
-                        className="mt-1 btn btn-lg btn-primary"
+                        className="mt-3 btn btn-lg btn-dark"
                     >
                         Book Now
                     </a>

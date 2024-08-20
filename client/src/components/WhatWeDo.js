@@ -6,8 +6,8 @@ function WhatWeDo() {
         <div>
             <div className="row mt-5">
                 <div className="col-12 col-md-6">
-                    <div className="p-3">
-                        <h3 className="fw-bold text-center">What we do</h3>
+                    <div className="p-3 bg-white rounded" style={{boxShadow: "0px 0px 5px slategrey inset"}}>
+                        <h3 className="fw-bold text-center josefinSans-text text-dark">What we do</h3>
                         <p className="fs-5">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Sed lacinia, sapien a consectetur sodales,
@@ -23,7 +23,7 @@ function WhatWeDo() {
                 </div>
                 <div className="col-12 col-md-6 d-none d-md-block">
                     <img
-                        className="img-fluid"
+                        className="img-fluid rounded shadow"
                         src={building}
                         alt="Building"
                     ></img>
