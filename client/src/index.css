@@ -85,7 +85,7 @@ main {
 .nav-brand-container {
   width: 50px;
   height: 50px;
-  box-shadow: 1px 1px 1px rgba(135, 237, 244, 0.598);
+  box-shadow: 1px 1px 1px rgba(93, 163, 168, 0.598);
   padding: 5px;
   border-radius: 100%;
   display: flex;
@@ -95,7 +95,9 @@ main {
 
 .nav-brand-container:hover {
   transition: all 0.2s;
-  box-shadow: 3px 3px 8px rgba(108, 211, 219, 0.598);
+  box-shadow: 3px 3px 8px rgba(48, 93, 96, 0.598);
+  width: 52px;
+  height: 52px;
 }
 
 .links-intro-container {

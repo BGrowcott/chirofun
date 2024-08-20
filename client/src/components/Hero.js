@@ -15,7 +15,7 @@ function Hero() {
                 className="bg-light-fade position-absolute start-50 translate-middle p-2 rounded shadow"
                 style={{ top: "55%" }}
             >
-                <div className="text-center">
+                <div className="text-center p-0 p-md-3">
                     <h2 className="fw-bold josefinSans-text">
                         Birmingham Chiropractic
                     </h2>

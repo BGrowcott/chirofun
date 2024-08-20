@@ -3,13 +3,13 @@ import "./footer.css";
 const Footer = () => {
     return (
         <footer className="text-white">
-            <div className="bg-light text-center p-1">
+            <div className="bg-light text-center p-2">
                 <a
                     target="_blank"
                     href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
                     className="btn btn-lg btn-outline-dark"
                 >
-                    Book Now
+                    Start Feeling Better Today!
                 </a>
             </div>
             <div className="footer-container p-2">
