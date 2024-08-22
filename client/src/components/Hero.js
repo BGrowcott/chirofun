@@ -22,7 +22,7 @@ function Hero() {
                         "linear-gradient(to right, white, transparent)",
                 }}
             >
-                <div className="p-5" style={{ width: "60%" }}>
+                <div className="p-5" style={{ width: "60%" }}> {/* TODO: adjust width with a proper class and media query */}
                     <div>
                         <h2 className="h1 josefinSans-text text-dark">
                             <span className="text-black">Welcome to</span>{" "}
@@ -34,7 +34,7 @@ function Hero() {
                         <p className="fs-3 d-none d-lg-block">
                             Outstanding back and neck care.
                         </p>
-                        <p className="fs-5">
+                        <p className="fs-5 d-none d-lg-block">
                             We strive to get you pain-free using safe,
                             evidence-based, and individually tailored treatment
                             programs.  We want you back to doing what you love.
