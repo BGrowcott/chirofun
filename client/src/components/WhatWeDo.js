@@ -9,7 +9,7 @@ function WhatWeDo() {
             <div className="row flex-row-reverse bg-light rounded align-items-center mt-3">
                 <div className="col-12 col-md-6">
                     <div className="p-3 rounded">
-                        <h3 className="fw-bold border-bottom josefinSans-text text-dark mb-5">
+                        <h3 className="fw-bold border-bottom josefinSans-text text-dark mb-1 mb-md-5">
                             What we do
                         </h3>
                         <p className="fs-4 lh-lg fw-bold">
@@ -27,7 +27,7 @@ function WhatWeDo() {
                         </p>
                     </div>
                 </div>
-                <div className="col-12 col-md-6 d-none d-md-block">
+                <div className="col-12 col-md-6">
                     <img
                         className="img-fluid rounded"
                         src={austin2}
