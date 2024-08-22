@@ -1,4 +1,7 @@
 import hero from "../images/flexible-back.jpg";
+import hero1 from "../images/hero1.jpg";
+import hero2 from "../images/hero2.5.jpg";
+import hero3 from "../images/hero3.jpg";
 import cert1 from "../images/ClinicFiveStarTreatment.png";
 import cert2 from "../images/BestRatedBirm.jpg";
 import cert3 from "../images/GCC-Registered_black.png";
@@ -9,29 +12,37 @@ function Hero() {
             <div
                 className="hero-img"
                 src={hero}
-                style={{ backgroundImage: `url(${hero})` }}
+                style={{ backgroundImage: `url(${hero2})` }}
             ></div>
             <div
-                className="bg-light-fade position-absolute start-50 translate-middle p-2 rounded shadow"
-                style={{ top: "55%" }}
+                className="position-absolute top-0 w-50"
+                style={{
+                    height: "55vh",
+                    backgroundImage:
+                        "linear-gradient(to right, white, transparent)",
+                }}
             >
-                <div className="text-center p-0 p-md-3">
-                    <h2 className="fw-bold josefinSans-text">
-                        Birmingham Chiropractic
-                    </h2>
-                    <p className="fw-bold">Outstanding back and neck care.</p>
-                    <div className="justify-content-around d-none d-md-flex">
-                        <img className="cert-logo" src={cert1}></img>
-                        <img className="cert-logo mx-2" src={cert2}></img>
-                        <img className="cert-logo" src={cert3}></img>
+                <div className="p-5" style={{ width: "60%" }}>
+                    <div>
+                        <h2 className="h1 josefinSans-text text-dark">
+                            <span className="text-black">Welcome to</span>{" "}
+                            <br></br>
+                            <span className="fw-bold">
+                                Birmingham Chiropractic
+                            </span>
+                        </h2>
+                        <p className="fs-3 d-none d-lg-block">
+                            Outstanding back and neck care.
+                        </p>
+                        <p className="fs-5">
+                            We strive to get you pain-free using safe,
+                            evidence-based, and individually tailored treatment
+                            programs.  We want you back to doing what you love.
+                        </p>
+                        <a target="_blank" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true" className="btn btn-lg btn-dark p-3">
+                            Make an Appointment Today!
+                        </a>
                     </div>
-                    <a
-                        target="_blank"
-                        href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
-                        className="mt-3 btn btn-lg btn-dark"
-                    >
-                        Book Now
-                    </a>
                 </div>
             </div>
         </div>
