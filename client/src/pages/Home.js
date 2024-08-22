@@ -6,6 +6,8 @@ import office from "../images/doctors-office.jpg";
 import Hero from "../components/Hero";
 import OtherInfoNav from "../components/OtherInfoNav";
 import WhatWeDo from "../components/WhatWeDo";
+import WhatWeDoNav from "../components/WhatWeDoNav";
+import TherapyCarousel from "../components/TherapyCarousel";
 
 const Home = () => {
     return (
@@ -15,35 +17,13 @@ const Home = () => {
                 <hr></hr>
                 <WhatWeDo></WhatWeDo>
                 <hr></hr>
+                <TherapyCarousel></TherapyCarousel>
+                <hr></hr>
                 <OtherInfoNav></OtherInfoNav>
+                <hr></hr>
+                <WhatWeDoNav></WhatWeDoNav>
 
-        {/* <div className="mt-5">
-                    <div className="row">
-                        <div className="col-12 col-md-6">
-                            <div className="reviews">
-                                <div className="d-flex flex-column justify-content-center align-items-center p-3">
-                                    <div className="review-text">
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Sed lacinia, sapien a
-                                        consectetur sodales, metus lorem
-                                        faucibus est, sit amet facilisis dolor
-                                        tortor a nisi.
-                                    </div>
-                                    <div className="reviewer-name">
-                                        Tobie Tibbs
-                                    </div>
-                                    <div className="stars">Stars</div>
-                                    <button className="more-reviews-button">
-                                        More reviews &#10575;
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6">
-                            <img className="img-fluid" src={office}></img>
-                        </div>
-                    </div>
-                </div> */}
+
                 {/* TODO: Make this into it's own component */}
                 <div className="row my-5">
                     <hr></hr>
