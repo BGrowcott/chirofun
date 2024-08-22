@@ -37,7 +37,7 @@ function Hero() {
                         <p className="fs-5 d-none d-lg-block">
                             We strive to get you pain-free using safe,
                             evidence-based, and individually tailored treatment
-                            programs.  We want you back to doing what you love.
+                            programs. <span className="fw-bold">We want you back to doing what you love.</span>
                         </p>
                         <a target="_blank" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true" className="btn btn-lg btn-dark p-3">
                             Make an Appointment Today!

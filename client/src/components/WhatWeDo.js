@@ -12,18 +12,18 @@ function WhatWeDo() {
                         <h3 className="fw-bold border-bottom josefinSans-text text-dark mb-5">
                             What we do
                         </h3>
-                        <p className="fs-4 lh-lg">
+                        <p className="fs-4 lh-lg fw-bold">
                             Always evidence based.<br></br>
                             Fully GCC Registered.<br></br>
                             The best after care.<br></br>
                             Fast results.<br></br>
                         </p>
                         <p className="fs-5">
-                            Experience personalized care with our
+                            Experience personalised care with our
                             chiropractor-led treatments. We offer comprehensive
                             spinal manipulative techniques, hands-on therapies,
                             specialised treatments, and effective postural
-                            correction to help you feel your best.
+                            correction to help you <span className="fw-bold">feel your best.</span>
                         </p>
                     </div>
                 </div>
