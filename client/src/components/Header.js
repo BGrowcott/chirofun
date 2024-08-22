@@ -22,7 +22,7 @@ const Header = () => {
                         to={"/"}
                     >
                         <img width={"70"} src={logo} />
-                        <h1 className="ms-3 h2 text-dark fw-bold">
+                        <h1 className="ms-3 h2 text-dark fw-bold josefinSans-text">
                             <span className="d-block">Birmingham</span>{" "}
                             Chiropractic
                         </h1>

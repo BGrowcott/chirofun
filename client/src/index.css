@@ -67,12 +67,12 @@ main {
 }
 
 .hero-img {
-  height: 45vh;
+  height: 55vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  background-position-y: 45%;
 }
 
 .cert-logo {

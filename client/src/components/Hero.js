@@ -17,23 +17,31 @@ function Hero() {
             <div
                 className="position-absolute top-0 w-50"
                 style={{
-                    height: "45vh",
-                    backgroundImage: "linear-gradient(to right, red , yellow)",
+                    height: "55vh",
+                    backgroundImage:
+                        "linear-gradient(to right, white, transparent)",
                 }}
             >
-                <div className="p-5" style={{width: "60%"}}>
+                <div className="p-5" style={{ width: "60%" }}>
                     <div>
                         <h2 className="h1 josefinSans-text text-dark">
-                            <span className="text-black">Welcome to</span> <br></br>
-                            <span className="fw-bold">Birmingham Chiropractic</span>
+                            <span className="text-black">Welcome to</span>{" "}
+                            <br></br>
+                            <span className="fw-bold">
+                                Birmingham Chiropractic
+                            </span>
                         </h2>
-                        <p className="fs-5 d-none d-lg-block">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Sed lacinia, sapien a consectetur sodales,
-                            metus lorem faucibus est, sit amet facilisis dolor
-                            tortor a nisi. Integer pulvinar odio a nisi
-                            facilisis.
+                        <p className="fs-3 d-none d-lg-block">
+                            Outstanding back and neck care.
                         </p>
+                        <p className="fs-5">
+                            We strive to get you pain-free using safe,
+                            evidence-based, and individually tailored treatment
+                            programs.  We want you back to doing what you love.
+                        </p>
+                        <a target="_blank" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true" className="btn btn-lg btn-dark p-3">
+                            Make an Appointment Today!
+                        </a>
                     </div>
                 </div>
             </div>
