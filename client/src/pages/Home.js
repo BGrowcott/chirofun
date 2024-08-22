@@ -12,44 +12,6 @@ const Home = () => {
         <section>
             <Hero></Hero>
             <div className="container-md">
-                <div className="mt-2 mb-5">
-                    <div>
-                        <h2 className="h3 fw-bold text-center josefinSans-text text-dark">
-                            Welcome to Birmingham Chiropractic
-                        </h2>
-                        <div className="">
-                            <div
-                                className="border shadow"
-                                style={{
-                                    backgroundImage: `url(${austin})`,
-                                    height: "150px",
-                                    width: "150px",
-                                    borderRadius: "100%",
-                                    backgroundRepeat: "no-repeat",
-                                    backgroundPosition: "center",
-                                    backgroundSize: "cover",
-                                    backgroundPositionY: "top",
-                                    backgroundPositionX: "left",
-                                    shapeOutside: "circle(50%)",
-                                    flex: "none",
-                                    float: "left",
-                                }}
-                            ></div>
-                            <p className="fs-5">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Sed lacinia, sapien a
-                                consectetur sodales, metus lorem faucibus est,
-                                sit amet facilisis dolor tortor a nisi. Integer
-                                pulvinar odio a nisi facilisis, et rutrum neque
-                                commodo. Donec id finibus ligula. Duis a elit
-                                dapibus, laoreet ipsum sit amet, mollis justo.
-                                Vestibulum leo sapien, rutrum ac augue eget,
-                                imperdiet tempor sapien. Ut pellentesque odio at
-                                erat scelerisque varius.
-                            </p>
-                        </div>
-                    </div>
-                </div>
                 <hr></hr>
                 <WhatWeDo></WhatWeDo>
                 <hr></hr>
