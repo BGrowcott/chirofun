@@ -42,18 +42,17 @@ const Header = () => {
                         className="collapse navbar-collapse justify-content-end"
                         id="navbarNav"
                     >
-                        <ul className="navbar-nav align-items-center text-uppercase fs-5">
+                        <ul className="navbar-nav align-items-center text-uppercase fs-4">
                             <li className="nav-item navDropDownContainer">
                                 <Link
-                                    className="nav-link mx-xl-5 mx-lg-3"
+                                    className="nav-link mx-xl-4 mx-lg-2"
                                     to={"/portfolio"}
                                 >
                                     What We Do
                                 </Link>
                                 <div
-                                    className="navDropDownContents d-none d-sm-block rounded"
+                                    className="navDropDownContents d-none d-md-block rounded bg-light"
                                     style={{
-                                        backgroundColor: "rgb(214 240 255)",
                                         zIndex: "1",
                                     }}
                                 >
@@ -64,18 +63,31 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 <Link
-                                    className="nav-link mx-xl-5 mx-lg-3"
+                                    className="nav-link mx-xl-4 mx-lg-2"
                                     to={"/about"}
                                 >
                                     About Us
                                 </Link>
                             </li>
-                            <li className="nav-item mx-xl-5 mx-lg-3">
+                            <li className="nav-item mx-xl-4 mx-lg-2">
                                 <Link className="nav-link" to={"/contact"}>
-                                    Get In Touch
+                                    Fees
                                 </Link>
                             </li>
-                            <li className="nav-item me-xl-5 me-lg-3">
+                            <li className="nav-item ms-xl-4 ms-lg-2">
+                                <div className="d-flex flex-column mb-3 mb-lg-0">
+                                    <a
+                                        className="nav-link pb-0 mb-1 border-bottom"
+                                        href="tel:07898903772"
+                                    >
+                                        Call: 07898 903772
+                                    </a>
+                                    <a href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true" target="_blank"  className="btn btn-outline-dark">
+                                        Book Online
+                                    </a>
+                                </div>
+                            </li>
+                            {/* <li className="nav-item me-xl-4 me-lg-2">
                                 <ul
                                     style={{ fontSize: "1.25rem" }}
                                     className="d-flex list-unstyled"
@@ -123,7 +135,7 @@ const Header = () => {
                                         </a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
