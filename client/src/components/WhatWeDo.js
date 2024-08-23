@@ -14,7 +14,7 @@ function WhatWeDo() {
                         </h3>
                         <p className="fs-4 lh-lg fw-bold">
                             Always evidence based.<br></br>
-                            Fully GCC Registered.<br></br>
+                            Fully <a className="text-black" href="https://www.gcc-uk.org/search/chiro_results?chiro_registration_number=03929" target="_blank"><abbr title="General Chiropractic Council">GCC</abbr> Registered.</a><br></br>
                             The best after care.<br></br>
                             Fast results.<br></br>
                         </p>
@@ -31,7 +31,7 @@ function WhatWeDo() {
                     <img
                         className="img-fluid rounded"
                         src={austin2}
-                        alt="Building"
+                        alt="Chiropractor Austin Everill standing and smiling in front of a poster that shows all the ailments he treats"
                     ></img>
                 </div>
             </div>

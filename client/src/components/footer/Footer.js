@@ -12,7 +12,7 @@ const Footer = () => {
                     Start Feeling Better Today!
                 </a>
             </div>
-            <div className="footer-container">
+            <div className="bg-dark">
                 <div className="container-fluid">
                     <div className="row text-center">
                         <div className="col-12 col-md-4 d-none d-md-block px-5">
@@ -72,7 +72,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-light text-dark text-center fw-bold p-1">
+            <div className="bg-light text-black text-center fw-bold p-1">
                 © 2024 Birmingham Chiropractic Limited. All rights reserved.
                 Designed by BenAz Webz.
             </div>
