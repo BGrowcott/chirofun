@@ -67,7 +67,7 @@ main {
 }
 
 .hero-img {
-  height: 55vh;
+  height: 90vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -132,6 +132,10 @@ main {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* .austin-img {
+  height: 80%;
+} */
+
 .links {
   margin-top: 30px;
 }
@@ -169,9 +173,6 @@ main {
   width: 1100px;
   padding-bottom: 40px;
   background-color: #19647e;
-}
-
-.service-links-text {
 }
 
 .service-links-text img {
@@ -219,24 +220,6 @@ main {
   background-color: #28afb0;
 }
 
-.new-patient-link p {
-  font-size: 30px;
-  /* font-weight: 800; */
-  margin-top: 10px;
-  color: #37392e;
-}
-
-.building-container {
-  position: relative;
-}
-
-.building {
-  position: absolute;
-  bottom: 40%;
-  height: 90%;
-  width: 600px;
-}
-
 .reviews-office-img-container {
   background-color: #f4efef;
   padding-top: 150px;
@@ -258,15 +241,6 @@ main {
   font-size: 20px;
   color: #f4efef;
   margin-bottom: 10px;
-}
-
-.office-img-container {
-  background-color: #28afb0;
-  margin: 0;
-}
-
-.office-img {
-  object-fit: cover;
 }
 
 .reviews {
@@ -296,29 +270,36 @@ main {
   background-color: #f9f7f7;
 }
 
-.cert1 {
-  height: 150px;
-  width: 200px;
-}
-
-.cert2 {
-  height: 200px;
-  width: 220px;
-}
-
-.cert3 {
-  height: 150px;
-  width: 200px;
-}
-
 .link-card {
   box-shadow: 0px 0px 3px grey;
   bottom: 0px;
   position: relative;
-  transition: all 0.2s;
+  transition: opacity 0.3s ease-in-out;
 }
 
-.link-card:hover {
-  box-shadow: 2px 2px 8px grey;
-  bottom: 5px;
+.link-card-cover {
+  transition: background-color 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.link-card-cover:hover {
+  background-color: rgba(55, 57, 46, 0.5);
+  cursor: pointer;
+}
+
+.link-card-text {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+}
+
+.we-treat-list li::before {
+  content: "• ";
+  color: #212529;
+  font-size: 1.1em;
+}
+
+.we-treat-list {
+  list-style-type: none;
+  padding-left: 0;
 }
