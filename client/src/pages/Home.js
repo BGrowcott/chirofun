@@ -8,6 +8,7 @@ import OtherInfoNav from "../components/OtherInfoNav";
 import WhatWeDo from "../components/WhatWeDo";
 import WhatWeDoNav from "../components/WhatWeDoNav";
 import TherapyCarousel from "../components/TherapyCarousel";
+import NewPatient from "../components/NewPatient";
 
 const Home = () => {
   return (
@@ -17,11 +18,13 @@ const Home = () => {
         {/* <hr></hr> */}
         <WhatWeDo></WhatWeDo>
         {/* <hr></hr> */}
+
         <TherapyCarousel></TherapyCarousel>
         {/* <hr></hr> */}
         <OtherInfoNav></OtherInfoNav>
         {/* <hr></hr> */}
         <WhatWeDoNav></WhatWeDoNav>
+        <NewPatient></NewPatient>
 
         {/* TODO: Make this into it's own component */}
         <div className="container-md">

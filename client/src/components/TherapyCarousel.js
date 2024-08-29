@@ -17,13 +17,18 @@ function TherapyCarousel() {
 
   return (
     <>
-      <div>
+      <div className="" style={{ backgroundColor: "#EDEADE" }}>
         <div className="container-md py-5">
           <div className="row">
             <div className="col-5">
-              <div className="h-100 w-100 d-flex flex-column justify-content-center align-items-end p-5 josefinSans-text ">
-                <h3 className="fs-1 fw-bold text-dark pb-5">What we treat</h3>
-                <ul className="fs-3 fw-bold we-treat-list">
+              <div className="h-100 w-100 d-flex flex-column justify-content-center align-items-start p-5 ">
+                <h3 className="text-dark fs-1 fw-bold py-3 josefinSans-text">
+                  What we treat
+                </h3>
+                <ul
+                  className="fs-4 we-treat-list text-uppercase"
+                  style={{ color: "#212529" }}
+                >
                   <li>Lower Back Pain</li>
                   <li>Siatica</li>
                   <li>Neck Pain</li>
@@ -32,6 +37,13 @@ function TherapyCarousel() {
                   <li>Hip/Knee Arthritis</li>
                   <li>Tennis Albow</li>
                 </ul>
+                {/* <p className="fs-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  sit amet vulputate nibh. Aenean rhoncus tellus non viverra
+                  euismod. Proin auctor justo a odio dapibus, et molestie velit
+                  vulputate. Praesent ornare, nisl ac consequat maximus, erat
+                  lorem vestibulum justo, eget consequat justo ante eget enim.
+                </p> */}
               </div>
             </div>
             <div
@@ -61,7 +73,7 @@ function TherapyCarousel() {
                   >
                     <img
                       src={slide.image}
-                      className="d-block w-100"
+                      className="d-block w-100 carousel-border"
                       alt="..."
                     />
                     <div className="carousel-caption d-none d-md-block bg-light-fade rounded">

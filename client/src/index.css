@@ -25,6 +25,10 @@ main {
   background-color: #dce9f8af;
 }
 
+.bg-dark {
+  background-color: #19647e;
+}
+
 #profile {
   position: sticky;
   top: 16px;
@@ -82,7 +86,7 @@ main {
   border: 1px solid black;
 }
 
-.nav-brand-container {
+/* .nav-brand-container {
   width: 50px;
   height: 50px;
   box-shadow: 1px 1px 1px rgba(93, 163, 168, 0.598);
@@ -98,7 +102,7 @@ main {
   box-shadow: 3px 3px 8px rgba(48, 93, 96, 0.598);
   width: 52px;
   height: 52px;
-}
+} */
 
 .links-intro-container {
   display: flex;
@@ -283,7 +287,7 @@ main {
 }
 
 .link-card-cover:hover {
-  background-color: rgba(55, 57, 46, 0.5);
+  background-color: rgba(237, 234, 222, 0.5);
   cursor: pointer;
 }
 
@@ -293,13 +297,6 @@ main {
   opacity: 1;
 }
 
-.we-treat-list li::before {
-  content: "• ";
-  color: #212529;
-  font-size: 1.1em;
-}
-
-.we-treat-list {
-  list-style-type: none;
-  padding-left: 0;
+.carousel-border {
+  border: solid white 25px;
 }
