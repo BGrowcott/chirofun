@@ -17,7 +17,7 @@ function TherapyCarousel() {
 
   return (
     <>
-      <div className="" style={{ backgroundColor: "#EDEADE" }}>
+      <div className="" style={{ backgroundColor: "#F8F9F5" }}>
         <div className="container-md py-5">
           <div className="row">
             <div className="col-5">
@@ -25,10 +25,7 @@ function TherapyCarousel() {
                 <h3 className="text-dark fs-1 fw-bold py-3 josefinSans-text">
                   What we treat
                 </h3>
-                <ul
-                  className="fs-4 we-treat-list text-uppercase"
-                  style={{ color: "#212529" }}
-                >
+                <ul className="fs-3 we-treat-list text-uppercase text-black">
                   <li>Lower Back Pain</li>
                   <li>Siatica</li>
                   <li>Neck Pain</li>

@@ -8,7 +8,7 @@ import OtherInfoNav from "../components/OtherInfoNav";
 import WhatWeDo from "../components/WhatWeDo";
 import WhatWeDoNav from "../components/WhatWeDoNav";
 import TherapyCarousel from "../components/TherapyCarousel";
-import NewPatient from "../components/NewPatient";
+// import NewPatient from "../components/NewPatient";
 
 const Home = () => {
   return (
@@ -24,7 +24,7 @@ const Home = () => {
         <OtherInfoNav></OtherInfoNav>
         {/* <hr></hr> */}
         <WhatWeDoNav></WhatWeDoNav>
-        <NewPatient></NewPatient>
+        {/* <NewPatient></NewPatient> */}
 
         {/* TODO: Make this into it's own component */}
         <div className="container-md">

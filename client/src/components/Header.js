@@ -16,12 +16,12 @@ const Header = () => {
   return (
     <header>
       <nav
-        className="navbar navbar-expand-md navbar-light p-4"
-        style={{ backgroundColor: "#EDEADE" }}
+        className="navbar navbar-expand-md navbar-light"
+        style={{ backgroundColor: "#F8F9F5" }}
       >
         <div className="container-fluid ps-0">
           <Link className="navbar-brand p-0 d-flex align-items-center" to={"/"}>
-            {/* <img width={"70"} src={logo} /> */}
+            <img width={"70"} src={logo} />
             <h1 className="ms-3 h2 text-dark fw-bold josefinSans-text">
               <span className="d-block">Birmingham</span> Chiropractic
             </h1>
