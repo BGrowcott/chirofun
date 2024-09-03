@@ -12,7 +12,7 @@ function Main() {
           transform: "rotate(270deg)",
           right: -41,
           top: "55%",
-          zIndex: "1",
+          zIndex: "10",
         }}
       >
         <a
