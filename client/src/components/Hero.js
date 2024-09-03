@@ -19,7 +19,7 @@ function Hero() {
           <div
             className="position-absolute top-0 col-12 col-md-10 col-lg-9 col-xl-6"
             style={{
-              height: "90vh",
+              height: "70vh",
               backgroundImage: "linear-gradient(to right, white, transparent)",
             }}
           >
@@ -35,7 +35,7 @@ function Hero() {
                   </p>
                   <p className="fs-5 d-none d-lg-block">
                     We strive to get you pain-free using safe, evidence-based,
-                    and individually tailored treatment programs.{" "}
+                    and individually tailored treatment programs.
                     <span className="fw-bold">
                       We want you back to doing what you love.
                     </span>

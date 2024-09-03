@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer className="mt-5" style={{ color: "#F8F9F5" }}>
       <div
-        className="text-center p-3 fs-4"
-        style={{ backgroundColor: "#F8F9F5" }}
+        className="text-center p-3 fs-4 bg-light"
+        // style={{ backgroundColor: "#F8F9F5" }}
       >
         <a
           target="_blank"

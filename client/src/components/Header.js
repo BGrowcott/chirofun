@@ -16,8 +16,7 @@ const Header = () => {
   return (
     <header>
       <nav
-        className="navbar navbar-expand-md navbar-light"
-        style={{ backgroundColor: "#F8F9F5" }}
+        className="navbar navbar-expand-md navbar-light bg-light p-0"
       >
         <div className="container-fluid ps-0">
           <Link className="navbar-brand p-0 d-flex align-items-center" to={"/"}>
