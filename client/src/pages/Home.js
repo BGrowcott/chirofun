@@ -47,13 +47,48 @@ const Home = () => {
               <div className="text-center">
                 <span className="fw-bold fs-4">Opening Hours</span>
                 <ul className="list-group list-group-flush fs-5">
-                  <li className="list-group-item">Monday: 9am-7pm</li>
-                  <li className="list-group-item">Tuesday: 9am-7pm</li>
-                  <li className="list-group-item">Wednesday: Closed</li>
-                  <li className="list-group-item">Thrusday: 9am-7pm</li>
-                  <li className="list-group-item">Friday: 9am-2pm</li>
-                  <li className="list-group-item">Saturday: 9:30am-2pm</li>
-                  <li className="list-group-item">Sunday: Closed</li>
+                  <li
+                    className="list-group-item"
+                    style={{ backgroundColor: "#f9f7f7" }}
+                  >
+                    Monday: 9am-7pm
+                  </li>
+                  <li
+                    className="list-group-item"
+                    style={{ backgroundColor: "#f9f7f7" }}
+                  >
+                    Tuesday: 9am-7pm
+                  </li>
+                  <li
+                    className="list-group-item"
+                    style={{ backgroundColor: "#f9f7f7" }}
+                  >
+                    Wednesday: Closed
+                  </li>
+                  <li
+                    className="list-group-item"
+                    style={{ backgroundColor: "#f9f7f7" }}
+                  >
+                    Thrusday: 9am-7pm
+                  </li>
+                  <li
+                    className="list-group-item"
+                    style={{ backgroundColor: "#f9f7f7" }}
+                  >
+                    Friday: 9am-2pm
+                  </li>
+                  <li
+                    className="list-group-item"
+                    style={{ backgroundColor: "#f9f7f7" }}
+                  >
+                    Saturday: 9:30am-2pm
+                  </li>
+                  <li
+                    className="list-group-item"
+                    style={{ backgroundColor: "#f9f7f7" }}
+                  >
+                    Sunday: Closed
+                  </li>
                 </ul>
               </div>
             </div>

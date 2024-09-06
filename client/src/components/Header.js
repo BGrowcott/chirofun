@@ -4,7 +4,7 @@ import AuthService from "../utils/AuthService";
 import { useGlobalContext } from "../utils/GlobalState";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { brands } from "@fortawesome/fontawesome-svg-core/import.macro";
-import logo from "../images/logo_curve_512.png";
+import logo from "../images/new-imgs/logo_curve.png";
 
 const Header = () => {
   const [state, dispatch] = useGlobalContext();
@@ -16,12 +16,13 @@ const Header = () => {
   return (
     <header>
       <nav
-        className="navbar navbar-expand-md navbar-light bg-light p-0"
+        className="navbar navbar-expand-md navbar-light py-0 px-4"
+        style={{ backgroundColor: "#f9f7f7" }}
       >
         <div className="container-fluid ps-0">
-          <Link className="navbar-brand p-0 d-flex align-items-center" to={"/"}>
+          <Link className="navbar-brand  d-flex align-items-center" to={"/"}>
             <img width={"70"} src={logo} />
-            <h1 className="ms-3 h2 text-dark fw-bold josefinSans-text">
+            <h1 className="ms-3 h2 text-dark fw-bold josefinSans-text mt-3">
               <span className="d-block">Birmingham</span> Chiropractic
             </h1>
           </Link>

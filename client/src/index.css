@@ -8,7 +8,8 @@
   flex-direction: column;
   justify-content: space-between;
   font-family: "Golos Text", sans-serif;
-  background-image: url("./images/bg.png");
+  /* background-color: #f4efef; */
+  background-color: #f9f7f7;
   background-repeat: repeat-y;
 }
 
@@ -27,6 +28,10 @@ main {
 
 .bg-dark {
   background-color: #19647e;
+}
+
+.hero-header-font {
+  font-size: 2.5em;
 }
 
 #profile {

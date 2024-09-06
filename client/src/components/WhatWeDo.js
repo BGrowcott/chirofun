@@ -36,13 +36,14 @@ function WhatWeDo() {
             </p>
           </div>
         </div>
-        <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+        <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
           <img
             className="img-fluid austin-img"
             style={{ border: "1px solid #ffffff87" }}
             src={austin}
             alt="Chiropractor Austin Everill standing and smiling in front of a poster that shows all the ailments he treats"
           ></img>
+          <p className="fs-5 mt-3">Dr Austin Everill - MChiro DC</p>
         </div>
       </div>
       {/* <hr></hr> */}
