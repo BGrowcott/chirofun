@@ -97,7 +97,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-light text-black text-center fw-bold p-1">
+      <div
+        className="text-black text-center fw-bold p-1"
+        style={{ backgroundColor: "#f4efef" }}
+      >
         © 2024 Birmingham Chiropractic Limited. All rights reserved. Designed by
         BenAz Webz.
       </div>

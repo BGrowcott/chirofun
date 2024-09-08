@@ -97,7 +97,7 @@ function TherapyCarousel() {
                   ></button>
                 ))}
               </div>
-              <div className="carousel-inner">
+              <div className="carousel-inner shadow-lg">
                 {slides.map((slide, index) => (
                   <div
                     className={`carousel-item ${index === 0 ? "active" : ""}`}

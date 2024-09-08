@@ -38,8 +38,8 @@ function WhatWeDo() {
         </div>
         <div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
           <img
-            className="img-fluid austin-img"
-            style={{ border: "1px solid #ffffff87" }}
+            className="img-fluid austin-img shadow-lg"
+            // style={{ border: "1px solid #ffffff87" }}
             src={austin}
             alt="Chiropractor Austin Everill standing and smiling in front of a poster that shows all the ailments he treats"
           ></img>

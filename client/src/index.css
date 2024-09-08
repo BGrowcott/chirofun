@@ -301,3 +301,8 @@ main {
   z-index: 2;
   opacity: 1;
 }
+
+.other-info-containers:hover {
+  border-left: solid 7px #19647e;
+  cursor: pointer;
+}
