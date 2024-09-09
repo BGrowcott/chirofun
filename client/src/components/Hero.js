@@ -26,9 +26,12 @@ function Hero() {
             <div className="row h-100 d-flex align-items-center">
               <div className="p-5 col-12 col-md-8 col-lg-7">
                 <div>
-                  <h2 className="h1 josefinSans-text text-dark">
-                    <span className="text-black">Welcome to</span> <br></br>
-                    <span className="fw-bold">Birmingham Chiropractic</span>
+                  <h2 className="josefinSans-text text-dark">
+                    <span className="text-black fs-1">Welcome to</span>{" "}
+                    <br></br>
+                    <span className="fw-bold hero-header-font">
+                      Birmingham Chiropractic
+                    </span>
                   </h2>
                   <p className="fs-3 d-none d-lg-block">
                     Outstanding back and neck care.
