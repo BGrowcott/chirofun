@@ -301,3 +301,7 @@ main {
   z-index: 2;
   opacity: 1;
 }
+
+.we-do-h3 {
+  font-size: 3em;
+}
