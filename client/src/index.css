@@ -34,6 +34,10 @@ main {
   font-size: 2.5em;
 }
 
+.what-we-do-header {
+  font-size: 4.5em;
+}
+
 #profile {
   position: sticky;
   top: 16px;

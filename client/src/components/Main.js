@@ -2,6 +2,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import About from "../pages/about/About";
+import Portfolio from "../pages/Portfolio";
 import { useEffect, useState } from "react";
 
 function Main() {
@@ -64,6 +65,7 @@ function Main() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </main>
   );
