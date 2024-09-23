@@ -14,10 +14,16 @@ function Portfolio() {
   const therapyText = [
     {
       title: "Chiropractic",
-      text: "Chiractic......................",
+      text: "Chiropractors are best known for manual treatments such as spinal manipulation, where they use their hands to free stiff or restricted joints, or mobilisation, which is the gradual moving of joints. But they may also use other recommended treatments such as certain types of acupuncture, electrotherapy, stretching exercises and rehabilitation, all of which form part of a chiropractor’s package of care. Your chiropractor may also offer lifestyle advice to help recovery and to prevent repeated episodes of back pain.",
     },
-    { title: "Orthotic", text: "Orthotic......................." },
-    { title: "Sports Remedial", text: "Sports remedial...................." },
+    {
+      title: "Orthotic",
+      text: "Orthotics are shoe inserts for biomechanical problems of Gait or walking. We offer a range of orthotics for those who would benefit from their use. From simple heel lifts and off-the-shelf inserts to custom-made polypropylene NHS grade orthotics manufactured from individual prescription.",
+    },
+    {
+      title: "Sports Remedial",
+      text: "Adrian graduated from the Active School of Complementary Therapy (ASCT) in 2013 gaining a BTEC Level 5 Diploma in clinical sports and remedial massage. This is currently the highest qualification that can be held in the UK, recognised nationally and in many other countries. Adrian utilises a range of massage and advanced soft tissue techniques set within a framework of assessment and rehabilitation procedures to effectively treat a variety of musculoskeletal problems. These skills can also be used to help in recovery and reduce the symptoms in many medical conditions too.",
+    },
   ];
 
   return (
@@ -34,6 +40,7 @@ function Portfolio() {
             therapyType="chiropractic"
             selectedTherapy={selectedTherapy}
             onSelectTherapy={handleTherapySelect}
+            therapyText={therapyText[0]}
           />
 
           <TherapyInfo
@@ -41,6 +48,7 @@ function Portfolio() {
             therapyType="orthotic"
             selectedTherapy={selectedTherapy}
             onSelectTherapy={handleTherapySelect}
+            therapyText={therapyText[1]}
           />
 
           <TherapyInfo
@@ -48,6 +56,7 @@ function Portfolio() {
             therapyType="sportsRemedial"
             selectedTherapy={selectedTherapy}
             onSelectTherapy={handleTherapySelect}
+            therapyText={therapyText[2]}
           />
 
           {/* <div className="col">
