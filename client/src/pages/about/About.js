@@ -9,7 +9,11 @@ function About() {
   return (
     <section className="border-top border-1 border-secondary">
       <div className="d-flex justify-content-center mt-5 josefinSans-text">
-        <h2 className="about-header mt-5 fw-bold text-dark">Meet Our Team</h2>
+        <div className="d-flex justify-content-center pb-5 border-bottom border-1 border-secondary w-75">
+          <h2 className="about-header mt-5 pb-5 fw-bold text-dark">
+            Meet Our Team
+          </h2>
+        </div>
       </div>
       <div className="my-5 py-5">
         <TeamCard teamImg={austin}></TeamCard>

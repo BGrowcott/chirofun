@@ -27,7 +27,7 @@ function Portfolio() {
   ];
 
   return (
-    <section>
+    <section className="border-top border-1 border-secondary">
       <div className="container my-5">
         <div className="d-flex justify-content-center m-5">
           <h2 className="what-we-do-header row fw-bold text-dark josefinSans-text my-5">
@@ -76,7 +76,7 @@ function Portfolio() {
           className="row m-0 fs-3 p-5"
           style={{ backgroundColor: "#F0EFEF" }}
         >
-          <h3 className="m-0 py-3">
+          <h3 className="m-0 py-3 fs-1 josefinSans-text">
             {selectedTherapy === "chiropractic" && therapyText[0].title}
             {selectedTherapy === "orthotic" && therapyText[1].title}
             {selectedTherapy === "sportsRemedial" && therapyText[2].title}

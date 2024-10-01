@@ -15,6 +15,13 @@ function TherapyInfo({
     color: isSelected ? "#F0EFEF" : "#19647e",
   };
 
+  // const containerStyle = {
+  //   borderTop: isSelected ? "1px solid #dce9f8af" : "1px solid #f9f7f7",
+  //   borderLeft: isSelected ? "1px solid #dce9f8af" : "1px solid #f9f7f7",
+  //   borderRight: isSelected ? "1px solid #dce9f8af" : "1px solid #f9f7f7",
+  //   borderBottom: isSelected ? "1px solid #19647e" : "1px solid #dce9f8af",
+  // };
+
   return (
     <div className="col">
       <div style={buttonStyle}>

@@ -25,8 +25,8 @@ function TeamCard({ teamImg }) {
             </p>
           </div>
 
-          <div className="col-5 bg-warning p-0">
-            <div className="bg-success">
+          <div className="col-5 p-0">
+            <div>
               <img className="img-fluid max-width" src={teamImg}></img>
             </div>
           </div>

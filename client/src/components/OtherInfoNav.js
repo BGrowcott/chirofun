@@ -24,6 +24,7 @@ function OtherInfoNav() {
       altText: "Testimonials",
       text: "Testimonials",
       key: "Testimonials",
+      link: "testimonials",
     },
     {
       image: contact,
