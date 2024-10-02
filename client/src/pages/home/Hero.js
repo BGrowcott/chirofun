@@ -1,17 +1,10 @@
-import hero from "../images/flexible-back.jpg";
-import hero1 from "../images/hero1.jpg";
-import hero2 from "../images/hero2.5.jpg";
-import hero3 from "../images/hero3.jpg";
-import cert1 from "../images/ClinicFiveStarTreatment.png";
-import cert2 from "../images/BestRatedBirm.jpg";
-import cert3 from "../images/GCC-Registered_black.png";
+import hero2 from "../../images/hero2.5.jpg";
 
 function Hero() {
   return (
     <div className="hero position-relative mb-5">
       <div
         className="hero-img"
-        src={hero}
         style={{ backgroundImage: `url(${hero2})` }}
       ></div>
       <div className="container-fluid p-0">

@@ -1,10 +1,10 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-import Contact from "../pages/Contact";
-import Home from "../pages/Home";
-import About from "../pages/about/About";
-import Portfolio from "../pages/Portfolio";
+import Contact from "./pages/Contact";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Portfolio from "./pages/Portfolio";
 import { useEffect, useState } from "react";
-import Testimonials from "../pages/Testimonials";
+import Testimonials from "./pages/Testimonials";
 
 function Main() {
   const [buttonBgColour, setButtonColour] = useState("btn-dark");

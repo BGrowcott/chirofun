@@ -58,19 +58,7 @@ function Portfolio() {
             onSelectTherapy={handleTherapySelect}
             therapyText={therapyText[2]}
           />
-
-          {/* <div className="col">
-            <div>
-              <img className="w-100" src={orthotic} alt="Orthotics" />
-            </div>
-            <h3 className="text-center m-0 py-3">Chiropractic</h3>
-          </div> */}
-          {/* <div className="col">
-            <div>
-              <img className="w-100" src={sportsRem} alt="Sports Massage" />
-            </div>
-            <h3 className="text-center m-0 py-3">Chiropractic</h3>
-          </div> */}
+          
         </div>
         <div
           className="row m-0 fs-3 p-5"
