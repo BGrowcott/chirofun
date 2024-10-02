@@ -23,7 +23,7 @@ function TherapyCarousel() {
             <div className="col-12 col-md-5">
               <div className="h-100 w-100 d-flex flex-column justify-content-center align-items-start p-5 ">
                 <h3
-                  className=" fs-1 fw-bold py-3 josefinSans-text"
+                  className=" we-do-h3 fw-bold py-3 josefinSans-text"
                   style={{ color: "#f4efef" }}
                 >
                   What we treat

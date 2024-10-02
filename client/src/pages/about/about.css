@@ -13,3 +13,15 @@
   cursor: pointer;
   opacity: 0.5;
 }
+
+.main-font {
+  font-size: 2.5em;
+}
+
+.about-header {
+  font-size: 4.5em;
+}
+
+.josefinSans-text {
+  font-family: "Josefin Sans", sans-serif;
+}

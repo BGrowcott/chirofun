@@ -7,9 +7,9 @@ function WhatWeDo() {
   return (
     <div className="container-md">
       <div className="row flex-row-reverse my-5 pt-5 pb-5">
-        <div className="col-12 col-md-6 d-flex justify-content-center">
-          <div className="rounded d-flex flex-column justify-content-center px-3">
-            <h3 className="fw-bold josefinSans-text text-dark mb-1 mb-md-5 fs-1">
+        <div className="col-12 col-md-6 d-flex justify-content-center ps-5">
+          <div className="rounded d-flex flex-column justify-content-center ">
+            <h3 className="we-do-h3 fw-bold josefinSans-text text-dark mb-1 mb-md-5">
               What we do
             </h3>
             <p className="fs-3 lh-lg fw-bold mb-5">

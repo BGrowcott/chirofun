@@ -1,56 +1,92 @@
-function Contact() {
-    return (
-        <section className="row">
-            <div className="col-12 col-md-6">
-                <form id="contactForm" className="rounded bg-light-fade p-3">
-                    <div>
-                        <label className="text-muted" htmlFor="nameInput">
-                            Name
-                        </label>
-                        <input
-                            className="contactFormInput"
-                            id="nameInput"
-                        ></input>
-                    </div>
-                    <div className="mt-1">
-                        <label className="text-muted" htmlFor="emailInput">
-                            Email
-                        </label>
-                        <input
-                            className="contactFormInput"
-                            id="emailInput"
-                        ></input>
-                    </div>
-                    <div className="mt-1">
-                        <label className="text-muted" htmlFor="messageInput">
-                            Message
-                        </label>
-                        <textarea
-                            rows="3"
-                            className="contactFormInput"
-                            id="messageInput"
-                        ></textarea>
-                    </div>
-                </form>
-            </div>
+import therapy from "../images/new-imgs/therapy44.jpg";
 
-            <div className="col-12 col-md-6">
-                <div className="bg-light-fade rounded p-3 h-100">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
-                    </p>
-                </div>
+function Contact() {
+  return (
+    <section className=" border-top border-1 border-secondary">
+      <div className="container">
+        <div className="row d-flex justify-content-center">
+          <div className="col-12 col-md-6">
+            <div className="d-flex justify-content-center">
+              <h2 className="p-5 mt-5 about-header fw-bold josefinSans-text text-dark">
+                Our Fees
+              </h2>
             </div>
-        </section>
-    );
+          </div>
+          <div className="row mt-5">
+            <div className="col">
+              <div className="p-5 h-100" style={{ backgroundColor: "#F0EFEF" }}>
+                <h3 className="ex-re-patient-header josefinSans-text text-dark">
+                  Existing Patient
+                </h3>
+                <p className="fs-3 fw-bold">£40</p>
+                <p className="fs-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vestibulum commodo libero consequat sapien egestas malesuada
+                  eget eu quam.
+                </p>
+              </div>
+            </div>
+            <div className="col">
+              <div className="p-5 h-100" style={{ backgroundColor: "#F0EFEF" }}>
+                <h3 className="ex-re-patient-header josefinSans-text text-dark">
+                  Returning Patient
+                </h3>
+                <p className="fs-3 fw-bold">£45</p>
+                <p className="fs-4">
+                  If we haven’t seen you in two+ years, we will need a longer
+                  appointment time of 30 minutes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row p-5 my-5" style={{ backgroundColor: "#F0EFEF" }}>
+            <div className="p-3 mb-5 d-flex justify-content-center">
+              <h3 className="new-patient-header josefinSans-text text-dark">
+                New Patient
+              </h3>
+            </div>
+            <div className="col py-2">
+              <img className="w-100 " src={therapy}></img>
+            </div>
+            <div className="col" style={{ backgroundColor: "#F0EFEF" }}>
+              <p className="fs-2 fw-bold">
+                Exclusive £49 Introductory Offer Includes:
+              </p>
+              <ul className="fs-4 text-black list-group list-group-flush">
+                <li className="ms-2 py-2" style={{ listStyleType: "none" }}>
+                  Full consultation & Treatment with a Chiropractor
+                </li>
+                <li className="ms-2 py-2" style={{ listStyleType: "none" }}>
+                  Full examination of the spine
+                </li>
+                <li className="ms-2 py-2" style={{ listStyleType: "none" }}>
+                  Orthopedic & neurological assessments
+                </li>
+                <li className="ms-2 py-2" style={{ listStyleType: "none" }}>
+                  Gait & postural analysis
+                </li>
+                <li className="ms-2 py-2" style={{ listStyleType: "none" }}>
+                  Confidential Report of Findings
+                </li>
+                <li className="ms-2 py-2" style={{ listStyleType: "none" }}>
+                  Explanation of treatment procedure
+                </li>
+                <li className="ms-2 py-2" style={{ listStyleType: "none" }}>
+                  Free referral to appropriate specialist if required
+                </li>
+                <li className="ms-2 py-2" style={{ listStyleType: "none" }}>
+                  Advice on exercise & diet
+                </li>
+                <li className="ms-2 py-2" style={{ listStyleType: "none" }}>
+                  Complete rehabilitation program
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Contact;
