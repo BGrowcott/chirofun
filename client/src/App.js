@@ -1,16 +1,12 @@
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
-  useLocation,
 } from "react-router-dom";
 import { GlobalProvider } from "./utils/GlobalState";
 import Header from "./components/Header";
 import Footer from "./components/footer/Footer";
 
 import ExampleModal from "./components/modals/exampleModal";
-import Contact from "./pages/Contact";
-import Main from "./components/Main";
+import Main from "./Main";
 
 function App() {
   return (
