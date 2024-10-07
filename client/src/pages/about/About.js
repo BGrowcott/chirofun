@@ -14,13 +14,13 @@ function About() {
 						<h1 className="about-header mt-5 fw-bold text-dark">Meet Our Team</h1>
 					</div>
 				</div>
-				<div className="my-5 py-5">
+				<div id="test2" className="my-5 py-5">
 					<TeamCard teamImg={austin}></TeamCard>
 				</div>
 				<div className="my-5 py-5">
 					<TeamCard teamImg={claire}></TeamCard>
 				</div>
-				<div className="my-5 py-5">
+				<div id="test" className="my-5 py-5">
 					<TeamCard teamImg={adrian}></TeamCard>
 				</div>
 			</div>

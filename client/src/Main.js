@@ -2,7 +2,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
-import Portfolio from "./pages/Portfolio";
+import WhatWeDo from "./pages/whatWeDo/WhatWeDo";
 import { useEffect, useState } from "react";
 import Testimonials from "./pages/Testimonials";
 
@@ -66,7 +66,7 @@ function Main() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/what-we-do" element={<WhatWeDo />} />
         <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
     </main>
