@@ -1,13 +1,11 @@
 import React from "react";
 
 function TherapyInfo({
-  therapyImage,
   therapyType,
   selectedTherapy,
-  onSelectTherapy,
-  therapyText,
+  handleTherapySelect,
 }) {
-  const isSelected = selectedTherapy === therapyType;
+  const isSelected = selectedTherapy.therapyTypeCode === therapyType.therapyTypeCode;
 
   const buttonStyle = {
     padding: "10px",
@@ -23,17 +21,17 @@ function TherapyInfo({
   // };
 
   return (
-    <div className="col">
+    <div>
       <div style={buttonStyle}>
-        <img className="w-100" src={therapyImage} alt="Chiropractic" />
+        <img className="w-100" src={therapyType.image} alt="Chiropractic" />
       </div>
       <div className="text-center m-0 py-3" style={buttonStyle}>
         <button
           className="p-3 bg-dark text-light fw-bold fs-5 w-50"
           style={{ cursor: "pointer" }}
-          onClick={() => onSelectTherapy(therapyType)}
+          onClick={() => handleTherapySelect(therapyType)}
         >
-          {therapyText.title}
+          {therapyType.title}
         </button>
       </div>
     </div>
