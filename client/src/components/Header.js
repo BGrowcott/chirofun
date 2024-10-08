@@ -58,8 +58,8 @@ const Header = () => {
                 </div>
               </li>
               <li className="nav-item">
-                <Link className="nav-link mx-xl-4 mx-lg-2" to={"/about"}>
-                  About Us
+                <Link className="nav-link mx-xl-4 mx-lg-2" to={"/the-team"}>
+                  Meet The Team
                 </Link>
               </li>
               <li className="nav-item mx-xl-4 mx-lg-2">

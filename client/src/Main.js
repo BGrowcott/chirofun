@@ -1,7 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Home from "./pages/home/Home";
-import About from "./pages/about/About";
+import MeetTheTeam from "./pages/meetTheTeam/MeetTheTeam";
 import Portfolio from "./pages/Portfolio";
 import { useEffect, useState } from "react";
 import Testimonials from "./pages/Testimonials";
@@ -65,7 +65,7 @@ function Main() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/the-team" element={<MeetTheTeam />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
