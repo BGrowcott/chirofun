@@ -5,15 +5,20 @@ function Contact() {
     <section className=" border-top border-1 border-secondary">
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <div className="col-12 col-md-6">
+          {/* <div className="col-12 col-md-6">
             <div className="d-flex justify-content-center">
               <h2 className="p-5 mt-5 about-header fw-bold josefinSans-text text-dark">
                 Our Fees
               </h2>
             </div>
+          </div> */}
+          <div className="mb-5 josefinSans-text">
+            <div className="border-bottom border-1 border-secondary w-100">
+              <h1 className="about-header mt-5 fw-bold text-dark">Our Fees</h1>
+            </div>
           </div>
           <div className="row mt-5">
-            <div className="col">
+            <div className="col-12 col-lg-6 mb-5 mb-lg-0">
               <div className="p-5 h-100" style={{ backgroundColor: "#F0EFEF" }}>
                 <h3 className="ex-re-patient-header josefinSans-text text-dark">
                   Existing Patient
@@ -26,7 +31,7 @@ function Contact() {
                 </p>
               </div>
             </div>
-            <div className="col">
+            <div className="col-12 col-lg-6">
               <div className="p-5 h-100" style={{ backgroundColor: "#F0EFEF" }}>
                 <h3 className="ex-re-patient-header josefinSans-text text-dark">
                   Returning Patient
@@ -40,15 +45,18 @@ function Contact() {
             </div>
           </div>
           <div className="row p-5 my-5" style={{ backgroundColor: "#F0EFEF" }}>
-            <div className="p-3 mb-5 d-flex justify-content-center">
+            <div className="p-md-3 mb-2 d-flex justify-content-xxl-center">
               <h3 className="new-patient-header josefinSans-text text-dark">
                 New Patient
               </h3>
             </div>
-            <div className="col py-2">
+            <div className="col-md-6 d-none d-xxl-block py-2">
               <img className="w-100 " src={therapy}></img>
             </div>
-            <div className="col" style={{ backgroundColor: "#F0EFEF" }}>
+            <div
+              className="col-12 col-xxl-6"
+              style={{ backgroundColor: "#F0EFEF" }}
+            >
               <p className="fs-2 fw-bold">
                 Exclusive £49 Introductory Offer Includes:
               </p>

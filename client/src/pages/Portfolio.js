@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import chiropractic from "../images/new-imgs/Chiro-removebg-preview.png";
+import chiropractic from "../images/new-imgs/chiroo.png";
 import orthotic from "../images/new-imgs/orthotics-removebg-preview1.png";
 import sportsRem from "../images/new-imgs/SportsMassage-removebg-preview.png";
 import TherapyInfo from "../components/TherapyInfo";
@@ -29,51 +29,49 @@ function Portfolio() {
   return (
     <section className="border-top border-1 border-secondary">
       <div className="container my-5">
-        <div className="d-flex justify-content-center m-5">
-          <h2 className="what-we-do-header row fw-bold text-dark josefinSans-text my-5">
-            What we do
-          </h2>
+        <div className="row pb-5 my-5 josefinSans-text">
+          <div className="border-bottom border-1 border-secondary w-100">
+            <h1 className="about-header fw-bold text-dark">What We Do</h1>
+          </div>
         </div>
-        <div className="row">
-          <TherapyInfo
-            therapyImage={chiropractic}
-            therapyType="chiropractic"
-            selectedTherapy={selectedTherapy}
-            onSelectTherapy={handleTherapySelect}
-            therapyText={therapyText[0]}
-          />
+        <div className="mt-5" style={{ backgroundColor: "#F0EFEF" }}>
+          <div className="row g-0">
+            <TherapyInfo
+              therapyImage={chiropractic}
+              therapyType="chiropractic"
+              selectedTherapy={selectedTherapy}
+              onSelectTherapy={handleTherapySelect}
+              therapyText={therapyText[0]}
+            />
 
-          <TherapyInfo
-            therapyImage={orthotic}
-            therapyType="orthotic"
-            selectedTherapy={selectedTherapy}
-            onSelectTherapy={handleTherapySelect}
-            therapyText={therapyText[1]}
-          />
+            <TherapyInfo
+              therapyImage={orthotic}
+              therapyType="orthotic"
+              selectedTherapy={selectedTherapy}
+              onSelectTherapy={handleTherapySelect}
+              therapyText={therapyText[1]}
+            />
 
-          <TherapyInfo
-            therapyImage={sportsRem}
-            therapyType="sportsRemedial"
-            selectedTherapy={selectedTherapy}
-            onSelectTherapy={handleTherapySelect}
-            therapyText={therapyText[2]}
-          />
-          
-        </div>
-        <div
-          className="row m-0 fs-3 p-5"
-          style={{ backgroundColor: "#F0EFEF" }}
-        >
-          <h3 className="m-0 py-3 fs-1 josefinSans-text">
-            {selectedTherapy === "chiropractic" && therapyText[0].title}
-            {selectedTherapy === "orthotic" && therapyText[1].title}
-            {selectedTherapy === "sportsRemedial" && therapyText[2].title}
-          </h3>
-          <p>
-            {selectedTherapy === "chiropractic" && therapyText[0].text}
-            {selectedTherapy === "orthotic" && therapyText[1].text}
-            {selectedTherapy === "sportsRemedial" && therapyText[2].text}
-          </p>
+            <TherapyInfo
+              therapyImage={sportsRem}
+              therapyType="sportsRemedial"
+              selectedTherapy={selectedTherapy}
+              onSelectTherapy={handleTherapySelect}
+              therapyText={therapyText[2]}
+            />
+          </div>
+          <div className="row m-0 fs-3 p-5">
+            <h3 className="m-0 py-3 fs-1 josefinSans-text">
+              {selectedTherapy === "chiropractic" && therapyText[0].title}
+              {selectedTherapy === "orthotic" && therapyText[1].title}
+              {selectedTherapy === "sportsRemedial" && therapyText[2].title}
+            </h3>
+            <p>
+              {selectedTherapy === "chiropractic" && therapyText[0].text}
+              {selectedTherapy === "orthotic" && therapyText[1].text}
+              {selectedTherapy === "sportsRemedial" && therapyText[2].text}
+            </p>
+          </div>
         </div>
       </div>
     </section>

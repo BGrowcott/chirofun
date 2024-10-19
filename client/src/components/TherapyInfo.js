@@ -9,8 +9,19 @@ function TherapyInfo({
 }) {
   const isSelected = selectedTherapy === therapyType;
 
-  const buttonStyle = {
+  const cardStyle = {
     padding: "10px",
+    backgroundColor: isSelected ? "#F0EFEF" : "#f9f7f7",
+    color: isSelected ? "#F0EFEF" : "#19647e",
+  };
+
+  const buttonStyle = {
+    cursor: "pointer",
+    backgroundColor: isSelected ? "#F0EFEF" : "#f9f7f7",
+    boxShadow: isSelected ? "inset 0 0 10px rgba(25, 100, 126, 1)" : "",
+  };
+
+  const buttonContainerStyle = {
     backgroundColor: isSelected ? "#F0EFEF" : "#f9f7f7",
     color: isSelected ? "#F0EFEF" : "#19647e",
   };
@@ -24,13 +35,13 @@ function TherapyInfo({
 
   return (
     <div className="col">
-      <div style={buttonStyle}>
+      <div className="h-85" style={cardStyle}>
         <img className="w-100" src={therapyImage} alt="Chiropractic" />
       </div>
-      <div className="text-center m-0 py-3" style={buttonStyle}>
+      <div className="text-center m-0 py-3" style={buttonContainerStyle}>
         <button
-          className="p-3 bg-dark text-light fw-bold fs-5 w-50"
-          style={{ cursor: "pointer" }}
+          className="therapy-info-button p-3 text-dark fw-bold w-75 font-s"
+          style={buttonStyle}
           onClick={() => onSelectTherapy(therapyType)}
         >
           {therapyText.title}

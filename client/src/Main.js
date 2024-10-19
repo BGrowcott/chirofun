@@ -5,6 +5,7 @@ import About from "./pages/about/About";
 import Portfolio from "./pages/Portfolio";
 import { useEffect, useState } from "react";
 import Testimonials from "./pages/Testimonials";
+import ContactUs from "./pages/ContactUs";
 
 function Main() {
   const [buttonBgColour, setButtonColour] = useState("btn-dark");
@@ -68,6 +69,7 @@ function Main() {
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/contactus" element={<ContactUs />} />
       </Routes>
     </main>
   );
