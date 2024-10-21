@@ -3,6 +3,7 @@ import chiropractic from "../../images/new-imgs/Chiro-removebg-preview.png";
 import orthotic from "../../images/new-imgs/orthotics-removebg-preview1.png";
 import sportsRem from "../../images/new-imgs/SportsMassage-removebg-preview.png";
 import TherapyInfo from "./TherapyInfo";
+import PageHeader from "../../components/PageHeader";
 
 function WhatWeDo() {
 	const therapyTypes = [
@@ -42,11 +43,7 @@ function WhatWeDo() {
 	return (
 		<section className="border-top border-1 border-secondary">
 			<div className="container">
-				<div className="my-5 josefinSans-text">
-					<div className="border-bottom border-1 border-secondary w-100">
-						<h1 className="about-header mt-5 fw-bold text-dark">What We Do</h1>
-					</div>
-				</div>
+				<PageHeader text={"What We Do"}></PageHeader>
 				<div className="py-5">
 					<div className="row">
 						{therapyTypes.map((it) => (

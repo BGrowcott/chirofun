@@ -4,16 +4,13 @@ import adrian from "../../images/new-imgs/Adrian.jpg";
 import TeamCard from "./TeamCard";
 
 import "./meetTheTeam.css";
+import PageHeader from "../../components/PageHeader";
 
 function MeetTheTeam() {
 	return (
 		<section className="border-top border-1 border-secondary">
 			<div className="container">
-				<div className="mt-5 josefinSans-text">
-					<div className="border-bottom border-1 border-secondary w-100">
-						<h1 className="about-header mt-5 fw-bold text-dark">Our Team</h1>
-					</div>
-				</div>
+				<PageHeader text={"Our Team"}></PageHeader>
 				<div id="test2" className="my-5 py-5">
 					<TeamCard teamImg={austin}></TeamCard>
 				</div>
