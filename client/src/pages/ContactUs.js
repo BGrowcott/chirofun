@@ -1,6 +1,7 @@
 import React from "react";
 import MapAndOpeningTimes from "./home/MapAndOpeningTimes";
-import { MdOutlinePhone } from "react-icons/md";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 function ContactUs() {
   return (
@@ -36,7 +37,7 @@ function ContactUs() {
                 >
                   <div>
                     <div className="d-flex justify-content-center m-4">
-                      <MdOutlinePhone className="fs-1" />
+                      <FontAwesomeIcon className="fs-1" icon={solid("mobile")} />
                     </div>
                     <p className="fs-4 text-center">CALL US: 07898 903772</p>
                   </div>

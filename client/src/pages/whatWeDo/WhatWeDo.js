@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import chiropractic from "../../images/new-imgs/Chiro-removebg-preview.png";
+import chiropractic from "../../images/new-imgs/chiroo.png";
 import orthotic from "../../images/new-imgs/orthotics-removebg-preview1.png";
 import sportsRem from "../../images/new-imgs/SportsMassage-removebg-preview.png";
 import TherapyInfo from "./TherapyInfo";
