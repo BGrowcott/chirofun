@@ -1,0 +1,27 @@
+.team {
+  width: 80%;
+}
+
+.doc-img {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.doc-img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.main-font {
+  font-size: 2.5em;
+}
+
+.about-header {
+  font-size: 4rem;
+}
+
+.josefinSans-text {
+  font-family: "Josefin Sans", sans-serif;
+}

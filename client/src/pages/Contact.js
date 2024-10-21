@@ -1,6 +1,9 @@
 import therapy from "../images/new-imgs/therapy44.jpg";
 
 function Contact() {
+
+  
+
   return (
     <section className=" border-top border-1 border-secondary">
       <div className="container">
