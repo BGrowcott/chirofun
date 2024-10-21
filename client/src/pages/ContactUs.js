@@ -5,7 +5,7 @@ import { MdOutlinePhone } from "react-icons/md";
 function ContactUs() {
   return (
     <section className=" border-top border-1 border-secondary">
-      <div className="container">
+      <div className="container p-0">
         <div className="row d-flex justify-content-center">
           <div className="mb-5 josefinSans-text">
             <div className="border-bottom border-1 border-secondary w-100">
@@ -16,19 +16,19 @@ function ContactUs() {
           </div>
         </div>
         <div className="row mt-5" style={{ backgroundColor: "#F0EFEF" }}>
-          <div className="col d-flex flex-column justify-content-center align-items-center text-dark">
+          <div className="col-12 col-xl-6 d-flex flex-column justify-content-center align-items-center text-dark p-4">
             <h3>EMAIL</h3>
             <p className="fs-4">INFO@BIRMINGHAMCHIROPRACTIC.UK.COM</p>
             <a
               href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
               target="_blank"
-              className="btn btn-outline-dark w-25 p-2 fs-4"
+              className="btn btn-outline-dark w-25 p-2 fs-5"
             >
               Book Now
             </a>
           </div>
-          <div className="col ">
-            <div className="container">
+          <div className="col">
+            <div className="container p-0">
               <div className="row">
                 <div
                   className="col-6 p-5 h-100 bg-dark"

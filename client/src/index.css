@@ -323,7 +323,8 @@ main {
 }
 
 .therapy-info-button:hover {
-  box-shadow: inset 0 0 10px rgba(25, 100, 126, 1);
+  background-color: #19647e;
+  color: #f4efef;
 }
 
 .font-s {

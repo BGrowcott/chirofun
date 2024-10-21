@@ -12,18 +12,17 @@ function TherapyInfo({
   const cardStyle = {
     padding: "10px",
     backgroundColor: isSelected ? "#F0EFEF" : "#f9f7f7",
-    color: isSelected ? "#F0EFEF" : "#19647e",
+    // color: isSelected ? "#F0EFEF" : "#19647e",
   };
 
   const buttonStyle = {
     cursor: "pointer",
-    backgroundColor: isSelected ? "#F0EFEF" : "#f9f7f7",
-    boxShadow: isSelected ? "inset 0 0 10px rgba(25, 100, 126, 1)" : "",
+    backgroundColor: isSelected ? "#19647e" : "#f9f7f7",
   };
 
   const buttonContainerStyle = {
     backgroundColor: isSelected ? "#F0EFEF" : "#f9f7f7",
-    color: isSelected ? "#F0EFEF" : "#19647e",
+    color: isSelected ? "#f9f7f7" : "#19647e",
   };
 
   // const containerStyle = {
