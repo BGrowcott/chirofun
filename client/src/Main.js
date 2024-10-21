@@ -1,8 +1,8 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Home from "./pages/home/Home";
-import About from "./pages/about/About";
-import Portfolio from "./pages/Portfolio";
+import MeetTheTeam from "./pages/meetTheTeam/MeetTheTeam";
+import WhatWeDo from "./pages/whatWeDo/WhatWeDo";
 import { useEffect, useState } from "react";
 import Testimonials from "./pages/Testimonials";
 
@@ -65,8 +65,8 @@ function Main() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/the-team" element={<MeetTheTeam />} />
+        <Route path="/what-we-do" element={<WhatWeDo />} />
         <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
     </main>
