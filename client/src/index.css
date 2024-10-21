@@ -317,3 +317,21 @@ main {
 .we-do-h3 {
   font-size: 3em;
 }
+
+.therapy-info-button {
+  border-color: #19647e;
+}
+
+.therapy-info-button:hover {
+  box-shadow: inset 0 0 10px rgba(25, 100, 126, 1);
+}
+
+.font-s {
+  font-size: 0.7em;
+}
+
+@media (min-width: 768px) {
+  .font-s {
+    font-size: 1.1em;
+  }
+}
