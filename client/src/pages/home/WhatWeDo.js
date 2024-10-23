@@ -1,14 +1,12 @@
-import building from "../../images/new-imgs/building-sign.jpg";
-import therapy6 from "../../images/new-imgs/therapy6.jpg";
 import austin from "../../images/new-imgs/austin.jpg";
-import gccReg from "../../images/new-imgs/gccReg.jpeg";
-import WhatWeDoNav from "./WhatWeDoNav";
+import gccReg from "../../images/new-imgs/gccReg.png";
+import vid from "../../images/new-imgs/welVid.mp4";
 
 function WhatWeDo() {
 	return (
-		<div className="container-md">
-			<div className="row flex-row-reverse my-5 pt-5 pb-5">
-				<div className="col-12 col-md-6 d-flex justify-content-center py-lg-5 p-3">
+		<div className="container-md mb-5">
+			<div className="row flex-row-reverse">
+				<div className="col-12 col-lg-6 d-flex justify-content-center py-lg-5 p-3">
 					<div className="rounded d-flex flex-column justify-content-center ">
 						<h3 className="we-do-h3 fw-bold josefinSans-text text-dark mb-1 mb-md-3">About Us</h3>
 						<p className="fs-3 lh-lg fw-bold mb-3 mb-lg-3">
@@ -22,26 +20,22 @@ function WhatWeDo() {
 							therapies, specialised treatments, and effective postural correction to help you <span className="fw-bold">feel your best.</span>
 						</p>
 						<div className="row align-items-center">
-							<div className="col-4 text-center">
-								<a									
-									target="_blank"
-									href="https://threebestrated.co.uk/chiropractors-in-birmingham"
-									style={{ display: "inline-block; border:0;" }}
-								>
-									<img										
-										width="160"
+							<div className="col-12 col-lg-4 text-center">
+								<a target="_blank" href="https://threebestrated.co.uk/chiropractors-in-birmingham">
+									<img
+										width="180"
 										src="https://threebestrated.co.uk/awards/chiropractors-birmingham-2024-drk.svg"
 										alt="Best Chiropractors in Birmingham"
 									/>
 								</a>
 							</div>
-							<div className="col-4">
-								<img style={{ width: "200px", display: "block" }} src={gccReg}></img>
+							<div className="col-12 col-lg-4 d-flex d-lg-block justify-content-center">
+								<img style={{ width: "300px", display: "block" }} src={gccReg} alt="GCC Registered Certified logo"></img>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+				<div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
 					<img
 						className="img-fluid austin-img"
 						style={{ border: "1px solid #ffffff87" }}
@@ -52,6 +46,12 @@ function WhatWeDo() {
 				</div>
 			</div>
 			{/* <hr></hr> */}
+			<div className="d-flex justify-content-center">
+				<video controls className="mw-100 shadow white-border">
+					<source src={vid} type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
+			</div>
 		</div>
 	);
 }
