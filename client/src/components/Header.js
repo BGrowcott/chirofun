@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header id="head">
       <nav
-        className="navbar navbar-expand-md navbar-light py-0 px-4"
+        className="navbar navbar-expand-lg navbar-light py-0 px-4"
         style={{ backgroundColor: "#f9f7f7" }}
       >
         <div className="container-fluid ps-0">
