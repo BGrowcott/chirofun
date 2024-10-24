@@ -1,10 +1,9 @@
 import austin from "../../images/new-imgs/austin.jpg";
 import gccReg from "../../images/new-imgs/gccReg.png";
-import vid from "../../images/new-imgs/welVid.mp4";
 
 function WhatWeDo() {
 	return (
-		<div className="container-md mb-5">
+		<div className="container-md">
 			<div className="row flex-row-reverse">
 				<div className="col-12 col-lg-6 d-flex justify-content-center py-lg-5 p-3">
 					<div className="rounded d-flex flex-column justify-content-center ">
@@ -44,14 +43,7 @@ function WhatWeDo() {
 					></img>
 					<p className="fs-4 fw-bold mt-1">Dr Austin Everill - MChiro DC</p>
 				</div>
-			</div>
-			{/* <hr></hr> */}
-			<div className="d-flex justify-content-center">
-				<video controls className="mw-100 shadow white-border">
-					<source src={vid} type="video/mp4" />
-					Your browser does not support the video tag.
-				</video>
-			</div>
+			</div>			
 		</div>
 	);
 }

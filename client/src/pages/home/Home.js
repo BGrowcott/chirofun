@@ -7,6 +7,8 @@ import WhatWeDoNav from "./WhatWeDoNav";
 import TherapyCarousel from "./TherapyCarousel";
 import WhatWeTreat from "./WhatWeTreat";
 import MapAndOpeningTimes from "./MapAndOpeningTimes";
+import WelcomeVideo from "./WelcomeVideo";
+import Testimonials from "./Testimonials";
 // import NewPatient from "../components/NewPatient";
 
 const Home = () => {
@@ -16,9 +18,13 @@ const Home = () => {
       <div className="home-container">
         <WhatWeDo></WhatWeDo>
 
+        <WelcomeVideo></WelcomeVideo>
+
         <WhatWeTreat></WhatWeTreat>
 
         <WhatWeDoNav></WhatWeDoNav>
+
+        <Testimonials></Testimonials>
 
         <MapAndOpeningTimes></MapAndOpeningTimes>
       </div>
