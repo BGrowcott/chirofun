@@ -12,6 +12,17 @@ import Testimonials from "./Testimonials";
 // import NewPatient from "../components/NewPatient";
 
 const Home = () => {
+
+  const test = async function()
+  {
+    const res = await fetch("/api/reviews");
+
+    const json = await res.json();
+    console.log(json);
+  }
+
+  test();
+
   return (
     <section>
       <Hero></Hero>
