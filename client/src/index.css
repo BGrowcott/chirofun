@@ -26,8 +26,17 @@ main {
   background-color: #dce9f8af;
 }
 
-.bg-dark {
+/* If you wanna change bg-dark colour, change the dark variable in custom.scss */
+/* .bg-dark { 
   background-color: #19647e;
+} */
+
+.white-border {
+  border: 10px solid white;
+}
+
+.mw-100 {
+  max-width: 100%;
 }
 
 .hero-header-font {

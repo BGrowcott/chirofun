@@ -2,7 +2,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="mt-5" style={{ color: "#F8F9F5" }}>
+    <footer className="mt-lg-5" style={{ color: "#F8F9F5" }}>
       <div
         className="text-center p-3 fs-4"
         style={{ backgroundColor: "#F0EFEF" }}

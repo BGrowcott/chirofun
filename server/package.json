@@ -11,9 +11,12 @@
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-mongo": "^4.6.0",
+    "crypto": "^1.0.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
+    "google-auth-library": "^9.14.2",
+    "googleapis": "^144.0.0",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.9.1",
     "validator": "^13.9.0"

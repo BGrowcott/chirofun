@@ -14,9 +14,9 @@ const Header = () => {
   }
 
   return (
-    <header>
+    <header id="head">
       <nav
-        className="navbar navbar-expand-md navbar-light py-0 px-4"
+        className="navbar navbar-expand-lg navbar-light py-0 px-4"
         style={{ backgroundColor: "#f9f7f7" }}
       >
         <div className="container-fluid ps-0">
@@ -43,7 +43,7 @@ const Header = () => {
           >
             <ul className="navbar-nav align-items-center text-uppercase fs-4">
               <li className="nav-item navDropDownContainer">
-                <Link className="nav-link mx-xl-4 mx-lg-2" to={"/portfolio"}>
+                <Link className="nav-link mx-xl-4 mx-lg-2" to={"/what-we-do"}>
                   What We Do
                 </Link>
                 <div
@@ -58,8 +58,8 @@ const Header = () => {
                 </div>
               </li>
               <li className="nav-item">
-                <Link className="nav-link mx-xl-4 mx-lg-2" to={"/about"}>
-                  About Us
+                <Link className="nav-link mx-xl-4 mx-lg-2" to={"/the-team"}>
+                  Meet The Team
                 </Link>
               </li>
               <li className="nav-item mx-xl-4 mx-lg-2">

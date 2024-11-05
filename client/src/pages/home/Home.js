@@ -7,18 +7,35 @@ import WhatWeDoNav from "./WhatWeDoNav";
 import TherapyCarousel from "./TherapyCarousel";
 import WhatWeTreat from "./WhatWeTreat";
 import MapAndOpeningTimes from "./MapAndOpeningTimes";
+import WelcomeVideo from "./WelcomeVideo";
+import Testimonials from "./Testimonials";
 // import NewPatient from "../components/NewPatient";
 
 const Home = () => {
+
+  const test = async function()
+  {
+    const res = await fetch("/api/reviews");
+
+    const json = await res.json();
+    console.log(json);
+  }
+
+  // test();
+
   return (
     <section>
       <Hero></Hero>
       <div className="home-container">
         <WhatWeDo></WhatWeDo>
 
+        <WelcomeVideo></WelcomeVideo>
+
         <WhatWeTreat></WhatWeTreat>
 
         <WhatWeDoNav></WhatWeDoNav>
+
+        <Testimonials></Testimonials>
 
         <MapAndOpeningTimes></MapAndOpeningTimes>
       </div>
