@@ -1,5 +1,6 @@
 import austin from "../../images/new-imgs/austin.jpg";
 import gccReg from "../../images/new-imgs/gccReg.png";
+import building from "../../images/new-imgs/building-sign.jpg";
 
 function WhatWeDo() {
 	return (
@@ -19,7 +20,7 @@ function WhatWeDo() {
 							therapies, specialised treatments, and effective postural correction to help you <span className="fw-bold">feel your best.</span>
 						</p>
 						<div className="row align-items-center">
-							<div className="col-12 col-lg-4 text-center">
+							<div className="col-12 col-xl-4 text-center">
 								<a target="_blank" href="https://threebestrated.co.uk/chiropractors-in-birmingham">
 									<img
 										width="180"
@@ -28,22 +29,24 @@ function WhatWeDo() {
 									/>
 								</a>
 							</div>
-							<div className="col-12 col-lg-4 d-flex d-lg-block justify-content-center">
+							<div className="col-12 col-xl-4 d-flex d-xl-block justify-content-center">
 								<img style={{ width: "300px", display: "block" }} src={gccReg} alt="GCC Registered Certified logo"></img>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-					<img
-						className="img-fluid austin-img"
-						style={{ border: "1px solid #ffffff87" }}
-						src={austin}
-						alt="Chiropractor Austin Everill standing and smiling"
-					></img>
+					<div className="white-border shadow">
+						<img
+							className="img-fluid austin-img"
+							style={{ border: "1px solid #ffffff87" }}
+							src={austin}
+							alt="Chiropractor Austin Everill standing and smiling"
+						></img>
+					</div>
 					<p className="fs-4 fw-bold mt-1">Dr Austin Everill - MChiro DC</p>
 				</div>
-			</div>			
+			</div>
 		</div>
 	);
 }

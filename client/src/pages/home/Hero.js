@@ -39,7 +39,14 @@ function Hero() {
                   <a
                     target="_blank"
                     href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
-                    className="btn btn-lg btn-dark p-3"
+                    className="d-none d-md-block btn btn-lg btn-dark p-3"
+                  >
+                    Make an Appointment Today!
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
+                    className="d-md-none btn btn-dark p-3"
                   >
                     Make an Appointment Today!
                   </a>

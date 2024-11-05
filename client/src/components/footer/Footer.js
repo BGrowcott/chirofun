@@ -1,6 +1,11 @@
+import { Link } from "react-router-dom";
 import "./footer.css";
 
 const Footer = () => {
+
+  const d = new Date();
+  const year = d.getFullYear();
+
   return (
     <footer className="mt-lg-5" style={{ color: "#F8F9F5" }}>
       <div
@@ -15,7 +20,7 @@ const Footer = () => {
           Start Feeling Better Today!
         </a>
       </div>
-      <div className="bg-dark p-5">
+      <div className="bg-dark p-4">
         <div className="container-fluid">
           <div className="row text-center">
             <div className="col-12 col-md-4 d-none d-lg-block px-5">
@@ -73,7 +78,9 @@ const Footer = () => {
               >
                 <div>
                   <p>
-                    Chiropractic, 264 Alcester Rd South,
+                    Birmingham Chiropractic, 
+                    <br/>
+                    264 Alcester Rd South,
                     <br />
                     King's Heath,
                     <br />
@@ -98,8 +105,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-light text-black text-center fw-bold p-1">
-        © 2024 Birmingham Chiropractic Limited. All rights reserved. Designed by
+        © {year} Birmingham Chiropractic Limited. All rights reserved. Designed by
         BenAz Webz.
+        <br></br>
+        <Link to={"/privacy-policy"} className="text-muted">View Privacy Policy</Link>
       </div>
     </footer>
   );

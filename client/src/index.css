@@ -43,6 +43,12 @@ main {
   font-size: 2.5em;
 }
 
+@media screen and (max-width: 768px) {
+  .hero-header-font {
+    font-size: 2em;
+  }
+}
+
 .what-we-do-header {
   font-size: 4.5em;
 }
