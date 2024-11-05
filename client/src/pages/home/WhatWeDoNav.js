@@ -45,11 +45,12 @@ function WhatWeDoNav() {
       altText: "Contact Us",
       text: "Contact Us",
       key: "contact",
+      link: "contactus",
     },
   ];
 
   return (
-    <div className="container-md my-5 pb-5">
+    <div className="container-md my-5 py-5">
       <div className="row gy-3">
         {cards.map((it) => (
           <div className="col-12 col-md-4" key={it.key}>

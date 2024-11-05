@@ -326,3 +326,22 @@ main {
 .we-do-h3 {
   font-size: 3em;
 }
+
+.therapy-info-button {
+  border-color: #19647e;
+}
+
+.therapy-info-button:hover {
+  background-color: #19647e;
+  color: #f4efef;
+}
+
+.font-s {
+  font-size: 0.7em;
+}
+
+@media (min-width: 768px) {
+  .font-s {
+    font-size: 1.1em;
+  }
+}

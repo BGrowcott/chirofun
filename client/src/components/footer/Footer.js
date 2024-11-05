@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="mt-lg-5" style={{ color: "#F8F9F5" }}>
       <div
         className="text-center p-3 fs-4"
-        style={{ backgroundColor: "#f4efef" }}
+        style={{ backgroundColor: "#F0EFEF" }}
       >
         <a
           target="_blank"
