@@ -1,6 +1,6 @@
 import React from "react";
 import MapAndOpeningTimes from "./home/MapAndOpeningTimes";
-import { MdOutlinePhone } from "react-icons/md";
+// import { MdOutlinePhone } from "react-icons/md";
 
 function ContactUs() {
   return (
@@ -36,7 +36,7 @@ function ContactUs() {
                 >
                   <div>
                     <div className="d-flex justify-content-center m-4">
-                      <MdOutlinePhone className="fs-1" />
+                      {/* <MdOutlinePhone className="fs-1" /> */}
                     </div>
                     <p className="fs-4 text-center">CALL US: 07898 903772</p>
                   </div>
