@@ -1,6 +1,7 @@
 const { google } = require("googleapis");
 const path = require("path");
 const key = require("../../utils/key.json");
+const dotenv = require("dotenv");
 
 // Load the service account key file
 const KEYFILEPATH = path.join(__dirname, "../../utils/serv-key.json");
@@ -21,7 +22,7 @@ module.exports = {
 		try {
 			// Replace with your own business account name
 			const accountName = `accounts/${key.web.client_id}`;
-			const locationName = `${accountName}/locations/${LOCATION_ID}`;
+			const locationName = `${accountName}/locations/${process.env.LOCATION_ID}`;
 
 			// Fetch the reviews
 			const res = await mybusiness.accounts.locations.reviews.list({

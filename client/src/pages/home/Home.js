@@ -21,7 +21,7 @@ const Home = () => {
     console.log(json);
   }
 
-  test();
+  // test();
 
   return (
     <section>

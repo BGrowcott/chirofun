@@ -10,7 +10,7 @@ function MeetTheTeam() {
 	const teamMembers = [
 		{
 			title: "Dr Austin Everill - MChiro DC",
-			summary: "Doctor of Chiropractic",
+			summary: "Align Your Spine, Elevate Your Health.",
 			image: austin,
 			textHtml: (
 				<>
@@ -35,7 +35,7 @@ function MeetTheTeam() {
 
 		{
 			title: "Claire Corfield - Yogi Extraordinaire",
-			summary: "Something about being a chiropractor/owner",
+			summary: "Heal, Strengthen, Transform.",
 			image: claire,
 			textHtml: (
 				<>
@@ -61,7 +61,7 @@ function MeetTheTeam() {
 		},
 		{
 			title: "Pete Mander - Sports Massage Therapist",
-			summary: "Don't step to me.",
+			summary: "Relieve. Recover. Perform Better.",
 			image: adrian,
 			textHtml: (
 				<>
