@@ -7,28 +7,9 @@ function Contact() {
 			<div className="container">
 				<PageHeader text={"Fees"}></PageHeader>
 				<div className="row d-flex justify-content-center">
-					<div className="row mt-5">
+				<div className="row my-5">
 						<div className="col">
-							<div className="p-5 h-100" style={{ backgroundColor: "#F0EFEF" }}>
-								<h3 className="ex-re-patient-header josefinSans-text text-dark">Existing Patient</h3>
-								<p className="fs-3 fw-bold">£40</p>
-								<p className="fs-4">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo libero consequat sapien egestas malesuada eget
-									eu quam.
-								</p>
-							</div>
-						</div>
-						<div className="col">
-							<div className="p-5 h-100" style={{ backgroundColor: "#F0EFEF" }}>
-								<h3 className="ex-re-patient-header josefinSans-text text-dark">Returning Patient</h3>
-								<p className="fs-3 fw-bold">£45</p>
-								<p className="fs-4">If we haven’t seen you in two+ years, we will need a longer appointment time of 30 minutes.</p>
-							</div>
-						</div>
-					</div>
-					<div className="row my-5">
-						<div className="col">
-							<div className="p-5" style={{ backgroundColor: "#F0EFEF" }}>
+							<div className="p-4" style={{ backgroundColor: "#F0EFEF" }}>
 								<div className="p-3 d-flex justify-content-center">
 									<h3 className="new-patient-header josefinSans-text text-dark">New Patient</h3>
 								</div>
@@ -69,6 +50,25 @@ function Contact() {
 										</ul>
 									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col">
+							<div className="p-5 h-100" style={{ backgroundColor: "#F0EFEF" }}>
+								<h3 className="ex-re-patient-header josefinSans-text text-dark">Existing Patient</h3>
+								<p className="fs-3 fw-bold">£40</p>
+								<p className="fs-4">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo libero consequat sapien egestas malesuada eget
+									eu quam.
+								</p>
+							</div>
+						</div>
+						<div className="col">
+							<div className="p-5 h-100" style={{ backgroundColor: "#F0EFEF" }}>
+								<h3 className="ex-re-patient-header josefinSans-text text-dark">Returning Patient</h3>
+								<p className="fs-3 fw-bold">£45</p>
+								<p className="fs-4">If we haven't seen you in two+ years, we will need a longer appointment time of 30 minutes.</p>
 							</div>
 						</div>
 					</div>

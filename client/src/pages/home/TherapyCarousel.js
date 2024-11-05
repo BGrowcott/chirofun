@@ -19,8 +19,7 @@ function TherapyCarousel() {
 		<>
 			<div
 				id="carouselTherapySlides"
-				className="carousel carousel-dark slide my-3"
-				stlye={{ backgroundColor: "#f9f7f7" }}
+				className="carousel carousel-dark slide my-3 white-border shadow"
 				data-bs-ride="carousel"
 			>
 				<div className="carousel-indicators">
@@ -36,9 +35,9 @@ function TherapyCarousel() {
 						></button>
 					))}
 				</div>
-				<div className="carousel-inner">
+				<div className="carousel-inner" >
 					{slides.map((slide, index) => (
-						<div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
+						<div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index} >
 							<img src={slide.image} className="d-block w-100 carousel-border" alt={slide.altText} />
 						</div>
 					))}
