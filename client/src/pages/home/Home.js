@@ -37,7 +37,7 @@ const Home = () => {
 
         <Testimonials></Testimonials>
 
-        <MapAndOpeningTimes></MapAndOpeningTimes>
+        {/* <MapAndOpeningTimes></MapAndOpeningTimes> */}
       </div>
     </section>
   );

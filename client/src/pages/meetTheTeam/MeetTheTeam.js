@@ -100,9 +100,9 @@ function MeetTheTeam() {
 			<div className="container">
 				<div className="p-md-3">
 					<PageHeader text={"Our Team"}></PageHeader>
-					<div className="p-3 bg-warm">
+					<div className="p-3 bg-warm mt-1">
 						{teamMembers.map((teamMember, index, array) => (
-							<div className={`my-2 py-2 my-md-3 py-md-3 my-lg-5 py-lg-5 ${index === 0 ? "mt-lg-1 pt-lg-1" : ""} ${index === array.length - 1 ? "mb-lg-1 pb-lg-1" : ""}`} key={teamMember.name}>
+							<div className={`my-2 py-2 my-md-3 py-md-3 my-lg-4 py-lg-4 ${index === 0 ? "mt-lg-1 pt-lg-1" : ""} ${index === array.length - 1 ? "mb-lg-1 pb-lg-1" : ""}`} key={teamMember.name}>
 								<TeamCard teamMember={teamMember}></TeamCard>
 							</div>
 						))}
