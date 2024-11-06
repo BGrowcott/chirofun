@@ -88,13 +88,6 @@ function MeetTheTeam() {
 		},
 	];
 
-	const bgStyle = {		
-			backgroundColor: "#de6449",
-			// background: `url(${bg5}) repeat-y`,
-			// backgroundSize: "100%",
-			// minHeight: "100vh",
-	}
-
 	return (
 		<section className="border-top border-1 border-secondary">
 			<div className="container">
