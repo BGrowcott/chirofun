@@ -1,4 +1,14 @@
- $dark: #12485a;
- $light: #f9f7f7;
+$dark: #12485a;
+$light: #f9f7f7;
+$warm: #DF6C53;
+
+@import "~bootstrap/scss/_functions.scss"; 
+@import "~bootstrap/scss/_variables.scss";   //then import native bootstrap variables
+
+$custom-colors: ( 
+    "warm": $warm, 
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import '~bootstrap/scss/bootstrap.scss';

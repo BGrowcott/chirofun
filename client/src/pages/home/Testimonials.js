@@ -61,7 +61,7 @@ function Testimonials() {
 				<div className="container-md">
 					<div className="py-2 py-lg-5">
 						<h3 className="we-do-h3 fw-bold py-3 josefinSans-text text-light">Testimonials</h3>
-						<div className="bg-light">
+						<div className="bg-light border border-warm border-5">
 							<div id="carouselTestimonialSlides" className="carousel carousel-dark slide my-3" data-bs-ride="carousel">
 								<div className="carousel-indicators">
 									{testimonials.map((slide, index) => (
@@ -83,7 +83,7 @@ function Testimonials() {
 												<div className="px-lg-5">
 													<div className="p-5">
 														<div className="position-relative" style={{ right: "20px" }}>
-															<FontAwesomeIcon className="fs-1" icon={solid("quote-left")} />
+															<FontAwesomeIcon className="fs-1 text-black" icon={solid("quote-left")} />
 														</div>
 														<div className="fs-3">
 															<figure>

@@ -2,8 +2,12 @@ import austin from "../../images/new-imgs/austinFull.jpg";
 import claire from "../../images/new-imgs/Claire.jpg";
 import adrian from "../../images/new-imgs/Adrian.jpg";
 import TeamCard from "./TeamCard";
+import bg1 from "../../images/bg.png"
+import bg2 from "../../images/bg2.png"
+import bg3 from "../../images/bg3.png"
+import bg4 from "../../images/BG4.png"
+import bg5 from "../../images/bg5.png"
 
-import "./meetTheTeam.css";
 import PageHeader from "../../components/PageHeader";
 
 function MeetTheTeam() {
@@ -34,7 +38,7 @@ function MeetTheTeam() {
 		},
 
 		{
-			title: "Claire Corfield - Yogi Extraordinaire",
+			title: "Claire Corfield - Yoga Teacher",
 			summary: "Heal, Strengthen, Transform.",
 			image: claire,
 			textHtml: (
@@ -85,14 +89,16 @@ function MeetTheTeam() {
 
 	return (
 		<section className="border-top border-1 border-secondary">
-			<div className="container">
-				<PageHeader text={"Our Team"}></PageHeader>
-				<div>
-					{teamMembers.map((teamMember) => (
-						<div className="my-5 py-5" key={teamMember.name}>
-							<TeamCard teamMember={teamMember}></TeamCard>
-						</div>
-					))}
+			<div className="container-xxl">
+				<div className="p-md-3">
+					<PageHeader text={"Our Team"}></PageHeader>
+					<div className="p-sm-3 p-1 bg-warm mt-1">
+						{teamMembers.map((teamMember, index, array) => (
+							<div className={`my-2 py-2 my-md-3 py-md-3 my-lg-4 py-lg-4 ${index === 0 ? "mt-lg-1 pt-lg-1" : ""} ${index === array.length - 1 ? "mb-lg-1 pb-lg-1" : ""}`} key={teamMember.name}>
+								<TeamCard teamMember={teamMember}></TeamCard>
+							</div>
+						))}
+					</div>
 				</div>
 			</div>
 		</section>

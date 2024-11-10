@@ -31,7 +31,7 @@ function WhatWeDoNav() {
       altText: "Doctor",
       text: "Meet the Team",
       key: "meetTeam",
-      link: "the-team",
+      link: "about",
     },
     {
       image: testimonials,
