@@ -79,9 +79,9 @@ function Testimonials() {
 								<div className="carousel-inner">
 									{testimonials.map((testimonial, index) => (
 										<div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
-											<div className="px-lg-5 d-flex align-items-center" style={{ minHeight: "500px" }}>
+											<div className="px-lg-5 d-flex align-items-center" style={{ minHeight: "450px" }}>
 												<div className="px-lg-5">
-													<div className="p-5">
+													<div className="px-5 pt-1 pb-3">
 														<div className="position-relative" style={{ right: "20px" }}>
 															<FontAwesomeIcon className="fs-1 text-black" icon={solid("quote-left")} />
 														</div>

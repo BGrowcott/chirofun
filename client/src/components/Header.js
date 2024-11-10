@@ -16,13 +16,13 @@ const Header = () => {
   return (
     <header id="head">
       <nav
-        className="navbar navbar-expand-xl navbar-light py-0 px-4"
+        className="navbar navbar-expand-xl navbar-light py-0 px-md-4 px-0"
         style={{ backgroundColor: "#f9f7f7" }}
       >
         <div className="container-fluid ps-0">
           <Link className="navbar-brand  d-flex align-items-center" to={"/"}>
             <img width={"70"} src={logo} />
-            <h1 className="ms-3 h2 text-dark fw-bold josefinSans-text mt-3">
+            <h1 className="ms-1 ms-md-3 h2 text-dark fw-bold josefinSans-text mt-3">
               <span className="d-block">Birmingham</span> Chiropractic
             </h1>
           </Link>
@@ -63,7 +63,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item mx-xl-4 mx-lg-2">
-                <Link className="nav-link" to={"/contact"}>
+                <Link className="nav-link" to={"/fees"}>
                   Fees
                 </Link>
               </li>
