@@ -21,7 +21,7 @@ function WhatWeDoTabs({therapyTypes}){
                                 <div className="card border-0 rounded-0">
                                     <img src={it.image} className="card-img-top rounded-0" alt={it.altText} />
                                     <div className="card-body px-1">
-                                        <p className="card-text text-dark fs-3 fw-bold josefinSans-text">{it.title}</p>
+                                        <p className="card-text text-decoration-none fs-3 fw-bold josefinSans-text">{it.title}</p>
                                     </div>
                                 </div>
                             </div>
