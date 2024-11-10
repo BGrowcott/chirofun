@@ -1,7 +1,7 @@
 function WhatWeDoContent({ it }) {
     return (
         <div>
-            <div className="fs-3">
+            <div style={{ fontSize: "1.2em" }}>
                 <div className="d-block d-lg-none">
                     <div className="row">
                         <div className="col-12 col-xl-6">

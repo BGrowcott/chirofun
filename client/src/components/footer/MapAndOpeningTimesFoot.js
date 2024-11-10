@@ -59,6 +59,7 @@ function MapAndOpeningTimesFoot() {
                                 allowFullScreen
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
+                                title="map and location for Birmingham Chiropractic"
                             ></iframe>
                         </div>
                     </div>
