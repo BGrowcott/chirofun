@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-import Contact from "./pages/Contact";
+import Fees from "./pages/fees/Fees";
 import Home from "./pages/home/Home";
 import MeetTheTeam from "./pages/meetTheTeam/MeetTheTeam";
 import WhatWeDo from "./pages/whatWeDo/WhatWeDo";
@@ -66,7 +66,7 @@ function Main() {
 
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/contact" element={<Contact />} />
+				<Route path="/fees" element={<Fees />} />
 				<Route path="/the-team" element={<MeetTheTeam />} />
 				<Route path="/what-we-do" element={<WhatWeDo />} />
 				<Route path="/testimonials" element={<Testimonials />} />

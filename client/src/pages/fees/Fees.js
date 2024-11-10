@@ -1,12 +1,12 @@
-import PageHeader from "../components/PageHeader";
-import therapy from "../images/new-imgs/therapy44.jpg";
-import therapy2 from "../images/new-imgs/therapy2.jpg";
-import therapy3 from "../images/new-imgs/IMG_2727.jpeg";
-import building from "../images/new-imgs/building-sign.jpg";
+import PageHeader from "../../components/PageHeader";
+import therapy from "../../images/new-imgs/therapy44.jpg";
+import therapy2 from "../../images/new-imgs/therapy2.jpg";
+import therapy3 from "../../images/new-imgs/IMG_2727.jpeg";
+import building from "../../images/new-imgs/building-sign.jpg";
 import { regular, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-function Contact() {
+function Fees() {
     const firstExamList = [
         "Full consultation & Treatment with a Chiropractor",
         "Full examination of the spine",
@@ -48,6 +48,15 @@ function Contact() {
                                                         </li>
                                                     ))}
                                                 </ul>
+                                                <div className="px-2">
+                                                    <a
+                                                        target="_blank"
+                                                        href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
+                                                        className="d-block btn btn-lg btn-dark p-3"
+                                                    >
+                                                        Book now <FontAwesomeIcon className="fs-3 ms-3" icon={solid("up-right-from-square")} />
+                                                    </a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -61,7 +70,7 @@ function Contact() {
                                     </div>
                                     <h3 className="h1 josefinSans-text text-dark">Existing Patient</h3>
                                     <p className="fs-3 fw-bold">£40</p>
-                                    <p className="fs-4">15 minutes chiropractic</p>
+                                    <p className="fs-4">15 minutes chiropractic appointment </p>
                                 </div>
                             </div>
                             <div className="col">
@@ -76,10 +85,17 @@ function Contact() {
                             </div>
                         </div>
                     </div>
+                    <a
+                        target="_blank"
+                        href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
+                        className="d-block btn btn-lg btn-dark p-3 rounded-0 rounded-bottom"
+                    >
+                        Book now <FontAwesomeIcon className="fs-3 ms-3" icon={solid("up-right-from-square")} />
+                    </a>
                 </div>
             </div>
         </section>
     );
 }
 
-export default Contact;
+export default Fees;
