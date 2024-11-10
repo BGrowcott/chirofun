@@ -5,8 +5,13 @@ import therapy3 from "../../images/new-imgs/IMG_2727.jpeg";
 import building from "../../images/new-imgs/building-sign.jpg";
 import { regular, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useEffect } from "react";
 
 function Fees() {
+    useEffect(() => {
+        document.title = "Birmingham Chiropractic - Fees";
+    }, []);
+
     const firstExamList = [
         "Full consultation & Treatment with a Chiropractor",
         "Full examination of the spine",

@@ -2,7 +2,7 @@ import WhatWeDoContent from "./WhatWeDoContent";
 
 function WhatWeDoTabs({therapyTypes}){
     return (
-        <div className="p-2" style={{backgroundColor: "#457383"}}>
+        <div className="p-2 bg-secondary">
         <div>
             <ul className="nav nav-tabs" id="myTab" role="tablist">
                 {therapyTypes.map((it, index) => (

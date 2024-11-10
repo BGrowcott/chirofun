@@ -7,7 +7,7 @@ function WhatWeTreat() {
 
 	return (
 		<>
-			<div className="carousel-section bg-dark">
+			<div className="carousel-section bg-dark border-top border-bottom border-5 border-secondary">
 				<div className="container-md py-lg-5">
 					<div className="row">
 						<div className="col-12 col-lg-6">

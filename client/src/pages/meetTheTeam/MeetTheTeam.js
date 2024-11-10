@@ -7,10 +7,15 @@ import bg2 from "../../images/bg2.png"
 import bg3 from "../../images/bg3.png"
 import bg4 from "../../images/BG4.png"
 import bg5 from "../../images/bg5.png"
+import React, { useEffect } from "react";
 
 import PageHeader from "../../components/PageHeader";
 
 function MeetTheTeam() {
+	useEffect(() => {
+        document.title = "Birmingham Chiropractic - Meet The Team";
+    }, []);
+
 	const teamMembers = [
 		{
 			title: "Dr Austin Everill - MChiro DC",

@@ -21,7 +21,7 @@ const Header = () => {
       >
         <div className="container-fluid ps-0">
           <Link className="navbar-brand  d-flex align-items-center" to={"/"}>
-            <img width={"70"} src={logo} />
+            <img width={"70"} src={logo} alt="Birmingham Chiropractic Logo"/>
             <h1 className="ms-1 ms-md-3 h2 text-dark fw-bold josefinSans-text mt-3">
               <span className="d-block">Birmingham</span> Chiropractic
             </h1>

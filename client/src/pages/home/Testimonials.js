@@ -57,7 +57,7 @@ function Testimonials() {
 
 	return (
 		<>
-			<div className="bg-dark">
+			<div className="bg-dark border-top border-bottom border-5 border-secondary">
 				<div className="container-md">
 					<div className="py-2 py-lg-5">
 						<h3 className="we-do-h3 fw-bold py-3 josefinSans-text text-light">Testimonials</h3>
