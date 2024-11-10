@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header id="head">
       <nav
-        className="navbar navbar-expand-lg navbar-light py-0 px-4"
+        className="navbar navbar-expand-xl navbar-light py-0 px-4"
         style={{ backgroundColor: "#f9f7f7" }}
       >
         <div className="container-fluid ps-0">
@@ -46,7 +46,7 @@ const Header = () => {
                 <Link className="nav-link mx-xl-4 mx-lg-2" to={"/what-we-do"}>
                   What We Do
                 </Link>
-                <div
+                {/* <div
                   className="navDropDownContents d-none d-md-block rounded bg-light"
                   style={{
                     zIndex: "1",
@@ -55,7 +55,7 @@ const Header = () => {
                   <a className="nav-link">Orthotics</a>
                   <a className="nav-link">Chiropractic</a>
                   <a className="nav-link">Sports Remedial</a>
-                </div>
+                </div> */}
               </li>
               <li className="nav-item">
                 <Link className="nav-link mx-xl-4 mx-lg-2" to={"/the-team"}>
@@ -84,55 +84,6 @@ const Header = () => {
                   </a>
                 </div>
               </li>
-              {/* <li className="nav-item me-xl-4 me-lg-2">
-                                <ul
-                                    style={{ fontSize: "1.25rem" }}
-                                    className="d-flex list-unstyled"
-                                >
-                                    <li className="nav-item">
-                                        <a
-                                            className="nav-link"
-                                            href=""
-                                            target="_blank"
-                                        >
-                                            <div className="nav-brand-container">
-                                                <FontAwesomeIcon
-                                                    className="fw-bold fa-lg"
-                                                    icon={brands("instagram")}
-                                                />
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li className="mx-3 nav-item">
-                                        <a
-                                            className="nav-link"
-                                            href=""
-                                            target="_blank"
-                                        >
-                                            <div className="nav-brand-container">
-                                                <FontAwesomeIcon
-                                                    className="fw-bold fa-lg"
-                                                    icon={brands("youtube")}
-                                                />
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a
-                                            className="nav-link"
-                                            href=""
-                                            target="_blank"
-                                        >
-                                            <div className="nav-brand-container">
-                                                <FontAwesomeIcon
-                                                    className="fw-bold fa-lg"
-                                                    icon={brands("linkedin")}
-                                                />
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li> */}
             </ul>
           </div>
         </div>

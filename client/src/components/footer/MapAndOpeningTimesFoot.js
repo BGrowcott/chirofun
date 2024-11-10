@@ -1,5 +1,8 @@
+import { regular, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function MapAndOpeningTimesFoot() {
-    const openingTimes = ["Monday: 9am-7pm", "Tuesday: 9am-7pm", "Wednesday: Closed", "Thursday: 9am-7pm", "Friday: 9am-2pm", "Saturday: 9am-2pm", "Sunday: Closed"];
+    const openingTimes = ["Monday: 9am - 7pm", "Tuesday: 9am - 7pm", "Wednesday: Closed", "Thursday: 9am - 7pm", "Friday: 9am - 2pm", "Saturday: 9am - 2pm", "Sunday: Closed"];
 
     return (
         <>
@@ -9,14 +12,41 @@ function MapAndOpeningTimesFoot() {
                     {/* <hr></hr> */}
                     <div className="col-12 col-lg-3 col-xl-3">
                         <div className="text-center">
-                            <div className="fw-bold fs-4 text-lg-start">Opening Hours</div>
-                            <ul className="list-group list-group-flush text-lg-start">
-                                {openingTimes.map((it, index) => (
-                                    <li className="list-group-item bg-dark text-white" key={it}>
-                                        {it}
-                                    </li>
-                                ))}
-                            </ul>
+                            <div className="card bg-dark">
+                                <div className="card-header click-sm" data-bs-toggle="collapse" data-bs-target="#openingHoursList">
+                                    <div className="fw-bold fs-4 text-lg-start text-white">
+                                        <span className="d-none d-lg-inline"><FontAwesomeIcon className="fs-3" icon={solid("clock")} /></span> 
+                                        <span className="mx-3">Opening Hours</span>
+                                        <span className="d-lg-none"><FontAwesomeIcon className="fs-4" icon={solid("chevron-down")}/></span>
+                                    </div>
+                                </div>
+                                <div className="card-body p-0">
+
+                                    {/*display on small screens*/}
+                                    <div className="d-block d-lg-none">
+                                        <div className="collapse" id="openingHoursList">
+                                            <ul className="list-group list-group-flush text-lg-start">
+                                                {openingTimes.map((it, index) => (
+                                                    <li className="list-group-item bg-dark text-white" key={it}>
+                                                        {it}
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    {/*display on bigger screens*/}
+                                    <div className="d-none d-lg-block">
+                                        <ul className="list-group list-group-flush text-lg-start">
+                                            {openingTimes.map((it, index) => (
+                                                <li className="list-group-item bg-dark text-white" key={it}>
+                                                    {it}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="col-12 col-lg-9 col-xl-6">
