@@ -1,6 +1,12 @@
 import PageHeader from "../../components/PageHeader";
+import React, { useEffect } from "react";
 
 function PrivacyPolicy() {
+
+	useEffect(() => {
+        document.title = "Birmingham Chiropractic - Privacy Policy";
+    }, []);
+
 	return (
 		<section className="border-top border-1 border-secondary">
 			<div className="container-lg">

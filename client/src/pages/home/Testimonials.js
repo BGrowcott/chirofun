@@ -17,7 +17,7 @@ function Testimonials() {
 
 	return (
 		<>
-			<div className="bg-dark">
+			<div className="bg-dark border-top border-bottom border-5 border-secondary">
 				<div className="container-md">
 					<div className="py-2 py-lg-5">
 						<h3 className="we-do-h3 fw-bold py-3 josefinSans-text text-light">Testimonials</h3>
@@ -39,9 +39,9 @@ function Testimonials() {
 								<div className="carousel-inner">
 									{reviews.map((testimonial, index) => (
 										<div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
-											<div className="px-lg-5 d-flex align-items-center" style={{ minHeight: "500px" }}>
+											<div className="px-lg-5 d-flex align-items-center" style={{ minHeight: "450px" }}>
 												<div className="px-lg-5">
-													<div className="p-5">
+													<div className="px-5 pt-1 pb-3">
 														<div className="position-relative" style={{ right: "20px" }}>
 															<FontAwesomeIcon className="fs-1 text-black" icon={solid("quote-left")} />
 														</div>

@@ -16,13 +16,13 @@ const Header = () => {
   return (
     <header id="head">
       <nav
-        className="navbar navbar-expand-lg navbar-light py-0 px-4"
+        className="navbar navbar-expand-xl navbar-light py-0 px-md-4 px-0"
         style={{ backgroundColor: "#f9f7f7" }}
       >
         <div className="container-fluid ps-0">
           <Link className="navbar-brand  d-flex align-items-center" to={"/"}>
-            <img width={"70"} src={logo} />
-            <h1 className="ms-3 h2 text-dark fw-bold josefinSans-text mt-3">
+            <img width={"70"} src={logo} alt="Birmingham Chiropractic Logo"/>
+            <h1 className="ms-1 ms-md-3 h2 text-dark fw-bold josefinSans-text mt-3">
               <span className="d-block">Birmingham</span> Chiropractic
             </h1>
           </Link>
@@ -46,7 +46,7 @@ const Header = () => {
                 <Link className="nav-link mx-xl-4 mx-lg-2" to={"/what-we-do"}>
                   What We Do
                 </Link>
-                <div
+                {/* <div
                   className="navDropDownContents d-none d-md-block rounded bg-light"
                   style={{
                     zIndex: "1",
@@ -55,7 +55,7 @@ const Header = () => {
                   <a className="nav-link">Orthotics</a>
                   <a className="nav-link">Chiropractic</a>
                   <a className="nav-link">Sports Remedial</a>
-                </div>
+                </div> */}
               </li>
               <li className="nav-item">
                 <Link className="nav-link mx-xl-4 mx-lg-2" to={"/the-team"}>
@@ -63,7 +63,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item mx-xl-4 mx-lg-2">
-                <Link className="nav-link" to={"/contact"}>
+                <Link className="nav-link" to={"/fees"}>
                   Fees
                 </Link>
               </li>
@@ -84,55 +84,6 @@ const Header = () => {
                   </a>
                 </div>
               </li>
-              {/* <li className="nav-item me-xl-4 me-lg-2">
-                                <ul
-                                    style={{ fontSize: "1.25rem" }}
-                                    className="d-flex list-unstyled"
-                                >
-                                    <li className="nav-item">
-                                        <a
-                                            className="nav-link"
-                                            href=""
-                                            target="_blank"
-                                        >
-                                            <div className="nav-brand-container">
-                                                <FontAwesomeIcon
-                                                    className="fw-bold fa-lg"
-                                                    icon={brands("instagram")}
-                                                />
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li className="mx-3 nav-item">
-                                        <a
-                                            className="nav-link"
-                                            href=""
-                                            target="_blank"
-                                        >
-                                            <div className="nav-brand-container">
-                                                <FontAwesomeIcon
-                                                    className="fw-bold fa-lg"
-                                                    icon={brands("youtube")}
-                                                />
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li className="nav-item">
-                                        <a
-                                            className="nav-link"
-                                            href=""
-                                            target="_blank"
-                                        >
-                                            <div className="nav-brand-container">
-                                                <FontAwesomeIcon
-                                                    className="fw-bold fa-lg"
-                                                    icon={brands("linkedin")}
-                                                />
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li> */}
             </ul>
           </div>
         </div>

@@ -1,3 +1,5 @@
+import React, { useEffect } from "react";
+
 import cert1 from "../../images/ClinicFiveStarTreatment.png";
 import cert2 from "../../images/BestRatedBirm.jpg";
 import cert3 from "../../images/GCC-Registered_black.png";
@@ -12,26 +14,29 @@ import Testimonials from "./Testimonials";
 // import NewPatient from "../components/NewPatient";
 
 const Home = () => {
+    useEffect(() => {
+        document.title = "Birmingham Chiropractic";
+    }, []);
 
 
-  return (
-    <section>
-      <Hero></Hero>
-      <div className="home-container">
-        <WhatWeDo></WhatWeDo>
+    return (
+        <section>
+            <Hero></Hero>
+            <div className="home-container">
+                <WhatWeDo></WhatWeDo>
 
-        <WelcomeVideo></WelcomeVideo>
+                <WelcomeVideo></WelcomeVideo>
 
-        <WhatWeTreat></WhatWeTreat>
+                <WhatWeTreat></WhatWeTreat>
 
-        <WhatWeDoNav></WhatWeDoNav>
+                <WhatWeDoNav></WhatWeDoNav>
 
-        <Testimonials></Testimonials>
+                <Testimonials></Testimonials>
 
-        {/* <MapAndOpeningTimes></MapAndOpeningTimes> */}
-      </div>
-    </section>
-  );
+                {/* <MapAndOpeningTimes></MapAndOpeningTimes> */}
+            </div>
+        </section>
+    );
 };
 
 export default Home;

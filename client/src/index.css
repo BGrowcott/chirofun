@@ -22,8 +22,30 @@ main {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.bg-light-fade {
-  background-color: #dce9f8af;
+.about-header {
+  font-size: 3.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-header {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-header {
+    font-size: 2em;
+  }
+}
+
+.click {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+    .click-sm {
+      cursor: pointer;
+  }
 }
 
 /* If you wanna change bg-dark colour, change the dark variable in custom.scss */
@@ -34,6 +56,13 @@ main {
 .white-border {
   border: 10px solid white;
 }
+
+@media screen and (max-width: 768px) {
+  .white-border {
+    border: 6px solid white;
+  }
+}
+
 
 .mw-100 {
   max-width: 100%;
