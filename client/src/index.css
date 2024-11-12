@@ -97,12 +97,6 @@ main {
   font-size: 2.5em;
 }
 
-#profile {
-  position: sticky;
-  top: 16px;
-  box-shadow: 0px 0px 5px grey inset;
-}
-
 .navDropDownContents {
   max-height: 0px;
   overflow: hidden;
@@ -112,26 +106,6 @@ main {
 
 .navDropDownContainer:hover .navDropDownContents {
   max-height: 180px;
-}
-
-#contactForm div {
-  display: flex;
-  flex-direction: column;
-}
-
-.contactFormInput {
-  border: none;
-  border-top: 1px solid rgb(205, 205, 205);
-  padding: 8px;
-  border-radius: 3px;
-  background-color: #ffffff87;
-}
-
-.contactFormInput:focus-visible {
-  transition: 0.5s all;
-  outline: none;
-  box-shadow: 0px 0px 5px grey inset;
-  background-color: white;
 }
 
 .text-shadow {
@@ -153,24 +127,6 @@ main {
   box-shadow: 0px 0px 5px rgb(67, 77, 86);
   border: 1px solid black;
 }
-
-/* .nav-brand-container {
-  width: 50px;
-  height: 50px;
-  box-shadow: 1px 1px 1px rgba(93, 163, 168, 0.598);
-  padding: 5px;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav-brand-container:hover {
-  transition: all 0.2s;
-  box-shadow: 3px 3px 8px rgba(48, 93, 96, 0.598);
-  width: 52px;
-  height: 52px;
-} */
 
 .links-intro-container {
   display: flex;
