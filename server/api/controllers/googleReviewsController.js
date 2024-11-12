@@ -1,12 +1,6 @@
-const { google } = require("googleapis");
 const path = require("path");
-const key = require("../../utils/key.json");
 const dotenv = require("dotenv");
 const axios = require('axios');
-
-// Load the service account key file
-const KEYFILEPATH = path.join(__dirname, "../../utils/serv-key.json");
-const SCOPES = ["https://www.googleapis.com/auth/business.manage"];
 
 module.exports = {
 	getReviews: async function (req, res) {		
