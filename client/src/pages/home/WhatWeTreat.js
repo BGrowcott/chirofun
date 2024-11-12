@@ -8,7 +8,7 @@ function WhatWeTreat() {
 
 	return (
 		<>
-			<div className="carousel-section bg-dark border-top border-bottom border-5 border-secondary">
+			<div className="carousel-section bg-dark border-top border-bottom border-5 border-secondary shadow-inset">
 				<div className="container-md">
 					<div className="row flex-lg-row-reverse flex-column-reverse">
 						<div className="col-12 col-lg-6">
@@ -18,6 +18,8 @@ function WhatWeTreat() {
 									<p>
 										Chiropractors treat conditions related to the musculoskeletal and nervous systems, focusing on issues with the spine,
 										joints, and muscles.
+										<br></br>
+										Just a few conditions we treat:
 									</p>
 								</div>
 								<div className="pt-0 pt-lg-0">
@@ -28,6 +30,7 @@ function WhatWeTreat() {
 											</li>
 										))}
 									</ul>
+									<p className="text-white fs-5 pt-2">To find out more, please call us  on <a className="text-white" href="tel:07898903772">07898 903772</a></p>
 								</div>
 							</div>
 						</div>

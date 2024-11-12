@@ -97,7 +97,7 @@ function MeetTheTeam() {
 			<div className="container-xxl">
 				<div className="p-md-3">
 					<PageHeader text={"Our Team"}></PageHeader>
-					<div className="p-sm-3 p-1 bg-warm mt-1">
+					<div className="p-sm-3 p-1 bg-warm mt-1 shadow-inset">
 						{teamMembers.map((teamMember, index, array) => (
 							<div className={`my-2 py-2 my-md-3 py-md-3 my-lg-4 py-lg-4 ${index === 0 ? "mt-lg-1 pt-lg-1" : ""} ${index === array.length - 1 ? "mb-lg-1 pb-lg-1" : ""}`} key={teamMember.title}>
 								<TeamCard teamMember={teamMember}></TeamCard>

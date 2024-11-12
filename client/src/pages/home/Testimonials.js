@@ -3,25 +3,30 @@ import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import google from "../../images/new-imgs/google.png";
+import reviewsJson from "../../utils/reviews.json" // incase api call to google fails
 
 function Testimonials() {
-	const [reviews, setReviews] = useState([]);
+	const [reviews, setReviews] = useState(reviewsJson);
 
 	useEffect(() => {
 		(async () => {
-			const res = await fetch("/api/reviews");
-			const json = await res.json();
-			setReviews(json.reviews);
+			try {
+				const res = await fetch("/api/reviews");
+				const json = await res.json();
+				setReviews(json.reviews);
+			} catch (error) {
+
+			}
 		})();
 	}, []);
 
 	return (
 		<>
-			<div className="bg-dark border-top border-bottom border-5 border-secondary">
+			<div className="bg-dark border-top border-bottom border-5 border-secondary shadow-inset">
 				<div className="container-md">
 					<div className="py-2 py-lg-5">
 						<h3 className="we-do-h3 fw-bold py-3 josefinSans-text text-light">Testimonials</h3>
-						<div className="bg-light border border-warm border-5">
+						<div className="bg-light border border-warm border-5 shadow-inset">
 							<div id="carouselTestimonialSlides" className="carousel carousel-dark slide my-3" data-bs-ride="carousel">
 								<div className="carousel-indicators">
 									{reviews.map((slide, index) => (
@@ -67,7 +72,8 @@ function Testimonials() {
 																	<div className="d-flex">
 																		{new Array(testimonial.rating).fill(0).map((it, index) => (
 																			<div key={index}>
-																				<FontAwesomeIcon className="fs-3 text-warning" icon={solid("star")} />
+																				{/* <span className="text-shadow fs-1">⭐</span> */}
+																				<FontAwesomeIcon className="fs-3 text-warning text-shadow" icon={solid("star")} />
 																			</div>
 																		))}
 																	</div>
