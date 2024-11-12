@@ -9,8 +9,15 @@
   justify-content: space-between;
   font-family: "Golos Text", sans-serif;
   /* background-color: #f4efef; */
-  background-color: #f9f7f7;
-  background-repeat: repeat-y;
+  /* background-color: #f9f7f7;
+  background-repeat: repeat-y; */
+}
+
+body {
+overflow-y: scroll;
+background: url(./images/new-imgs/chevronbg.svg) 110% 0 repeat-y;
+background-size: auto 768px;
+min-height: 100vh;
 }
 
 main {

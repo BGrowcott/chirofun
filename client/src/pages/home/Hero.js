@@ -10,17 +10,17 @@ function Hero() {
       <div className="container-fluid p-0">
         <div className="row">
           <div
-            className="position-absolute top-0 col-12 col-md-10 col-lg-9 col-xl-6"
+            className="position-absolute top-0 col-12 col-md-10 col-lg-9 col-xxl-6"
             style={{
               height: "70vh",
               backgroundImage: "linear-gradient(to right, white, transparent)",
             }}
           >
             <div className="row h-100 d-flex align-items-center">
-              <div className="p-5 col-12 col-md-8 col-lg-7">
+              <div className="p-5 col-12 col-md-8 col-xxl-7">
                 <div>
                   <h2 className="josefinSans-text text-dark">
-                    <span className="text-black fs-1">Welcome to</span>{" "}
+                    <span className="text-black fs-1">Welcome to</span>
                     <br></br>
                     <span className="fw-bold hero-header-font">
                       Birmingham Chiropractic

@@ -33,7 +33,7 @@ const Home = () => {
             <div className="home-container">
                 <WhatWeDo></WhatWeDo>
 
-                <WelcomeVideo></WelcomeVideo>
+                {/* <WelcomeVideo></WelcomeVideo> */}
 
                 <WhatWeTreat></WhatWeTreat>
 

@@ -1,6 +1,7 @@
 import { regular } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TherapyCarousel from "./TherapyCarousel";
+import WelcomeVideo from "./WelcomeVideo";
 
 function WhatWeTreat() {
 	const whatWeTreat = ["Lower Back Pain", "Sciatica", "Neck Pain", "Headaches", "Shoulder Pain", "Hip/Knee Arthritis", "Tennis Elbow"];
@@ -8,8 +9,8 @@ function WhatWeTreat() {
 	return (
 		<>
 			<div className="carousel-section bg-dark border-top border-bottom border-5 border-secondary">
-				<div className="container-md py-lg-5">
-					<div className="row">
+				<div className="container-md">
+					<div className="row flex-lg-row-reverse flex-column-reverse">
 						<div className="col-12 col-lg-6">
 							<div className="h-100 w-100 d-flex flex-column justify-content-center align-items-start py-3 py-lg-0">
 								<h3 className="we-do-h3 fw-bold josefinSans-text text-light">What we treat</h3>
@@ -31,11 +32,12 @@ function WhatWeTreat() {
 							</div>
 						</div>
 						<div className="col-12 col-lg-6 ">
-							<TherapyCarousel></TherapyCarousel>
+							<WelcomeVideo></WelcomeVideo>
+							{/* <TherapyCarousel></TherapyCarousel>
 							<p className="text-white fs-5">
 								Chiropractic care aims to improve mobility, relieve pain, and support the body's natural healing processes through manual
 								adjustments and other therapeutic techniques.
-							</p>
+							</p> */}
 						</div>
 					</div>
 				</div>

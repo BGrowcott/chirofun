@@ -41,10 +41,10 @@ const Header = () => {
             className="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul className="navbar-nav align-items-center text-uppercase fs-4">
-              <li className="nav-item navDropDownContainer">
-                <Link className="nav-link mx-xl-4 mx-lg-2" to={"/what-we-do"}>
-                  What We Do
+            <ul className="navbar-nav align-items-center text-uppercase fs-4 mb-3 mb-xl-0">
+              <li className="nav-item navDropDownContainer" >
+                <Link className="nav-link mx-xl-4 mx-lg-2" to={"/what-we-do"} >
+                  <div data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">What We Do</div>
                 </Link>
                 {/* <div
                   className="navDropDownContents d-none d-md-block rounded bg-light"
@@ -59,12 +59,12 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link mx-xl-4 mx-lg-2" to={"/the-team"}>
-                  Meet The Team
+                  <div data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Meet The Team</div>
                 </Link>
               </li>
               <li className="nav-item mx-xl-4 mx-lg-2">
                 <Link className="nav-link" to={"/fees"}>
-                  Fees
+                <div data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Fees</div>
                 </Link>
               </li>
               <li className="nav-item ms-xl-4 ms-lg-2">
