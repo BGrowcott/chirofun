@@ -1,59 +1,19 @@
 import PageHeader from "../../components/PageHeader";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useEffect, useState } from "react";
+import google from "../../images/new-imgs/google.png"
 
 function Testimonials() {
-	const testimonials = [
-		{
-			name: "Burt Bondie",
-			text: (
-				<>
-					I loved it when I was chiropracted it felt great and better than anything I've ever felt before and I would recommend it anyone.
-					<br></br>
-					<br></br>
-					I'm now going to repeat the same sentence lots of times! I'm now going to repeat the same sentence lots of times!
-				</>
-			),
-			stars: 5,
-		},
-		{
-			name: "Tits Mcgee",
-			text: `Yoga really help along with the chiropractic. I'm now going to repeat the same sentence lots of times! 
-            I'm now going to repeat the same sentence lots of times! I'm now going to repeat the same sentence lots of times! 
-            I'm now going to repeat the same sentence lots of times! I'm now going to repeat the same sentence lots of times!`,
-			stars: 5,
-		},
-		{
-			name: "50 Cent",
-			text: "I loved it when I was chiropracted it felt great and better than anything I've ever felt before and I would recommend it anyone.",
-			stars: 5,
-		},
-		{
-			name: "Floopers Flappyears",
-			text: "I loved it when I was chiropracted it felt great and better than anything I've ever felt before and I would recommend it anyone.",
-			stars: 5,
-		},
-		{
-			name: "Sean Bean",
-			text: "I loved it when I was chiropracted it felt great and better than anything I've ever felt before and I would recommend it anyone.",
-			stars: 5,
-		},
-		{
-			name: "Wendy McLovenuts",
-			text: "I loved it when I was chiropracted it felt great and better than anything I've ever felt before and I would recommend it anyone.",
-			stars: 5,
-		},
-		{
-			name: "Steely Dan",
-			text: "I loved it when I was chiropracted it felt great and better than anything I've ever felt before and I would recommend it anyone.",
-			stars: 5,
-		},
-		{
-			name: "Winnie Farlane-MacStollenzburg II",
-			text: "I loved it when I was chiropracted it felt great and better than anything I've ever felt before and I would recommend it anyone.",
-			stars: 5,
-		},
-	];
+	const [reviews, setReviews] = useState([]);
+
+	useEffect(() => {
+		(async () => {
+			const res = await fetch("/api/reviews");
+			const json = await res.json();
+			setReviews(json.reviews);
+		})();
+	}, []);
 
 	return (
 		<>
@@ -64,7 +24,7 @@ function Testimonials() {
 						<div className="bg-light border border-warm border-5">
 							<div id="carouselTestimonialSlides" className="carousel carousel-dark slide my-3" data-bs-ride="carousel">
 								<div className="carousel-indicators">
-									{testimonials.map((slide, index) => (
+									{reviews.map((slide, index) => (
 										<button
 											key={index}
 											type="button"
@@ -77,7 +37,7 @@ function Testimonials() {
 									))}
 								</div>
 								<div className="carousel-inner">
-									{testimonials.map((testimonial, index) => (
+									{reviews.map((testimonial, index) => (
 										<div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
 											<div className="px-lg-5 d-flex align-items-center" style={{ minHeight: "500px" }}>
 												<div className="px-lg-5">
@@ -88,12 +48,22 @@ function Testimonials() {
 														<div className="fs-3">
 															<figure>
 																<blockquote className="blockquote">
-																	<em>{testimonial.text}</em>
+																	<em>{testimonial.text.text}</em>
 																</blockquote>
-																<figcaption className="ms-lg-5 ms-3 mt-lg-3 blockquote-footer">{testimonial.name}</figcaption>
+																<div className="d-flex align-items-center">
+																<figcaption className="ms-lg-5 ms-3 mt-lg-3 blockquote-footer">
+																	{testimonial.authorAttribution.displayName}
+																	<br></br>
+																	<em className="fs-5">{testimonial.relativePublishTimeDescription}</em>
+																</figcaption>
+																<div className="ms-5">
+																	<a href={testimonial.googleMapsUri} target="_blank"><img width="50" src={google}></img></a>
+																</div>
+																</div>
+
 																<div className="ms-lg-3">
 																	<div className="d-flex">
-																		{new Array(testimonial.stars).fill(0).map((it, index) => (
+																		{new Array(testimonial.rating).fill(0).map((it, index) => (
 																			<div key={index}>
 																				<FontAwesomeIcon className="fs-3 text-warning" icon={solid("star")} />
 																			</div>
