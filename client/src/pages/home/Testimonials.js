@@ -2,7 +2,7 @@ import PageHeader from "../../components/PageHeader";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
-import google from "../../images/new-imgs/google.png"
+import google from "../../images/new-imgs/google.png";
 
 function Testimonials() {
 	const [reviews, setReviews] = useState([]);
@@ -50,15 +50,17 @@ function Testimonials() {
 																<blockquote className="blockquote">
 																	<em>{testimonial.text.text}</em>
 																</blockquote>
-																<div className="d-flex align-items-center">
-																<figcaption className="ms-lg-5 ms-3 mt-lg-3 blockquote-footer">
-																	{testimonial.authorAttribution.displayName}
-																	<br></br>
-																	<em className="fs-5">{testimonial.relativePublishTimeDescription}</em>
-																</figcaption>
-																<div className="ms-5">
-																	<a href={testimonial.googleMapsUri} target="_blank"><img width="50" src={google}></img></a>
-																</div>
+																<div className="d-flex align-items-center ms-lg-5 ms-3">
+																	<div className="me-4">
+																		<a href={testimonial.googleMapsUri} target="_blank">
+																			<img width="50" src={google}></img>
+																		</a>
+																	</div>
+																	<figcaption className="blockquote-footer mt-3">
+																		{testimonial.authorAttribution.displayName}
+																		<br></br>
+																		<em className="fs-5">{testimonial.relativePublishTimeDescription}</em>
+																	</figcaption>
 																</div>
 
 																<div className="ms-lg-3">
