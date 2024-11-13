@@ -44,7 +44,7 @@ function WhatWeDo() {
 							alt="Chiropractor Austin Everill standing and smiling"
 						></img>
 					</div>
-					<p className="fs-4 fw-bold mt-1">Dr Austin Everill - MChiro DC</p>
+					<p className="fs-4 fw-bold mt-1">Doctor Austin Everill - MChiro DC</p>
 				</div>
 			</div>
 		</div>

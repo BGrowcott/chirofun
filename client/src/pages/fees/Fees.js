@@ -30,7 +30,7 @@ function Fees() {
                 <div className="p-md-3">
                     <PageHeader text={"Fees"}></PageHeader>
 
-                    <div className="p-sm-3 p-1 pt-3 mt-1 bg-warm">
+                    <div className="p-sm-3 p-1 pt-3 mt-1 bg-warm shadow-inset">
                         <div className="row">
                             <div className="col-12 mb-3">
                                 <div className="p-1 p-md-3 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>

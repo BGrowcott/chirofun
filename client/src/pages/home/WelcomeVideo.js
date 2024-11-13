@@ -3,7 +3,7 @@ import vid from "../../images/new-imgs/welVid.mp4";
 function WelcomeVideo() {
 	return (
 		<>
-			<div className="p-lg-5 p-3">
+			<div className="p-3">
 				<div className="d-flex justify-content-center">
 					<video controls className="mw-100 shadow white-border">
 						<source src={vid} type="video/mp4" />

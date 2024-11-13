@@ -6,7 +6,7 @@ function WhatWeDoTabs({therapyTypes}){
         <div>
             <ul className="nav nav-tabs" id="myTab" role="tablist">
                 {therapyTypes.map((it, index) => (
-                    <li className="nav-item rounded-0" role="presentation" style={{ width: "25%" }}>
+                    <li className="nav-item rounded-0" role="presentation" style={{ width: "25%" }} key={it.title}>
                         <button
                             className={`p-2 rounded-0 nav-link ${index === 0 ? "active" : ""}`}
                             id={`${it.therapyTypeCode}-tab`}
@@ -36,7 +36,8 @@ function WhatWeDoTabs({therapyTypes}){
                         id={it.therapyTypeCode}
                         role="tabpanel"
                         aria-labelledby={`${it.therapyTypeCode}-tab`}
-                        tabindex={index}
+                        tabIndex={index}
+                        key={it.title}
                     >
                         <div className="p-1">
                             <WhatWeDoContent it={it}></WhatWeDoContent>

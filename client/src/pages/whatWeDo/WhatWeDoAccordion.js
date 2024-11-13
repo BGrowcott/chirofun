@@ -6,7 +6,7 @@ function WhatWeDoAccordion({ therapyTypes }) {
             <div className="accordion" id="accordionWhatWeDo">
                 {therapyTypes.map((it, index) => {
                     return (
-                        <div className="accordion-item">
+                        <div className="accordion-item" key={it.title}>
                             <h2 className="accordion-header">
                                 <a href="#head" className="text-decoration-none">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={`#accord-${it.therapyTypeCode}`} aria-expanded="false" aria-controls={`accord-${it.therapyTypeCode}`}>

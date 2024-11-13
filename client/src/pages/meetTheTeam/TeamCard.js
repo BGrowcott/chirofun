@@ -37,7 +37,7 @@ function TeamCard({ teamMember }) {
 
                             <div className="col-12 col-lg-5 p-0">
                                 <div className="">
-                                    <img className="img-fluid max-width" src={image}></img>
+                                    <img className="img-fluid max-width border border-4" src={image}></img>
                                 </div>
                             </div>
                         </div>

@@ -16,7 +16,6 @@ import WhatWeDoTabs from "./WhatWeDoTabs";
 import WhatWeDoAccordion from "./WhatWeDoAccordion";
 
 function WhatWeDo() {
-
     useEffect(() => {
         document.title = "Birmingham Chiropractic - What We Do";
     }, []);
@@ -29,8 +28,8 @@ function WhatWeDo() {
                     <div>
                         <p>
                             Chiropractors are best known for manual treatments such as spinal manipulation, where they use their hands to free stiff or restricted joints, or mobilisation, which is the
-                            gradual moving of joints. But they may also use other recommended treatments such as certain types of acupuncture, electrotherapy, stretching exercises and rehabilitation,
-                            all of which form part of a chiropractor's package of care. Your chiropractor may also offer lifestyle advice to help recovery and to prevent repeated episodes of back
+                            gradual moving of joints. They may also use other recommended treatments such as certain types of acupuncture, electrotherapy, stretching exercises, and rehabilitation, all
+                            of which form part of a chiropractor's <em>package of care</em>. Your chiropractor may also offer lifestyle advice to help recovery and prevent repeated episodes of back
                             pain.
                         </p>
                     </div>
@@ -38,14 +37,11 @@ function WhatWeDo() {
                 p2: (
                     <div>
                         <p>
-                            If your chiropractor does not think you can be helped by chiropractic treatment, you may be referred back to your GP or to another health professional. Chiropractors do not
+                            If your chiropractor does not think you can be helped by chiropractic treatment, you may be referred to your GP or another health professional. Chiropractors do not
                             prescribe medication, so if this is needed, you may be referred back to your GP. As chiropractors support a joined-up approach to care, they may ask if they can send a
                             brief report to your GP.
                         </p>
-                        <p>
-                            The use of the title Chiropractor is statutorily regulated and thus protected by law. This means that Chiropractors have to be registered with The General Chiropractic
-                            council.
-                        </p>
+                        <p>The title <strong>Chiropractor</strong> is statutorily regulated and thus protected by law. This means that Chiropractors must be registered with The General Chiropractic Council.</p>
                         <div>
                             For more information:
                             <ul className="mt-2 fw-bold">
@@ -165,7 +161,7 @@ function WhatWeDo() {
             <div className="container-xxl">
                 <div className="p-md-3">
                     <PageHeader text={"What We Do"}></PageHeader>
-                    <div className="bg-warm p-sm-3 p-1 py-3 mt-1">
+                    <div className="bg-warm p-sm-3 p-1 py-3 mt-1 shadow-inset">
                         <div className="d-none d-lg-block">
                             <WhatWeDoTabs therapyTypes={therapyTypes}></WhatWeDoTabs>
                         </div>
