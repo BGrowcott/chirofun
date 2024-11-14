@@ -4,18 +4,27 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import google from "../../images/new-imgs/google.png";
 import reviewsJson from "../../utils/reviews.json" // incase api call to google fails
+import { useGlobalContext } from "../../utils/GlobalState";
+import { LOAD_REVIEWS } from "../../utils/actions";
 
 function Testimonials() {
+
+	const [state, dispatch] = useGlobalContext();
 	const [reviews, setReviews] = useState(reviewsJson);
 
 	useEffect(() => {
+		if (state.reviews.length) { // if reviews exists in the global context we don't need to call the api again
+			setReviews([...state.reviews]);
+			return;
+		}
+
 		(async () => {
 			try {
 				const res = await fetch("/api/reviews");
 				const json = await res.json();
+				dispatch({type: LOAD_REVIEWS, reviews: [...json.reviews]});
 				setReviews(json.reviews);
 			} catch (error) {
-
 			}
 		})();
 	}, []);

@@ -41,11 +41,11 @@ function Fees() {
                                         <div className="row">
                                             <div className="col-12 col-lg-5">
                                                 <div className="d-none d-lg-block">
-                                                    <img className="w-100" src={building}></img>
+                                                    <img className="w-100 border border-5" src={building}></img>
                                                 </div>
                                             </div>
                                             <div className="col-12 col-lg-7" style={{ backgroundColor: "#F0EFEF" }}>
-                                                <p className="fs-2 fw-bold">Exclusive £49 Introductory Offer Includes:</p>
+                                                <p className="fs-2 fw-bold">£55 Consultation & Treatment Includes:</p>
                                                 <ul className="fs-5 text-black list-group list-group-flush">
                                                     {firstExamList.map((it) => (
                                                         <li className="ms-2 py-2" key={it} style={{ listStyleType: "none" }}>
@@ -71,7 +71,7 @@ function Fees() {
                             <div className="col-12 col-md-6 mb-3 mb-md-0">
                                 <div className="p-3 h-100 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
                                     <div className="mb-2">
-                                        <img className="img-fluid" src={therapy2}></img>
+                                        <img className="img-fluid border border-5" src={therapy2}></img>
                                     </div>
                                     <h3 className="h1 josefinSans-text text-dark">Existing Patient</h3>
                                     <p className="fs-3 fw-bold">£40</p>
@@ -81,7 +81,7 @@ function Fees() {
                             <div className="col">
                                 <div className="p-3 h-100 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
                                     <div className="mb-2">
-                                        <img className="img-fluid" src={therapy3}></img>
+                                        <img className="img-fluid border border-5" src={therapy3}></img>
                                     </div>
                                     <h3 className="h1  josefinSans-text text-dark">Returning Patient</h3>
                                     <p className="fs-3 fw-bold">£45</p>

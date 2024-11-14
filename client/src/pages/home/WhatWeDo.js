@@ -16,7 +16,7 @@ function WhatWeDo() {
 							Fast results.<br></br>
 						</p>
 						<p className="fs-4">
-							Experience personalised care with our chiropractor-led treatments. We offer comprehensive spinal manipulative techniques, hands-on
+							<span>Experience personalised care with our chiropractor-led treatments.</span> We offer comprehensive spinal manipulative techniques, hands-on
 							therapies, specialised treatments, and effective postural correction to help you <span className="fw-bold">feel your best.</span>
 						</p>
 						<div className="row align-items-center">
