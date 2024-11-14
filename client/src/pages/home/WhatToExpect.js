@@ -44,7 +44,7 @@ function WhatToExpect() {
 					{nodes.map((it, index, array) => {
 						return (
 							<div key={it.title} className="col-12 col-lg-6 col-xl-3 border p-0">
-								<div>
+								<div className="bg-white">
 									<div className="bg-light text-center fw-bold p-2 fs-5 mb-2">{it.title} {it.icon}</div>
 									<div
 										style={{

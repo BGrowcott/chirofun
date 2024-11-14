@@ -42,7 +42,7 @@ function Main() {
 
 	return (
 		<main>
-			<div className="d-none d-md-block">
+			<aside className="d-none d-md-block">
 				<div
 					className="position-fixed z-1 floating-button"
 					style={{
@@ -61,7 +61,7 @@ function Main() {
 						Book Now
 					</a>
 				</div>
-			</div>
+			</aside>
 
 			<Routes>
 				<Route path="/" element={<Home />} />

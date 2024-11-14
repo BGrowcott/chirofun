@@ -12,8 +12,8 @@ function MapAndOpeningTimesFoot() {
                     {/* <hr></hr> */}
                     <div className="col-12 col-lg-3 col-xl-3">
                         <div className="text-center">
-                            <div className="card bg-dark">
-                                <div className="card-header click-sm" data-bs-toggle="collapse" data-bs-target="#openingHoursList">
+                            <div className="card bg-dark border-0">
+                                <div className="card-header click-sm bg-dark" data-bs-toggle="collapse" data-bs-target="#openingHoursList">
                                     <div className="fw-bold fs-4 text-lg-start text-white">
                                         <span className="d-none d-lg-inline"><FontAwesomeIcon className="fs-3" icon={solid("clock")} /></span> 
                                         <span className="mx-3">Opening Hours</span>
@@ -64,6 +64,7 @@ function MapAndOpeningTimesFoot() {
                         </div>
                     </div>
                     <div className="col-12 col-lg-12 col-xl-3">
+                        <div className="m-2 fw-bold fs-4 text-lg-end text-white"><span><FontAwesomeIcon className="fs-3" icon={solid("map-location-dot")} /></span> Address</div>
                         <div className="d-flex flex-column text-xl-end fs-5" style={{ color: "#f9f7f7" }}>
                             <div>
                                 <p>

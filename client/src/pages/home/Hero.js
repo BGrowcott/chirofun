@@ -2,7 +2,7 @@ import hero2 from "../../images/hero2.5.jpg";
 
 function Hero() {
   return (
-    <div className="hero position-relative mb-5">
+    <section className="hero position-relative mb-5">
       <div
         className="hero-img"
         style={{ backgroundImage: `url(${hero2})` }}
@@ -56,7 +56,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

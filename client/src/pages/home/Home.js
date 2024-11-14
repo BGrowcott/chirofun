@@ -12,6 +12,7 @@ import MapAndOpeningTimes from "./MapAndOpeningTimes";
 import WelcomeVideo from "./WelcomeVideo";
 import Testimonials from "./Testimonials";
 import WhatToExpect from "./WhatToExpect";
+import MigraineTreatment from "./MigraineTreatment";
 // import NewPatient from "../components/NewPatient";
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
             <div className="home-container">
                 <WhatWeDo></WhatWeDo>
 
+                <MigraineTreatment></MigraineTreatment>
                 {/* <WelcomeVideo></WelcomeVideo> */}
 
                 <WhatWeTreat></WhatWeTreat>
