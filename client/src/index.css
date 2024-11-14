@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Golos+Text&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 #root {
   min-height: 100vh;
@@ -23,7 +24,7 @@ main {
 }
 
 .josefinSans-text {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Inter", "Josefin Sans", sans-serif;
 }
 
 .about-header {
@@ -73,7 +74,7 @@ main {
 }
 
 .hero-header-font {
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 
 @media screen and (max-width: 768px) {
@@ -103,6 +104,10 @@ main {
 
 .shadow-strong {
   box-shadow: 2px 2px 6px 1px black;
+}
+
+.nav-link.active {
+  transition: 0.5s;
 }
 
 .hero-img {

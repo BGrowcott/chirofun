@@ -14,7 +14,7 @@ function WhatWeDoAccordion({ therapyTypes }) {
                                 </button></a>
                             </h2>
                             <div id={`accord-${it.therapyTypeCode}`} className={`accordion-collapse collapse`} data-bs-parent="#accordionWhatWeDo">
-                                <div className="accordion-body">
+                                <div className="accordion-body p-2 p-md-4">
                                     <WhatWeDoContent it={it}></WhatWeDoContent>
                                 </div>
                             </div>

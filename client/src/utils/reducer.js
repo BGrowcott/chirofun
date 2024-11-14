@@ -1,20 +1,25 @@
 import { useReducer } from "react";
-import { SHOW_MODAL_EXAMPLE } from "./actions";
+import { LOAD_REVIEWS, SHOW_MODAL_EXAMPLE } from "./actions";
 
 export const reducer = (state, action) => {
-  switch (action.type) {
+	switch (action.type) {
+		case SHOW_MODAL_EXAMPLE:
+			return {
+				...state,
+				setModalExample: !state.setModalExample,
+			};
 
-    case SHOW_MODAL_EXAMPLE:
-      return {
-        ...state,
-        setModalExample: !state.setModalExample,
-      };
+		case LOAD_REVIEWS:
+			return {
+				...state,
+				reviews: [...action.reviews],
+			};
 
-    default:
-      return state;
-  }
+		default:
+			return state;
+	}
 };
 
 export function useGlobalReducer(initialState) {
-  return useReducer(reducer, initialState);
+	return useReducer(reducer, initialState);
 }
