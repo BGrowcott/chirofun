@@ -32,7 +32,7 @@ const Home = () => {
 
                 <WhatWeTreat></WhatWeTreat>
 
-                <WhatToExpect></WhatToExpect>
+                {/* <WhatToExpect></WhatToExpect> */}
 
                 {/* <WhatWeDoNav></WhatWeDoNav> */}
 
