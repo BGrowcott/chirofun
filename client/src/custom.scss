@@ -13,3 +13,19 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import '~bootstrap/scss/bootstrap.scss';
+
+.we-do-h3 {
+    font-size: 3em;
+    border-bottom: 4px solid $warm;
+  }
+
+  .border-10 {
+    --bs-border-width: 10px;
+  }
+
+  @media (max-width: 575.98px) { 
+    .we-do-h3 {
+        font-size: 2.4em;
+        border-bottom: 4px solid $warm;
+      }
+   }

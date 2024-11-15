@@ -7,7 +7,7 @@ function MigraineTreatment() {
 				<div className="row">
 					<div className="col-12 col-lg-6 d-flex justify-content-center">
 						<div className="rounded d-flex flex-column justify-content-center ">
-							<h3 className="we-do-h3 fw-bold py-3 josefinSans-text text-dark">Migraine Treatment</h3>
+							<h3 className="we-do-h3 fw-bold josefinSans-text text-dark">Migraine Treatment</h3>
 							<p className="fs-3 lh-lg fw-bold mb-3 mb-lg-3">Can a chiropractor treat migraines?</p>
 							<div className="fs-4">
 								<p>
