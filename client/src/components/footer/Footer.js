@@ -13,7 +13,7 @@ const Footer = () => {
                     Start Feeling Better Today!
                 </a>
             </div>
-            <div className="bg-dark p-lg-4 border-top border-bottom border-5 border-secondary shadow-inset">
+            <div className="bg-dark p-lg-4 border-top border-bottom border-10 border-secondary shadow-inset">
                 <div className="container-fluid">
                     <div className="row text-center align-items-center">
                         <div className="col-12">

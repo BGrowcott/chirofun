@@ -31,11 +31,11 @@ function Testimonials() {
 
 	return (
 		<>
-			<div className="bg-dark border-top border-bottom border-5 border-secondary shadow-inset">
+			<div className="">
 				<div className="container-md">
 					<div className="py-2 py-lg-5">
-						<h3 className="we-do-h3 fw-bold py-3 josefinSans-text text-light">Testimonials</h3>
-						<div className="bg-light border border-warm border-5 shadow-inset">
+						<h3 className="we-do-h3 fw-bold josefinSans-text text-dark">Testimonials</h3>
+						<div className="bg-light border border-secondary border-5 shadow-inset">
 							<div id="carouselTestimonialSlides" className="carousel carousel-dark slide my-3" data-bs-ride="carousel">
 								<div className="carousel-indicators">
 									{reviews.map((slide, index) => (

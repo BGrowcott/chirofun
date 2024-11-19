@@ -75,7 +75,6 @@ function Fees() {
                                     </div>
                                     <h3 className="h1 josefinSans-text text-dark">Existing Patient</h3>
                                     <p className="fs-3 fw-bold">£40</p>
-                                    <p className="fs-4">15 minutes chiropractic appointment </p>
                                 </div>
                             </div>
                             <div className="col">
@@ -85,7 +84,7 @@ function Fees() {
                                     </div>
                                     <h3 className="h1  josefinSans-text text-dark">Returning Patient</h3>
                                     <p className="fs-3 fw-bold">£45</p>
-                                    <p className="fs-4">If we haven't seen you in two+ years, we will need a longer appointment time of 30 minutes.</p>
+                                    <p className="fs-4">If we haven't seen you in two or more years.</p>
                                 </div>
                             </div>
                         </div>

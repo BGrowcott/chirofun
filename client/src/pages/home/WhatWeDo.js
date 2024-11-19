@@ -16,8 +16,9 @@ function WhatWeDo() {
 							Fast results.<br></br>
 						</p>
 						<p className="fs-4">
-							<span>Experience personalised care with our chiropractor-led treatments.</span> We offer comprehensive spinal manipulative techniques, hands-on
-							therapies, specialised treatments, and effective postural correction to help you <span className="fw-bold">feel your best.</span>
+							<span>Experience personalised care with our chiropractor-led treatments.</span> We offer comprehensive spinal manipulative
+							techniques, hands-on therapies, specialised treatments, and effective postural correction to help you{" "}
+							<span className="fw-bold">feel your best.</span>
 						</p>
 						<div className="row align-items-center">
 							<div className="col-12 col-xl-4 text-center">
@@ -36,15 +37,19 @@ function WhatWeDo() {
 					</div>
 				</div>
 				<div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-					<div className="white-border shadow">
-						<img
-							className="img-fluid austin-img"
-							style={{ border: "1px solid #ffffff87" }}
-							src={austin}
-							alt="Chiropractor Austin Everill standing and smiling"
-						></img>
-					</div>
-					<p className="fs-4 fw-bold mt-1">Doctor Austin Everill - MChiro DC</p>
+					<figure className="m-0">
+						<div className="white-border shadow">
+							<img
+								className="img-fluid austin-img"
+								style={{ border: "1px solid #ffffff87" }}
+								src={austin}
+								alt="Chiropractor Austin Everill standing and smiling"
+							></img>
+						</div>
+						<figcaption>
+							<p className="fs-4 fw-bold mt-1 text-center">Doctor Austin Everill - MChiro DC</p>
+						</figcaption>
+					</figure>
 				</div>
 			</div>
 		</div>
