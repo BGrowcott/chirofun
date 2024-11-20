@@ -2,7 +2,7 @@ import React from "react";
 import austin from "../../images/new-imgs/austin.jpg";
 
 function TeamCard({ teamMember }) {
-    const { title, summary, image, textHtml } = teamMember;
+    const { title, summary, image, textHtml, alt } = teamMember;
 
     return (
         <div className="shadow white-border" style={{ backgroundColor: "#F0EFEF" }}>
@@ -37,7 +37,7 @@ function TeamCard({ teamMember }) {
 
                             <div className="col-12 col-lg-5 p-0">
                                 <div className="">
-                                    <img className="img-fluid max-width border border-4" src={image}></img>
+                                    <img alt={alt} className="img-fluid max-width border border-4" src={image}></img>
                                 </div>
                             </div>
                         </div>

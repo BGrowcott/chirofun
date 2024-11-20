@@ -47,7 +47,7 @@ function Main() {
 					className="position-fixed z-1 floating-button"
 					style={{
 						transform: "rotate(270deg)",
-						right: -41,
+						right: -50,
 						top: "55%",
 						zIndex: "10"						
 					}}
@@ -58,7 +58,7 @@ function Main() {
 						className={`rounded-0 rounded-top btn btn-lg btn-warm`}
 						style={{boxShadow: "-2px -2px 7px black"}}
 					>
-						Book Now
+						Book Online
 					</a>
 				</div>
 			</aside>

@@ -70,6 +70,8 @@ function WhatWeDo() {
 			},
 			therapyTypeCode: "chiropractic",
 			image: chiropractic,
+			imageAlt: "",
+			image2Alt: "",
 			image2: chiropractic2,
 		},
 		{
@@ -103,6 +105,8 @@ function WhatWeDo() {
 			},
 			therapyTypeCode: "yoga",
 			image: yoga,
+			imageAlt: "",
+			image2Alt: "",
 			image2: yoga2,
 		},
 		{
@@ -135,6 +139,8 @@ function WhatWeDo() {
 			},
 			therapyTypeCode: "sportsMassage",
 			image: sportsMass,
+			imageAlt: "",
+			image2Alt: "",
 			image2: sportsMass2,
 		},
 		{
@@ -170,6 +176,8 @@ function WhatWeDo() {
 			},
 			therapyTypeCode: "orthotic",
 			image: orthotic3,
+			imageAlt: "",
+			image2Alt: "",
 			image2: orthotic4,
 		},
 	];

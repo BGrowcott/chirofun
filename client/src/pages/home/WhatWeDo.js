@@ -43,7 +43,7 @@ function WhatWeDo() {
 								className="img-fluid austin-img"
 								style={{ border: "1px solid #ffffff87" }}
 								src={austin}
-								alt="Chiropractor Austin Everill standing and smiling"
+								alt="Chiropractor Austin Everill standing and smiling. He is professional and confident."
 							></img>
 						</div>
 						<figcaption>

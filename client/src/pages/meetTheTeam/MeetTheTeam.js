@@ -21,6 +21,7 @@ function MeetTheTeam() {
 			title: "Dr Austin Everill - MChiro DC",
 			summary: "Align Your Spine, Elevate Your Health.",
 			image: austin,
+			alt: "Dr Austin Everill portrait, he is standing and smiling. His arms are crossed and he is wearing medical scrubs. He looks professional and approachable",
 			textHtml: (
 				<>
 					<p>
@@ -46,6 +47,7 @@ function MeetTheTeam() {
 			title: "Claire Corfield - Yoga Teacher",
 			summary: "Heal, Strengthen, Transform.",
 			image: claire,
+			alt: "Portrait of Claire Corfield. Claire is standing with her arms and crossed wearing a black top. She appears friendly and welcoming",
 			textHtml: (
 				<>
 					<p>
@@ -72,6 +74,7 @@ function MeetTheTeam() {
 			title: "Pete Mander - Sports Massage Therapist",
 			summary: "Relieve. Recover. Perform Better.",
 			image: adrian,
+			alt: "Portrait of Pete Mander. Pete is standing with his arms crossed, wearing a black top. Pete looks fit and sporty. He is smiling and looks friendly.",
 			textHtml: (
 				<>
 					<p>
