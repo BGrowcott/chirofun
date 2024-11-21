@@ -4,7 +4,7 @@ import AuthService from "../utils/AuthService";
 import { useGlobalContext } from "../utils/GlobalState";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { brands } from "@fortawesome/fontawesome-svg-core/import.macro";
-import logo from "../images/new-imgs/logo_curve.png";
+import logo from "../images/logo_curve.png";
 
 const Header = () => {
   const [state, dispatch] = useGlobalContext();

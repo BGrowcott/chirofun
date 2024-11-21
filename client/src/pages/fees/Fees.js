@@ -1,8 +1,7 @@
 import PageHeader from "../../components/PageHeader";
-import therapy from "../../images/new-imgs/therapy44.jpg";
-import therapy2 from "../../images/new-imgs/therapy2.jpg";
-import therapy3 from "../../images/new-imgs/IMG_2727.jpeg";
-import building from "../../images/new-imgs/building-sign.jpg";
+import therapy2 from "../../images/therapy2.jpg";
+import therapy3 from "../../images/IMG_2727.jpeg";
+import building from "../../images/building-sign.jpg";
 import { regular, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";

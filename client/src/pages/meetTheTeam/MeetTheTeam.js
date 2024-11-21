@@ -1,12 +1,7 @@
-import austin from "../../images/new-imgs/austinFull.jpg";
-import claire from "../../images/new-imgs/Claire.jpg";
-import adrian from "../../images/new-imgs/Adrian.jpg";
+import austin from "../../images/austinFull.jpg";
+import claire from "../../images/Claire.jpg";
+import adrian from "../../images/Adrian.jpg";
 import TeamCard from "./TeamCard";
-import bg1 from "../../images/bg.png"
-import bg2 from "../../images/bg2.png"
-import bg3 from "../../images/bg3.png"
-import bg4 from "../../images/BG4.png"
-import bg5 from "../../images/bg5.png"
 import React, { useEffect } from "react";
 
 import PageHeader from "../../components/PageHeader";

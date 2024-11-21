@@ -1,5 +1,4 @@
 import React from "react";
-import austin from "../../images/new-imgs/austin.jpg";
 
 function TeamCard({ teamMember }) {
     const { title, summary, image, textHtml, alt } = teamMember;

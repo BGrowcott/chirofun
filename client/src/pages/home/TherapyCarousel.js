@@ -1,9 +1,8 @@
-import therapy from "../../images/new-imgs/therapy.jpg";
-import therapy7 from "../../images/new-imgs/therapy7.jpg";
-import therapy3 from "../../images/new-imgs/therapy3.jpg";
-import therapy4 from "../../images/new-imgs/therapy4.jpg";
-import therapy5 from "../../images/new-imgs/therapy5.jpg";
-import therapy6 from "../../images/new-imgs/therapy6.jpg";
+import therapy7 from "../../images/therapy7.jpg";
+import therapy3 from "../../images/therapy3.jpg";
+import therapy4 from "../../images/therapy4.jpg";
+import therapy5 from "../../images/therapy5.jpg";
+import therapy6 from "../../images/therapy6.jpg";
 
 function TherapyCarousel() {
 	const slides = [

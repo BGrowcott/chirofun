@@ -1,16 +1,13 @@
 import React, { useState, useEffect } from "react";
-import chiropractic from "../../images/new-imgs/whatWeChiro.jpeg";
-import chiropractic2 from "../../images/new-imgs/therapy3.jpg";
-import yoga from "../../images/new-imgs/whatWeYoga.jpeg";
-import yoga2 from "../../images/new-imgs/yoga2.jpeg";
-import orthotic from "../../images/new-imgs/ortho.jpeg";
-import orthotic2 from "../../images/new-imgs/ortho2.jpg";
-import orthotic3 from "../../images/new-imgs/ortho3.jpg";
-import orthotic4 from "../../images/new-imgs/ortho4.jpg";
-//import sportsRem from "../../images/new-imgs/sportmass.jpeg";
-import sportsMass from "../../images/new-imgs/whatWeSportsMass.jpg";
-import sportsMass2 from "../../images/new-imgs/sportsmass2.jpg";
-import TherapyInfo from "./TherapyInfo";
+import chiropractic from "../../images/whatWeChiro.jpeg";
+import chiropractic2 from "../../images/therapy3.jpg";
+import yoga from "../../images/whatWeYoga.jpeg";
+import yoga2 from "../../images/yoga2.jpeg";
+import orthotic3 from "../../images/ortho3.jpg";
+import orthotic4 from "../../images/ortho4.jpg";
+//import sportsRem from "../../images/sportmass.jpeg";
+import sportsMass from "../../images/whatWeSportsMass.jpg";
+import sportsMass2 from "../../images/sportsmass2.jpg";
 import PageHeader from "../../components/PageHeader";
 import WhatWeDoTabs from "./WhatWeDoTabs";
 import WhatWeDoAccordion from "./WhatWeDoAccordion";
@@ -70,8 +67,8 @@ function WhatWeDo() {
 			},
 			therapyTypeCode: "chiropractic",
 			image: chiropractic,
-			imageAlt: "",
-			image2Alt: "",
+			imageAlt: "Chiropractor demostrates spinal manipulation",
+			image2Alt: "Dr Austin Everill demonstrates spinal manipulation in his clinic.",
 			image2: chiropractic2,
 		},
 		{
@@ -105,8 +102,8 @@ function WhatWeDo() {
 			},
 			therapyTypeCode: "yoga",
 			image: yoga,
-			imageAlt: "",
-			image2Alt: "",
+			imageAlt: "Demonstration of Three-Legged Downward Dog, also known as Tri Pada Adho Mukha Svanasana",
+			image2Alt: "Demonstration of The side plank pose, also known as Vasisthasana, is a balancing yoga pose that strengthens the core and shoulders.",
 			image2: yoga2,
 		},
 		{
@@ -139,8 +136,8 @@ function WhatWeDo() {
 			},
 			therapyTypeCode: "sportsMassage",
 			image: sportsMass,
-			imageAlt: "",
-			image2Alt: "",
+			imageAlt: "Demonstration of a sports massage. The masseur is shown massaging the calf muscle.",
+			image2Alt: "Demonstration of a sports massage. The masseur is shown massaging the neck.",
 			image2: sportsMass2,
 		},
 		{
@@ -176,8 +173,8 @@ function WhatWeDo() {
 			},
 			therapyTypeCode: "orthotic",
 			image: orthotic3,
-			imageAlt: "",
-			image2Alt: "",
+			imageAlt: "A persons feet wearing white trainers.",
+			image2Alt: "Demonstration of a orthotics being fitted",
 			image2: orthotic4,
 		},
 	];

@@ -1,6 +1,5 @@
-import austin from "../../images/new-imgs/austin.jpg";
-import gccReg from "../../images/new-imgs/gccReg.png";
-import building from "../../images/new-imgs/building-sign.jpg";
+import austin from "../../images/austin.jpg";
+import gccReg from "../../images/gccReg.png";
 
 function WhatWeDo() {
 	return (

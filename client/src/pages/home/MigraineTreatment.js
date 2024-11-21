@@ -1,4 +1,4 @@
-import migrainePoster from "../../images/new-imgs/migrainePoster.jpeg";
+import migrainePoster from "../../images/migrainePoster.jpeg";
 
 function MigraineTreatment() {
 	return (

@@ -13,7 +13,7 @@
 
 body {
 overflow-y: scroll;
-background: url(./images/new-imgs/chevronbg.svg) 110% 0 repeat-y;
+background: url(./images/chevronbg.svg) 110% 0 repeat-y;
 background-size: auto 768px;
 min-height: 100vh;
 }
