@@ -1,6 +1,5 @@
-import austin from "../../images/new-imgs/austin.jpg";
-import gccReg from "../../images/new-imgs/gccReg.png";
-import building from "../../images/new-imgs/building-sign.jpg";
+import austin from "../../images/austin.jpg";
+import gccReg from "../../images/gccReg.png";
 
 function WhatWeDo() {
 	return (
@@ -43,7 +42,7 @@ function WhatWeDo() {
 								className="img-fluid austin-img"
 								style={{ border: "1px solid #ffffff87" }}
 								src={austin}
-								alt="Chiropractor Austin Everill standing and smiling"
+								alt="Chiropractor Austin Everill standing and smiling. He is professional and confident."
 							></img>
 						</div>
 						<figcaption>

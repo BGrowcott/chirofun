@@ -1,38 +1,32 @@
-import migrainePoster from "../../images/new-imgs/migrainePoster.jpeg";
+import migrainePoster from "../../images/migrainePoster.jpeg";
+import migraineImage1 from "../../images/migraine1.jpg";
 
 function MigraineTreatment() {
 	return (
-		<section className="container-md" >
+		<section className="container-md">
 			<div className="py-2 py-lg-5">
 				<div className="row">
 					<div className="col-12 col-lg-6 d-flex justify-content-center">
 						<div className="rounded d-flex flex-column justify-content-center ">
-							<h3 className="we-do-h3 fw-bold josefinSans-text text-dark">Migraine Treatment</h3>
-							<p className="fs-3 lh-lg fw-bold mb-3 mb-lg-3">Can a chiropractor treat migraines?</p>
+							<h3 className="we-do-h3 fw-bold josefinSans-text text-dark">Say Goodbye to Migraines</h3>
+							<p className="fs-3 lh-lg fw-bold mb-3 mb-lg-3">Are you struggling with chronic migraines?</p>
 							<div className="fs-4">
 								<p>
-									Chiropractors can help treat migraines by using spinal adjustments, particularly focusing on the neck and upper spine. These
-									adjustments aim to improve spinal function, relieve tension, and reduce nerve irritation, which can sometimes contribute to
-									migraine symptoms.
+									We offer the latest, clinically proven treatment recommended by <strong>The NICE Institute</strong> (National Institute of
+									Clinical Excellence). Using Type A Botox injections, this new technique reduces the hyperactivity of specific nerves that
+									cause a migraine.
 								</p>
 								<p>
-									Many patients report reduced frequency or intensity of migraines with chiropractic care, though results can vary. It's best
-									to consult with both a chiropractor and a medical doctor to determine if this treatment approach is suitable for your
-									specific case.
+									This safe and effective procedure involves using fine needles administered by our highly trained and qualified staff. Our
+									clinic prioritises your health and comfort, striving to make this cutting-edge treatment affordable and accessible. Don't
+									let migraines control your life - take the first step towards relief today.
 								</p>
-							</div>
-							<div className="fw-bold fs-4 ms-5">
-								<div>
-									<a className="text-dark" href="#">- Link to source 1</a>
-								</div>
-								<div>
-									<a className="text-dark" href="#">- Link to source 2</a>
-								</div>
+								<p className="fw-bold">Book your consultation now and experience the difference!</p>
 							</div>
 						</div>
 					</div>
 					<div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-						<img className="img-fluid white-border shadow" src={migrainePoster}></img>
+						<img className="img-fluid white-border shadow" src={migraineImage1} alt="A woman holds her head in pain as she experiences a migraine."></img>
 					</div>
 				</div>
 			</div>

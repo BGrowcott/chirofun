@@ -1,11 +1,6 @@
 import React, { useEffect } from "react";
-
-import cert1 from "../../images/ClinicFiveStarTreatment.png";
-import cert2 from "../../images/BestRatedBirm.jpg";
-import cert3 from "../../images/GCC-Registered_black.png";
 import Hero from "./Hero";
 import WhatWeDo from "./WhatWeDo";
-import WhatWeDoNav from "./WhatWeDoNav";
 import TherapyCarousel from "./TherapyCarousel";
 import WhatWeTreat from "./WhatWeTreat";
 import MapAndOpeningTimes from "./MapAndOpeningTimes";
@@ -13,7 +8,6 @@ import WelcomeVideo from "./WelcomeVideo";
 import Testimonials from "./Testimonials";
 import WhatToExpect from "./WhatToExpect";
 import MigraineTreatment from "./MigraineTreatment";
-// import NewPatient from "../components/NewPatient";
 
 const Home = () => {
     useEffect(() => {

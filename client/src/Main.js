@@ -8,38 +8,6 @@ import PrivacyPolicy from "./pages/privacyPolicy/PrivacyPolicy";
 import PageNotFound from "./components/PageNotFound";
 
 function Main() {
-	// const [buttonBgColour, setButtonColour] = useState("btn-dark");
-	// const [buttonFontSize, setButtonFontSize] = useState("");
-	// const [buttonFontColour, setButtonFontColour] = useState("");
-
-	// useEffect(() => {
-	// 	// Find carousel/blue section
-	// 	const handleScroll = () => {
-	// 		const blueSection = document.querySelector(".carousel-section");
-	// 		const button = document.querySelector(".floating-button");
-
-	// 		if (!blueSection || !button) return;
-
-	// 		// get coordinates of top edge
-	// 		const blueSectionRect = blueSection.getBoundingClientRect();
-	// 		const buttonRect = button.getBoundingClientRect();
-
-	// 		// check if position of button top/bottom edge matches blue section top/bottom edge and update state
-	// 		if (buttonRect.top >= blueSectionRect.top && buttonRect.bottom <= blueSectionRect.bottom) {
-	// 			setButtonColour("bg-light");
-	// 			setButtonFontColour("text-dark");
-	// 			setButtonFontSize("fw-bold");
-	// 		} else {
-	// 			setButtonColour("btn-dark");
-	// 			setButtonFontColour("text-light");
-	// 			setButtonFontSize("fw-normal");
-	// 		}
-	// 	};
-
-	// 	window.addEventListener("scroll", handleScroll);
-	// 	return () => window.removeEventListener("scroll", handleScroll);
-	// }, []);
-
 	return (
 		<main>
 			<aside className="d-none d-md-block">
@@ -47,18 +15,18 @@ function Main() {
 					className="position-fixed z-1 floating-button"
 					style={{
 						transform: "rotate(270deg)",
-						right: -41,
+						right: -51,
 						top: "55%",
-						zIndex: "10"						
+						zIndex: "10",
 					}}
 				>
 					<a
 						target="_blank"
 						href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
 						className={`rounded-0 rounded-top btn btn-lg btn-warm`}
-						style={{boxShadow: "-2px -2px 7px black"}}
+						style={{ boxShadow: "-2px -2px 7px black" }}
 					>
-						Book Now
+						Book Online
 					</a>
 				</div>
 			</aside>
@@ -69,7 +37,7 @@ function Main() {
 				<Route path="/the-team" element={<MeetTheTeam />} />
 				<Route path="/what-we-do" element={<WhatWeDo />} />
 				<Route path="/privacy-policy" element={<PrivacyPolicy />} />
-				<Route path="/*" element={<PageNotFound/>}/>
+				<Route path="/*" element={<PageNotFound />} />
 			</Routes>
 		</main>
 	);

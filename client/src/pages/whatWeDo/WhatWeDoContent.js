@@ -9,7 +9,7 @@ function WhatWeDoContent({ it }) {
                         </div>
                         <div className="col-12 col-xl-6">
                             <div className="">
-                                <img className="img-fluid white-border shadow" src={it.image2}></img>
+                                <img className="img-fluid white-border shadow" src={it.image2} alt={it.image2Alt}></img>
                             </div>
                         </div>
                     </div>
@@ -18,7 +18,7 @@ function WhatWeDoContent({ it }) {
                 <div className="d-none d-lg-block">
                     <div className="m-3" style={{ float: "right", width: "50%" }}>
                         <div >
-                            <img className="img-fluid white-border shadow" src={it.image2}></img>
+                            <img className="img-fluid white-border shadow" src={it.image2} alt={it.image2Alt}></img>
                         </div>
                     </div>
                     <div>{it.text.p1}</div>

@@ -1,8 +1,7 @@
-import PageHeader from "../../components/PageHeader";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
-import google from "../../images/new-imgs/google.png";
+import google from "../../images/google.png";
 import reviewsJson from "../../utils/reviews.json" // incase api call to google fails
 import { useGlobalContext } from "../../utils/GlobalState";
 import { LOAD_REVIEWS } from "../../utils/actions";
@@ -33,7 +32,7 @@ function Testimonials() {
 		<>
 			<div className="">
 				<div className="container-md">
-					<div className="py-2 py-lg-5">
+					<div className="py-3 py-lg-5">
 						<h3 className="we-do-h3 fw-bold josefinSans-text text-dark">Testimonials</h3>
 						<div className="bg-light border border-secondary border-5 shadow-inset">
 							<div id="carouselTestimonialSlides" className="carousel carousel-dark slide my-3" data-bs-ride="carousel">
@@ -76,13 +75,11 @@ function Testimonials() {
 																		<em className="fs-5">{testimonial.relativePublishTimeDescription}</em>
 																	</figcaption>
 																</div>
-
 																<div className="ms-lg-3">
 																	<div className="d-flex">
 																		{new Array(testimonial.rating).fill(0).map((it, index) => (
 																			<div key={index}>
-																				{/* <span className="text-shadow fs-1">⭐</span> */}
-																				<FontAwesomeIcon className="fs-3 text-warning text-shadow" icon={solid("star")} />
+																				<FontAwesomeIcon className="fs-2 text-warning" icon={solid("star")} />
 																			</div>
 																		))}
 																	</div>

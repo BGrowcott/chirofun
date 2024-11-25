@@ -1,8 +1,7 @@
 import PageHeader from "../../components/PageHeader";
-import therapy from "../../images/new-imgs/therapy44.jpg";
-import therapy2 from "../../images/new-imgs/therapy2.jpg";
-import therapy3 from "../../images/new-imgs/IMG_2727.jpeg";
-import building from "../../images/new-imgs/building-sign.jpg";
+import therapy2 from "../../images/therapy2.jpg";
+import therapy3 from "../../images/IMG_2727.jpeg";
+import building from "../../images/building-sign.jpg";
 import { regular, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
@@ -41,7 +40,7 @@ function Fees() {
                                         <div className="row">
                                             <div className="col-12 col-lg-5">
                                                 <div className="d-none d-lg-block">
-                                                    <img className="w-100 border border-5" src={building}></img>
+                                                    <img className="w-100 border border-5" src={building} alt="Birmingham Chiropratic sign outside of the clinic. The sign is blue with white writing and lists the businesses name and contact information."></img>
                                                 </div>
                                             </div>
                                             <div className="col-12 col-lg-7" style={{ backgroundColor: "#F0EFEF" }}>
@@ -53,7 +52,7 @@ function Fees() {
                                                         </li>
                                                     ))}
                                                 </ul>
-                                                <div className="px-2">
+                                                {/* <div className="px-2">
                                                     <a
                                                         target="_blank"
                                                         href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
@@ -61,7 +60,7 @@ function Fees() {
                                                     >
                                                         Book now <FontAwesomeIcon className="fs-3 ms-3" icon={solid("up-right-from-square")} />
                                                     </a>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -71,7 +70,7 @@ function Fees() {
                             <div className="col-12 col-md-6 mb-3 mb-md-0">
                                 <div className="p-3 h-100 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
                                     <div className="mb-2">
-                                        <img className="img-fluid border border-5" src={therapy2}></img>
+                                        <img className="img-fluid border border-5" src={therapy2} alt="Dr Austin Everill with a patient in the clinic."></img>
                                     </div>
                                     <h3 className="h1 josefinSans-text text-dark">Existing Patient</h3>
                                     <p className="fs-3 fw-bold">£40</p>
@@ -80,7 +79,7 @@ function Fees() {
                             <div className="col">
                                 <div className="p-3 h-100 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
                                     <div className="mb-2">
-                                        <img className="img-fluid border border-5" src={therapy3}></img>
+                                        <img className="img-fluid border border-5" alt="Dr Austin Everill with a patient in the clinic." src={therapy3}></img>
                                     </div>
                                     <h3 className="h1  josefinSans-text text-dark">Returning Patient</h3>
                                     <p className="fs-3 fw-bold">£45</p>

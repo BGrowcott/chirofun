@@ -1,4 +1,4 @@
-import vid from "../../images/new-imgs/welVid.mp4";
+import vid from "../../images/welVid.mp4";
 
 function WelcomeVideo() {
 	return (
