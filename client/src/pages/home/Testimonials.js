@@ -30,7 +30,7 @@ function Testimonials() {
 
 	return (
 		<>
-			<div className="">
+			<section className="">
 				<div className="container-md">
 					<div className="py-3 py-lg-5">
 						<h3 className="we-do-h3 fw-bold josefinSans-text text-dark">Testimonials</h3>
@@ -104,7 +104,7 @@ function Testimonials() {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</>
 	);
 }
