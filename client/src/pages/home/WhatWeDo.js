@@ -3,7 +3,7 @@ import gccReg from "../../images/gccReg.png";
 
 function WhatWeDo() {
 	return (
-		<div className="container-md">
+		<section className="container-md">
 			<div className="row flex-row-reverse">
 				<div className="col-12 col-lg-6 d-flex justify-content-center py-lg-5 p-3">
 					<div className="rounded d-flex flex-column justify-content-center ">
@@ -46,12 +46,12 @@ function WhatWeDo() {
 							></img>
 						</div>
 						<figcaption>
-							<p className="fs-4 fw-bold mt-1 text-center">Doctor Austin Everill - MChiro DC</p>
+							<p className="fs-4 fw-bold mt-1 text-center"><span className="d-none d-md-inline">Doctor</span><span class="d-md-none">Dr.</span> Austin Everill - MChiro DC</p>
 						</figcaption>
 					</figure>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
 

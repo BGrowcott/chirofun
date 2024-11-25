@@ -24,7 +24,7 @@ function WhatWeTreat() {
 
 	return (
 		<>
-			<div className="carousel-section bg-dark border-top border-bottom border-10 border-secondary shadow-inset">
+			<section className="carousel-section bg-dark border-top border-bottom border-10 border-secondary shadow-inset">
 				<div className="container-md">
 					<div className="row flex-lg-row-reverse flex-column-reverse">
 						<div className="col-12 col-lg-7">
@@ -40,8 +40,13 @@ function WhatWeTreat() {
 								<div className="pt-0 pt-lg-0">
 									<ul className="fs-5 we-treat-list text-uppercase text-black list-group list-group-flush">
 										{whatWeTreat.map((it, index) => (
-											<li key={it} className="list-group-item bg-dark text-light fw-bold">
-												<FontAwesomeIcon className="fs-4 text-success" icon={regular("circle-check")} /> {it}
+											<li key={it} className="list-group-item bg-dark text-light fw-bold px-0 px-md-2">
+												<div className="d-flex align-items-center">
+													<div className="me-2">
+														<FontAwesomeIcon className="fs-4 text-success" icon={regular("circle-check")} />
+													</div>
+													<div className="">{it}</div>
+												</div>
 											</li>
 										))}
 									</ul>
@@ -64,7 +69,7 @@ function WhatWeTreat() {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</>
 	);
 }
