@@ -5,12 +5,13 @@ import yoga from "../../images/whatWeYoga.jpeg";
 import yoga2 from "../../images/yoga2.jpeg";
 import orthotic3 from "../../images/ortho3.jpg";
 import orthotic4 from "../../images/ortho4.jpg";
-//import sportsRem from "../../images/sportmass.jpeg";
 import sportsMass from "../../images/whatWeSportsMass.jpg";
 import sportsMass2 from "../../images/sportsmass2.jpg";
-import PageHeader from "../../components/PageHeader";
+import PageHeader from "../../components/utils/PageHeader";
 import WhatWeDoTabs from "./WhatWeDoTabs";
 import WhatWeDoAccordion from "./WhatWeDoAccordion";
+import PageContainer from "../../components/utils/PageContainer";
+import ContentBox from "../../components/utils/ContentBox";
 
 function WhatWeDo() {
 	useEffect(() => {
@@ -182,22 +183,18 @@ function WhatWeDo() {
 	];
 
 	return (
-		<section className="border-top border-1 border-secondary">
-			<div className="container-xxl">
-				<div className="p-md-3 pb-3">
-					<PageHeader text={"What We Do"}></PageHeader>
-					<div className="bg-warm p-sm-3 p-1 py-3 mt-1 shadow-inset">
-						<div className="d-none d-lg-block">
-							<WhatWeDoTabs therapyTypes={therapyTypes}></WhatWeDoTabs>
-						</div>
-
-						<div className="d-lg-none d-block">
-							<WhatWeDoAccordion therapyTypes={therapyTypes}></WhatWeDoAccordion>
-						</div>
-					</div>
+		<PageContainer>
+			<PageHeader text={"What We Do"}></PageHeader>
+			<ContentBox>
+				<div className="d-none d-lg-block">
+					<WhatWeDoTabs therapyTypes={therapyTypes}></WhatWeDoTabs>
 				</div>
-			</div>
-		</section>
+
+				<div className="d-lg-none d-block">
+					<WhatWeDoAccordion therapyTypes={therapyTypes}></WhatWeDoAccordion>
+				</div>
+			</ContentBox>
+		</PageContainer>
 	);
 }
 

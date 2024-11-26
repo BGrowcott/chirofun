@@ -9,11 +9,13 @@ A website for for a Chiropractic Clinic based in Birmingham. This simple website
 ### Tech
 
 #### Frontend
+
 -   React
 -   SCSS
 -   Bootstrap
 
 #### Backend
+
 -   NodeJS
 -   Express
 -   MongoDB
@@ -28,13 +30,14 @@ https://chirofun-511fdea91b05.herokuapp.com/
 
 ## Authors
 
-Ben Growcott
+**Ben Growcott**
 
 [GitHub](https://github.com/BGrowcott)
+
 [Email](mailto:bengrowcott@gmail.com)
 
 ---
 
-Aaron Hickman
+**Aaron Hickman**
 
 [GitHub](https://github.com/Hicku)

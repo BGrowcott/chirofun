@@ -1,4 +1,4 @@
-import PageHeader from "../../components/PageHeader";
+import PageHeader from "../../components/utils/PageHeader";
 import React, { useEffect } from "react";
 
 function PrivacyPolicy() {

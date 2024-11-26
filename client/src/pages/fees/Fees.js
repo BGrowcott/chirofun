@@ -1,10 +1,12 @@
-import PageHeader from "../../components/PageHeader";
+import PageHeader from "../../components/utils/PageHeader";
 import therapy2 from "../../images/therapy2.jpg";
 import therapy3 from "../../images/IMG_2727.jpeg";
 import building from "../../images/building-sign.jpg";
 import { regular, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
+import PageContainer from "../../components/utils/PageContainer";
+import ContentBox from "../../components/utils/ContentBox";
 
 function Fees() {
 	useEffect(() => {
@@ -24,89 +26,75 @@ function Fees() {
 	];
 
 	return (
-		<section className=" border-top border-1 border-secondary">
-			<div className="container-xxl">
-				<div className="p-md-3">
-					<PageHeader text={"Fees"}></PageHeader>
-
-					<div className="p-sm-3 p-1 pt-3 mt-1 bg-warm shadow-inset">
-						<div className="row">
-							<div className="col-12 mb-3">
-								<div className="p-1 p-md-3 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
-									<div className="d-flex justify-content-center">
-										<h3 className="h1 josefinSans-text text-dark">New Patient</h3>
-									</div>
-									<div className="container-fluid">
-										<div className="row">
-											<div className="col-12 col-lg-5">
-												<div className="d-none d-lg-block">
-													<img
-														className="w-100 border border-5"
-														src={building}
-														alt="Birmingham Chiropratic sign outside of the clinic. The sign is blue with white writing and lists the businesses name and contact information."
-													></img>
-												</div>
-											</div>
-											<div className="col-12 col-lg-7" style={{ backgroundColor: "#F0EFEF" }}>
-												<p className="fs-2 fw-bold">£55 Consultation & Treatment Includes:</p>
-												<ul className="fs-5 text-black list-group list-group-flush">
-													{firstExamList.map((it) => (
-														<li className="ms-0 ms-md-2 py-2" key={it} style={{ listStyleType: "none" }}>
-															<div className="d-flex align-items-center">
-																<div className="me-2">
-																	<FontAwesomeIcon className="fs-3 text-success" icon={solid("plus")} />
-																</div>
-																<div className="">{it}</div>
-															</div>
-														</li>
-													))}
-												</ul>
-												{/* <div className="px-2">
-                                                    <a
-                                                        target="_blank"
-                                                        href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
-                                                        className="d-block btn btn-lg btn-dark p-3"
-                                                    >
-                                                        Book now <FontAwesomeIcon className="fs-3 ms-3" icon={solid("up-right-from-square")} />
-                                                    </a>
-                                                </div> */}
-											</div>
+		<PageContainer>
+			<PageHeader text={"Fees"}></PageHeader>
+			<ContentBox>
+				<div className="row">
+					<div className="col-12 mb-3">
+						<div className="p-1 p-md-3 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
+							<div className="d-flex justify-content-center">
+								<h3 className="h1 josefinSans-text text-dark">New Patient</h3>
+							</div>
+							<div className="container-fluid">
+								<div className="row">
+									<div className="col-12 col-lg-5">
+										<div className="d-none d-lg-block">
+											<img
+												className="w-100 border border-5"
+												src={building}
+												alt="Birmingham Chiropratic sign outside of the clinic. The sign is blue with white writing and lists the businesses name and contact information."
+											></img>
 										</div>
 									</div>
-								</div>
-							</div>
-
-							<div className="col-12 col-md-6 mb-3 mb-md-0">
-								<div className="p-3 h-100 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
-									<div className="mb-2">
-										<img className="img-fluid border border-5" src={therapy2} alt="Dr Austin Everill with a patient in the clinic."></img>
+									<div className="col-12 col-lg-7" style={{ backgroundColor: "#F0EFEF" }}>
+										<p className="fs-2 fw-bold">£55 Consultation & Treatment Includes:</p>
+										<ul className="fs-5 text-black list-group list-group-flush">
+											{firstExamList.map((it) => (
+												<li className="ms-0 ms-md-2 py-2" key={it} style={{ listStyleType: "none" }}>
+													<div className="d-flex align-items-center">
+														<div className="me-2">
+															<FontAwesomeIcon className="fs-3 text-success" icon={solid("plus")} />
+														</div>
+														<div className="">{it}</div>
+													</div>
+												</li>
+											))}
+										</ul>
 									</div>
-									<h3 className="h1 josefinSans-text text-dark">Existing Patient</h3>
-									<p className="fs-3 fw-bold">£40</p>
-								</div>
-							</div>
-							<div className="col">
-								<div className="p-3 h-100 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
-									<div className="mb-2">
-										<img className="img-fluid border border-5" alt="Dr Austin Everill with a patient in the clinic." src={therapy3}></img>
-									</div>
-									<h3 className="h1  josefinSans-text text-dark">Returning Patient</h3>
-									<p className="fs-3 fw-bold">£45</p>
-									<p className="fs-4">If we haven't seen you in two or more years.</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<a
-						target="_blank"
-						href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
-						className="d-block btn btn-lg btn-dark p-3 rounded-0 rounded-bottom"
-					>
-						Book now <FontAwesomeIcon className="fs-3 ms-3" icon={solid("up-right-from-square")} />
-					</a>
+
+					<div className="col-12 col-md-6 mb-3 mb-md-0">
+						<div className="p-3 h-100 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
+							<div className="mb-2">
+								<img className="img-fluid border border-5" src={therapy2} alt="Dr Austin Everill with a patient in the clinic."></img>
+							</div>
+							<h3 className="h1 josefinSans-text text-dark">Existing Patient</h3>
+							<p className="fs-3 fw-bold">£40</p>
+						</div>
+					</div>
+					<div className="col">
+						<div className="p-3 h-100 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
+							<div className="mb-2">
+								<img className="img-fluid border border-5" alt="Dr Austin Everill with a patient in the clinic." src={therapy3}></img>
+							</div>
+							<h3 className="h1  josefinSans-text text-dark">Returning Patient</h3>
+							<p className="fs-3 fw-bold">£45</p>
+							<p className="fs-4">If we haven't seen you in two or more years.</p>
+						</div>
+					</div>
 				</div>
-			</div>
-		</section>
+			</ContentBox>
+			<a
+				target="_blank"
+				href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
+				className="d-block btn btn-lg btn-dark p-3 rounded-0 rounded-bottom"
+			>
+				Book now <FontAwesomeIcon className="fs-3 ms-3" icon={solid("up-right-from-square")} />
+			</a>
+		</PageContainer>
 	);
 }
 
