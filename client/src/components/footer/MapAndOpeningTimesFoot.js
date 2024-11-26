@@ -6,10 +6,8 @@ function MapAndOpeningTimesFoot() {
 
     return (
         <>
-            {/* TODO: Make this into it's own component */}
             <div>
                 <div className="row  align-items-center">
-                    {/* <hr></hr> */}
                     <div className="col-12 col-lg-3 col-xl-3">
                         <div className="text-center">
                             <div className="card bg-dark border-0">

@@ -4,12 +4,14 @@ import adrian from "../../images/Adrian.jpg";
 import TeamCard from "./TeamCard";
 import React, { useEffect } from "react";
 
-import PageHeader from "../../components/PageHeader";
+import PageHeader from "../../components/utils/PageHeader";
+import PageContainer from "../../components/utils/PageContainer";
+import ContentBox from "../../components/utils/ContentBox";
 
 function MeetTheTeam() {
 	useEffect(() => {
-        document.title = "Birmingham Chiropractic - Meet The Team";
-    }, []);
+		document.title = "Birmingham Chiropractic - Meet The Team";
+	}, []);
 
 	const teamMembers = [
 		{
@@ -91,44 +93,20 @@ function MeetTheTeam() {
 	];
 
 	return (
-		<section className="border-top border-1 border-secondary">
-			<div className="container-xxl">
-				<div className="p-md-3">
-					<PageHeader text={"Our Team"}></PageHeader>
-					<div className="p-sm-3 p-1 bg-warm mt-1 shadow-inset">
-						{teamMembers.map((teamMember, index, array) => (
-							<div className={`my-2 py-1 ${index === 0 ? "mt-lg-0 pt-lg-0" : ""} ${index === array.length - 1 ? "mb-lg-0 pb-lg-0" : ""}`} key={teamMember.title}>
-								<TeamCard teamMember={teamMember}></TeamCard>
-							</div>
-						))}
+		<PageContainer>
+			<PageHeader text={"Our Team"}></PageHeader>
+			<ContentBox>
+				{teamMembers.map((teamMember, index, array) => (
+					<div
+						className={`${index === 0 ? "mt-lg-0 pt-lg-0" : ""} ${index === array.length - 1 ? "mb-lg-0 pb-lg-0" : ""}`}
+						key={teamMember.title}
+					>
+						<TeamCard teamMember={teamMember}></TeamCard>
 					</div>
-				</div>
-			</div>
-		</section>
+				))}
+			</ContentBox>
+		</PageContainer>
 	);
 }
 
 export default MeetTheTeam;
-
-{
-	/* <div className="row">
-          <div
-            className="doc-img col m-4"
-            src={doc}
-            style={{ backgroundImage: `url(${doc})` }}
-            alt="Doctor"
-          ></div>
-          <div
-            className="doc-img col m-4"
-            src={doc}
-            style={{ backgroundImage: `url(${doc})` }}
-            alt="Doctor"
-          ></div>
-          <div
-            className="doc-img col m-4"
-            src={doc}
-            style={{ backgroundImage: `url(${doc})` }}
-            alt="Doctor"
-          ></div>
-        </div> */
-}
