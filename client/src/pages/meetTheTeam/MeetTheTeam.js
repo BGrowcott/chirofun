@@ -98,7 +98,7 @@ function MeetTheTeam() {
 			<ContentBox>
 				{teamMembers.map((teamMember, index, array) => (
 					<div
-						className={`${index === 0 ? "mt-lg-0 pt-lg-0" : ""} ${index === array.length - 1 ? "mb-lg-0 pb-lg-0" : ""}`}
+						className={`my-2 py-1 ${index === 0 ? "mt-0 pt-0" : ""} ${index === array.length - 1 ? "mb-0 pb-0" : ""}`}
 						key={teamMember.title}
 					>
 						<TeamCard teamMember={teamMember}></TeamCard>
