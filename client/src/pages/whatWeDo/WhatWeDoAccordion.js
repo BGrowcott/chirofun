@@ -8,7 +8,7 @@ function WhatWeDoAccordion({ therapyTypes }) {
 					return (
 						<div className="accordion-item" key={it.title}>
 							<h2 className="accordion-header">
-								<a href="#head" className="text-decoration-none">
+								<a className="text-decoration-none">
 									<button
 										className="accordion-button collapsed"
 										type="button"
