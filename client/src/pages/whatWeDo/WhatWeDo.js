@@ -76,26 +76,27 @@ function WhatWeDo() {
 			text: {
 				p1: (
 					<div>
-						<p>
-							Yoga is a holistic practice that combines physical postures, breathing exercises, and meditation to promote mental, physical, and
-							emotional well-being. Known for its flexibility-enhancing and stress-relieving qualities, yoga provides a comprehensive approach to
-							wellness by balancing strength, flexibility, and mindfulness. Regular yoga practice helps improve joint mobility, muscle tone, and
-							circulation, which can alleviate tension and increase overall body awareness. Yoga can be particularly effective for those seeking
-							to prevent injuries, manage stress, or improve their posture, as it builds core strength and teaches proper alignment—factors that
-							support musculoskeletal health.
-						</p>
+						<div className="fs-4">
+							<p>
+								Along with Chiropractic, <strong>Yoga</strong> is recommended by the National Institute of Clinical Excellence as part of a
+								first basis approach to Back Pain care.
+							</p>
+						</div>
 					</div>
 				),
 				p2: (
 					<div>
 						<p>
-							When combined with chiropractic care, the benefits of yoga can be significantly amplified. Chiropractic adjustments focus on
-							aligning the spine and nervous system, which can alleviate pain, reduce muscle tension, and improve nervous system function. By
-							pairing yoga with chiropractic care, individuals can maintain these improvements between adjustments. Yoga's emphasis on flexibility
-							and core stability supports the spine and reduces pressure on joints, making chiropractic adjustments easier to achieve and sustain.
-							Together, yoga and chiropractic provide a powerful synergy, promoting a healthy spine, balanced musculature, and a resilient body
-							that is more capable of handling physical and mental stressors. This combination is highly effective for enhancing mobility,
-							relieving chronic pain, and promoting a lasting sense of wellness.
+							Claire came to yoga after years of back pain. The yoga practice helped with the back pain, but the mindfulness and inner calm kept
+							Claire interested and coming back for more. Claire teaches at various studios across Birmingham and offers online/in-person 1-2-1s.
+						</p>
+						<p>
+							In a 1-2-1 session, we will examine how yoga techniques can support your current treatment with Birmingham Chiropractic. We will
+							explore how you can improve flexibility, mobility, posture, and increasing strength.
+						</p>
+						<p>
+							You can also book a 1-2-1 to help with meditation/mindfulness or to prepare you for attending a class at a yoga studio. Please call
+							to book.
 						</p>
 					</div>
 				),
@@ -111,25 +112,26 @@ function WhatWeDo() {
 			text: {
 				p1: (
 					<div>
+						<p className="fs-4">
+							<strong>Sports massage</strong> is a specialised form of massage therapy aimed at active individuals to help prevent injuries,
+							improve performance, and facilitate faster recovery.
+						</p>
 						<p>
-							Sports massages are a specialized form of massage therapy aimed at athletes and active individuals to help prevent injuries, improve
-							performance, and facilitate faster recovery. This type of massage uses a combination of deep tissue techniques, stretching, and
-							targeted pressure to address the specific needs of the body under physical strain. Sports massage is often applied to areas that
-							experience repetitive stress or tension from activities like running, lifting, or team sports, helping to relieve muscle stiffness
-							and improve flexibility. It's commonly used both pre- and post-competition to prepare muscles for exertion or to aid in recovery by
-							minimizing soreness and reducing inflammation.
+							However, sports massage is for more than just the active sportsperson. Whether you are a stay-at-home parent, have an office-based
+							job, or are a manual worker, we provide practical and beneficial treatment for all individuals.
+						</p>
+						<p>
+							We will aim to correct problems and imbalances in soft tissue structures caused by trauma, repetitive movements or physical activity
+							using various massage techniques. In doing so, we bring clients back to the optimal levels of functional, occupational and
+							sports-specific fitness - regardless of age and ability.
 						</p>
 					</div>
 				),
 				p2: (
 					<div>
 						<p>
-							The benefits of sports massage go beyond simple relaxation. By enhancing blood flow to muscles, it helps remove metabolic waste,
-							which can reduce delayed onset muscle soreness (DOMS) and facilitate quicker muscle repair. This can be especially valuable in
-							intense training schedules, allowing athletes to maintain performance and prevent overuse injuries. Sports massage can also aid in
-							identifying muscle imbalances or areas of tightness that may predispose athletes to injury, enabling them to address these issues
-							proactively. Overall, sports massage is a powerful tool for optimizing physical performance, promoting quicker recovery, and
-							improving long-term musculoskeletal health, making it an essential component of many athletes' routines.
+							The benefits of sports massage go beyond simple relaxation: Reduced muscle tension, improved circulation, injury prevention,
+							improved recovery, pain management, enhanced performance, and stress relief.
 						</p>
 					</div>
 				),
