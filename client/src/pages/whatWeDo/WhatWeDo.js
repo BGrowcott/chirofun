@@ -137,7 +137,7 @@ function WhatWeDo() {
 					</div>
 				),
 			},
-			therapyTypeCode: "sportsMassage",
+			therapyTypeCode: "sports-massage",
 			image: sportsMass,
 			imageAlt: "Demonstration of a sports massage. The masseur is shown massaging the calf muscle.",
 			image2Alt: "Demonstration of a sports massage. The masseur is shown massaging the neck.",
@@ -174,7 +174,7 @@ function WhatWeDo() {
 					</div>
 				),
 			},
-			therapyTypeCode: "orthotic",
+			therapyTypeCode: "orthotics",
 			image: orthotic3,
 			imageAlt: "A persons feet wearing white trainers.",
 			image2Alt: "Demonstration of a orthotics being fitted",
@@ -186,11 +186,11 @@ function WhatWeDo() {
 		<PageContainer>
 			<PageHeader text={"What We Do"}></PageHeader>
 			<ContentBox>
-				<div className="d-none d-lg-block">
+				<div className="d-none d-xl-block">
 					<WhatWeDoTabs therapyTypes={therapyTypes}></WhatWeDoTabs>
 				</div>
 
-				<div className="d-lg-none d-block">
+				<div className="d-xl-none d-block">
 					<WhatWeDoAccordion therapyTypes={therapyTypes}></WhatWeDoAccordion>
 				</div>
 			</ContentBox>

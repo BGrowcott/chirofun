@@ -62,7 +62,7 @@ function MapAndOpeningTimesFoot() {
                         </div>
                     </div>
                     <div className="col-12 col-lg-12 col-xl-3">
-                        <div className="m-2 fw-bold fs-4 text-lg-end text-white"><span><FontAwesomeIcon className="fs-3" icon={solid("map-location-dot")} /></span> Address</div>
+                        <div className="m-2 fw-bold fs-4 text-xl-end text-white"><span><FontAwesomeIcon className="fs-3" icon={solid("map-location-dot")} /></span> Address</div>
                         <div className="d-flex flex-column text-xl-end fs-5">
                             <address>
                                 <p>

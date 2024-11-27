@@ -33,7 +33,7 @@ function WhatWeTreat() {
 								<div className="text-white fs-4">
 									<p>
 										We are an evidence-based chiropractic clinic and keep up to date with the latest clinical research and techniques. We
-										provide our patients with first-class care to achieve the fastest results.
+										provide our patients with first-class care to <strong>achieve the fastest results.</strong>
 										<br></br>
 									</p>
 								</div>
@@ -43,7 +43,7 @@ function WhatWeTreat() {
 											<li key={it} className="list-group-item bg-dark text-light fw-bold px-0 px-md-2">
 												<div className="d-flex align-items-center">
 													<div className="me-2">
-														<FontAwesomeIcon className="fs-4 text-success" icon={regular("circle-check")} />
+														<FontAwesomeIcon className="fs-3 text-success" icon={regular("circle-check")} />
 													</div>
 													<div className="">{it}</div>
 												</div>

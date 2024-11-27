@@ -3,12 +3,12 @@ import WhatWeDoContent from "./WhatWeDoContent";
 function WhatWeDoAccordion({ therapyTypes }) {
 	return (
 		<div>
-			<div className="accordion" id="accordionWhatWeDo">
+			<div className="accordion accordion-flush" id="accordionWhatWeDo">
 				{therapyTypes.map((it, index) => {
 					return (
 						<div className="accordion-item" key={it.title}>
 							<h2 className="accordion-header">
-								<a className="text-decoration-none">
+								<a className="text-decoration-none" href={`#accord-${it.therapyTypeCode}`}>
 									<button
 										className="accordion-button collapsed"
 										type="button"
