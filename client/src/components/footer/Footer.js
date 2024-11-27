@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="bg-light text-black text-center fw-bold p-1">
-                © {year} Birmingham Chiropractic Limited. All rights reserved. Designed by BenAz Webz.
+                © {year} Birmingham Chiropractic Limited. All rights reserved. Designed by <a className="text-dark" href="mailto:bengrowcott@gmail.com">BG-Coding</a>.
                 <br></br>
                 <Link to={"/privacy-policy"} className="text-muted">
                     View Privacy Policy

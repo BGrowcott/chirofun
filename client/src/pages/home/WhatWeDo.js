@@ -46,7 +46,7 @@ function WhatWeDo() {
 							></img>
 						</div>
 						<figcaption>
-							<p className="fs-4 fw-bold mt-1 text-center"><span className="d-none d-md-inline">Doctor</span><span class="d-md-none">Dr.</span> Austin Everill - MChiro DC</p>
+							<p className="fs-4 fw-bold mt-1 text-center"><span className="d-none d-md-inline">Doctor</span><span className="d-md-none">Dr.</span> Austin Everill - MChiro DC</p>
 						</figcaption>
 					</figure>
 				</div>
