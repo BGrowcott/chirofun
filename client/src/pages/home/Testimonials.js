@@ -66,7 +66,7 @@ function Testimonials() {
 																<div className="d-flex align-items-center ms-lg-5 ms-3">
 																	<div className="me-4">
 																		<a href={testimonial.googleMapsUri} target="_blank">
-																			<img width="50" src={google}></img>
+																			<img width="50" alt="Google logo" src={google}></img>
 																		</a>
 																	</div>
 																	<figcaption className="blockquote-footer mt-3">

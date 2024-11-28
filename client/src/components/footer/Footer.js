@@ -8,11 +8,6 @@ const Footer = () => {
 
     return (
         <footer className="mt-3 mt-lg-5" style={{ color: "#F8F9F5" }}>
-            {/* <div className="text-center p-3 fs-4" style={{ backgroundColor: "#F0EFEF" }}>
-                <a target="_blank" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true" className="btn btn-lg btn-outline-dark">
-                    Start Feeling Better Today!
-                </a>
-            </div> */}
             <div className="bg-dark p-lg-4 border-top border-bottom border-10 border-secondary shadow-inset">
                 <div className="container-fluid">
                     <div className="row text-center align-items-center">
