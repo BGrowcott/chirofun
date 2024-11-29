@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 function PrivacyPolicy() {
 
 	useEffect(() => {
-        document.title = "Birmingham Chiropractic - Privacy Policy";
+        document.title = "Privacy Policy - Birmingham Chiropractic";
     }, []);
 
 	return (

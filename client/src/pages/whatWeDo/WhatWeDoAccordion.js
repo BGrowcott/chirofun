@@ -1,6 +1,12 @@
 import WhatWeDoContent from "./WhatWeDoContent";
 
 function WhatWeDoAccordion({ therapyTypes }) {
+
+	const scrollControl = function(event) {
+		const element = event.target;
+		element.scrollIntoView({ behaviour: "instant" });
+	}
+
 	return (
 		<div>
 			<div className="accordion accordion-flush" id="accordionWhatWeDo">
@@ -8,7 +14,7 @@ function WhatWeDoAccordion({ therapyTypes }) {
 					return (
 						<div className="accordion-item" key={it.title}>
 							<h2 className="accordion-header">
-								<a className="text-decoration-none" href={`#accord-${it.therapyTypeCode}`}>
+								<a className="text-decoration-none" onClick={scrollControl}>
 									<button
 										className="accordion-button collapsed"
 										type="button"
