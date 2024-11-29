@@ -15,7 +15,7 @@ import ContentBox from "../../components/utils/ContentBox";
 
 function WhatWeDo() {
 	useEffect(() => {
-		document.title = "Birmingham Chiropractic - What We Do";
+		document.title = "What We Do - Birmingham Chiropractic";
 	}, []);
 
 	const therapyTypes = [

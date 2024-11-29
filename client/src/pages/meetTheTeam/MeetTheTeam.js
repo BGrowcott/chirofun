@@ -10,13 +10,13 @@ import ContentBox from "../../components/utils/ContentBox";
 
 function MeetTheTeam() {
 	useEffect(() => {
-		document.title = "Birmingham Chiropractic - Meet The Team";
+		document.title = "Meet The Team - Birmingham Chiropractic";
 	}, []);
 
 	const teamMembers = [
 		{
 			title: "Dr Austin Everill - MChiro DC",
-			summary: "Align Your Spine, Elevate Your Health.",
+			summary: "Restore Wellness and Elevate Your Health.",
 			image: austin,
 			alt: "Dr Austin Everill portrait, he is standing and smiling. His arms are crossed and he is wearing medical scrubs. He looks professional and approachable",
 			textHtml: (

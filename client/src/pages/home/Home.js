@@ -21,10 +21,12 @@ const Home = () => {
             <div className="home-container">
                 <WhatWeDo></WhatWeDo>
 
-                <MigraineTreatment></MigraineTreatment>
+                
                 {/* <WelcomeVideo></WelcomeVideo> */}
 
                 <WhatWeTreat></WhatWeTreat>
+
+                <MigraineTreatment></MigraineTreatment>
 
                 {/* <WhatToExpect></WhatToExpect> */}
 

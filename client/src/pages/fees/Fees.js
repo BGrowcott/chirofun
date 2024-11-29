@@ -10,7 +10,7 @@ import ContentBox from "../../components/utils/ContentBox";
 
 function Fees() {
 	useEffect(() => {
-		document.title = "Birmingham Chiropractic - Fees";
+		document.title = "Fees - Birmingham Chiropractic";
 	}, []);
 
 	const firstExamList = [
