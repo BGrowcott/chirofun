@@ -4,7 +4,7 @@
 
 ## Description
 
-A website for for a Chiropractic Clinic based in Birmingham. This simple website gives information on the clinic and the people who work there, the treatments provided by the clinic and their contact information. We designed and built the website from scratch using the tech below.
+A website for a Chiropractic Clinic based in Birmingham. This simple website gives information on the clinic and the people who work there, the treatments provided by the clinic and their contact information. We designed and built the website from scratch using the tech below.
 
 ### Tech
 
@@ -22,7 +22,7 @@ A website for for a Chiropractic Clinic based in Birmingham. This simple website
 
 ## Deployed Application
 
-https://chirofun-511fdea91b05.herokuapp.com/
+[Birmingham Chiropractic](https://www.birminghamchiropractic.uk.com/)
 
 ### Homepage
 
