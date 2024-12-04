@@ -6,7 +6,7 @@ function WhatWeDoTabs({therapyTypes}){
         <div>
             <ul className="nav nav-tabs" id="myTab" role="tablist">
                 {therapyTypes.map((it, index) => (
-                    <li className="nav-item rounded-0" role="presentation" style={{ width: "25%" }} key={it.title}>
+                    <li className="nav-item rounded-0" role="presentation" style={{ width: "20%" }} key={it.title}>
                         <button
                             className={`p-2 rounded-0 nav-link ${index === 0 ? "active" : ""}`}
                             id={`${it.therapyTypeCode}-tab`}
@@ -21,7 +21,7 @@ function WhatWeDoTabs({therapyTypes}){
                                 <div className="card border-0 rounded-0">
                                     <img src={it.image} className="card-img-top rounded-0" alt={it.imageAlt} />
                                     <div className="card-body px-1">
-                                        <p className="card-text text-dark fs-3 fw-bold josefinSans-text">{it.title}</p>
+                                        <h2 className="card-text text-dark fs-4 fw-bold josefinSans-text">{it.title}</h2>
                                     </div>
                                 </div>
                             </div>

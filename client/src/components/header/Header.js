@@ -76,7 +76,7 @@ const Header = () => {
                     Call: 07898 903772
                   </a>
                   <a
-                    href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
+                    href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/"
                     target="_blank"
                     className="btn btn-outline-dark"
                   >

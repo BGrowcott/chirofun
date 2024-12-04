@@ -85,7 +85,7 @@ function MapAndOpeningTimesFoot() {
                                 </div>
                             </address>
                             <div className="d-block d-md-none mb-2">
-                                <a role="button" target="_blank" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true" className="btn btn-light btn-lg">Book Online</a>
+                                <a role="button" target="_blank" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/" className="btn btn-light btn-lg">Book Online</a>
                             </div>
                         </div>
                     </div>

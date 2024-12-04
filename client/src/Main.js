@@ -15,14 +15,14 @@ function Main() {
 					className="position-fixed z-1 floating-button"
 					style={{
 						transform: "rotate(270deg)",
-						right: -51,
+						right: -51, 
 						top: "55%",
 						zIndex: "10",
 					}}
 				>
 					<a
 						target="_blank"
-						href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
+						href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/"
 						className={`rounded-0 rounded-top btn btn-lg btn-warm`}
 						style={{ boxShadow: "-2px -2px 7px black" }}
 					>

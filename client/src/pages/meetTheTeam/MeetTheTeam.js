@@ -48,12 +48,12 @@ function MeetTheTeam() {
 			textHtml: (
 				<>
 					<p>
-						Claire completed her 200 hour yoga teacher training in September 2016. Since then she has taught in many studios across Birmingham
+						Claire completed her 200-hour yoga teacher training in September 2016. Since then, she has taught in many studios across Birmingham,
 						including Yogahaven, Barefoot and HotPod Solihull.
 					</p>
 					<p>
-						Claire originally came yoga due to neck and back pain. She noticed quickly how much yoga helped. Claire received regular chiropractic
-						treatment and combined with yoga practice, has been pain free since.
+						Claire originally came to yoga due to neck and back pain. She quickly noticed how much yoga helped. Claire received regular chiropractic
+						treatment and, combined with yoga practice, has been pain-free since.
 					</p>
 					<p>
 						Along with Chiropractic, Yoga is recommended by the National Institute of Clinical Excellence as part of a first basis approach to Back
@@ -61,8 +61,8 @@ function MeetTheTeam() {
 					</p>
 					<p>
 						Claire knows how daunting it can feel to start yoga, but her friendly, fun approach to teaching puts even the most anxious student at
-						ease. Claire specialises in and is passionate about core strength (something she herself has had to work hard on) and Yoga Nidra, a
-						deeply relaxing technique suitable for <strong>all levels.</strong>
+						ease. Claire specialises in and is passionate about core strength (something she has had to work hard on) and Yoga Nidra, a deeply
+						relaxing technique suitable for <strong>all levels.</strong>
 					</p>
 				</>
 			),
@@ -97,10 +97,7 @@ function MeetTheTeam() {
 			<PageHeader text={"Our Team"}></PageHeader>
 			<ContentBox>
 				{teamMembers.map((teamMember, index, array) => (
-					<div
-						className={`my-2 py-1 ${index === 0 ? "mt-0 pt-0" : ""} ${index === array.length - 1 ? "mb-0 pb-0" : ""}`}
-						key={teamMember.title}
-					>
+					<div className={`my-2 py-1 ${index === 0 ? "mt-0 pt-0" : ""} ${index === array.length - 1 ? "mb-0 pb-0" : ""}`} key={teamMember.title}>
 						<TeamCard teamMember={teamMember}></TeamCard>
 					</div>
 				))}

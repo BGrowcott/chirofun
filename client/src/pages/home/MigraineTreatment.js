@@ -13,7 +13,7 @@ function MigraineTreatment() {
 							<div className="fs-4">
 								<p>
 									We offer the latest, clinically proven treatment recommended by <strong>The NICE Institute</strong> (National Institute of
-									Clinical Excellence). Using Type A Botox injections, this new technique reduces the hyperactivity of specific nerves that
+									Clinical Excellence). Using very precise injections, this new technique reduces the hyperactivity of specific nerves that
 									cause a migraine.
 								</p>
 								<p>
