@@ -31,7 +31,7 @@ function Fees() {
 			<ContentBox>
 				<div className="row">
 					<div className="col-12 mb-3">
-						<div className="p-1 p-md-3 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
+						<div className="p-1 p-md-3 white-border shadow bg-offLight">
 							<div className="d-flex justify-content-center">
 								<h3 className="h1 josefinSans-text text-dark">New Patient</h3>
 							</div>
@@ -46,7 +46,7 @@ function Fees() {
 											></img>
 										</div>
 									</div>
-									<div className="col-12 col-lg-7" style={{ backgroundColor: "#F0EFEF" }}>
+									<div className="col-12 col-lg-7 bg-offLight">
 										<p className="fs-2 fw-bold">£55 Consultation & Treatment Includes:</p>
 										<ul className="fs-5 text-black list-group list-group-flush">
 											{firstExamList.map((it) => (
@@ -67,7 +67,7 @@ function Fees() {
 					</div>
 
 					<div className="col-12 col-md-6 mb-3 mb-md-0">
-						<div className="p-3 h-100 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
+						<div className="p-3 h-100 white-border shadow bg-offLight">
 							<div className="mb-2">
 								<img className="img-fluid border border-5" src={therapy2} alt="Dr Austin Everill with a patient in the clinic."></img>
 							</div>
@@ -76,7 +76,7 @@ function Fees() {
 						</div>
 					</div>
 					<div className="col">
-						<div className="p-3 h-100 white-border shadow" style={{ backgroundColor: "#F0EFEF" }}>
+						<div className="p-3 h-100 white-border shadow bg-offLight">
 							<div className="mb-2">
 								<img className="img-fluid border border-5" alt="Dr Austin Everill with a patient in the clinic." src={therapy3}></img>
 							</div>

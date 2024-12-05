@@ -15,7 +15,7 @@ const Header = () => {
 
     return (
         <header id="head">
-            <nav className="navbar navbar-expand-xl navbar-light py-0 px-md-4 px-0" style={{ backgroundColor: "#f9f7f7" }}>
+            <nav className="navbar navbar-expand-xl navbar-light py-0 px-md-4 px-0 bg-light">
                 <div className="container-fluid ps-0">
                     <Link className="navbar-brand  d-flex align-items-center" to={"/"}>
                         <img width={"70"} src={logo} alt="Birmingham Chiropractic Logo" />

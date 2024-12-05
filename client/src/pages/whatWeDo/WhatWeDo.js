@@ -107,7 +107,7 @@ function WhatWeDo() {
 								<h4 className="h6 fw-bold">Key Benefits of B12 Injections:</h4>
 								<ul>
 									<li>
-										<strong>Boost Energy Levels:</strong> Say goodbye to fatigue and embrace a revitalized, energetic you.
+										<strong>Boost Energy Levels:</strong> Say goodbye to fatigue and embrace a revitalised, energetic you.
 									</li>
 									<li>
 										<strong>Enhance Cognitive Function:</strong> Support sharper focus, improved memory, and mental clarity.
@@ -121,7 +121,7 @@ function WhatWeDo() {
 									</li>
 								</ul>
 								<p>
-									These injections are especially beneficial for individuals with <strong>pernicious anemia, digestive disorders,</strong> or
+									These injections are especially beneficial for individuals with <strong>pernicious anaemia, digestive disorders,</strong> or
 									anyone struggling to absorb B12 from food or supplements. They can also aid metabolism and alleviate symptoms like weakness
 									or nerve pain.
 								</p>
@@ -130,15 +130,19 @@ function WhatWeDo() {
 						<div>
 							<h3 className="h5 fw-bold">Other Aesthetic Procedures.</h3>
 							<p>
-								Dr Austin Everill established Precision Aesthetics at our Birmingham Clinic. Our staff are highly trained. Expert Care for our
-								patients. Precision Aesthetics Anti-Aging Treatments. Botox Injections. The Effective Non-Surgical Anti- Wrinkle Procedure is
-								the most popular anti-wrinkle treatment globally and has a proven safety record.
+								Dr Austin Everill has established Precision Aesthetics at our Birmingham clinic. Our staff have been highly trained to
+								administer Precision Aesthetics anti-ageing treatments and provide expert patient care. Botox injections - the effective
+								non-surgical anti-wrinkle procedure - are the most popular treatment globally and have a proven safety record.
 							</p>
 						</div>
 						<p>
 							We aim to make all our treatments affordable for patients. Please enquire about our full range of treatments and competitive
 							pricing. <a className="text-dark fw-bold" href="tel:07898903772">Call</a> or{" "}
-							<a className="text-dark fw-bold" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf" target="_blank">
+							<a
+								className="text-dark fw-bold"
+								href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf"
+								target="_blank"
+							>
 								book online.
 							</a>
 						</p>
@@ -147,8 +151,8 @@ function WhatWeDo() {
 			},
 			therapyTypeCode: "medi-aesthetics",
 			image: botox,
-			imageAlt: "Demonstration of Three-Legged Downward Dog, also known as Tri Pada Adho Mukha Svanasana",
-			image2Alt: "Demonstration of The side plank pose, also known as Vasisthasana, is a balancing yoga pose that strengthens the core and shoulders.",
+			imageAlt: "Demonstration of botox injection, a woman lies back with her eyes closed as the doctor administers the botox by injection just above the eyebrows.",
+			image2Alt: "Demonstration of botox injection, a man lies back with his eyes closed as the doctor administers the botox by injection just above the eyebrows.",
 			image2: botox2,
 		},
 		{

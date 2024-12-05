@@ -1,6 +1,7 @@
 $dark: #12485a;
-$light: #f9f7f7;
+//$light: #f9f7f7;
 $warm: #DF6C53;
+$offLight: #F0EFEF;
 $secondary: #36718f;
 
 @import "~bootstrap/scss/_functions.scss"; 
@@ -8,6 +9,7 @@ $secondary: #36718f;
 
 $custom-colors: ( 
     "warm": $warm, 
+    "offLight": $offLight
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);

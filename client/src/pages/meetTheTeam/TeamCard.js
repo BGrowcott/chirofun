@@ -4,7 +4,7 @@ function TeamCard({ teamMember }) {
     const { title, summary, image, textHtml, alt } = teamMember;
 
     return (
-        <div className="shadow white-border" style={{ backgroundColor: "#F0EFEF" }}>
+        <div className="shadow white-border bg-offLight">
             <div>
                 <div className="d-none d-sm-block">
                     <div style={{ minHeight: "584px" }}>
