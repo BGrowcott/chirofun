@@ -35,7 +35,8 @@ function Main() {
 				<Route path="/" element={<Home />} />
 				<Route path="/fees" element={<Fees />} />
 				<Route path="/the-team" element={<MeetTheTeam />} />
-				<Route path="/what-we-do" element={<WhatWeDo />} />
+				<Route path="/what-we-do/:therapy" element={<WhatWeDo />} />
+				<Route path="/what-we-do/" element={<WhatWeDo />} />
 				<Route path="/privacy-policy" element={<PrivacyPolicy />} />
 				<Route path="/*" element={<PageNotFound />} />
 			</Routes>

@@ -137,15 +137,15 @@ function WhatWeDo() {
 						</div>
 						<p>
 							We aim to make all our treatments affordable for patients. Please enquire about our full range of treatments and competitive
-							pricing. Please <a href="tel:07898903772">call</a> or{" "}
-							<a href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf" target="_blank">
+							pricing. <a className="text-dark fw-bold" href="tel:07898903772">Call</a> or{" "}
+							<a className="text-dark fw-bold" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf" target="_blank">
 								book online.
 							</a>
 						</p>
 					</div>
 				),
 			},
-			therapyTypeCode: "mediAesthetics",
+			therapyTypeCode: "medi-aesthetics",
 			image: botox,
 			imageAlt: "Demonstration of Three-Legged Downward Dog, also known as Tri Pada Adho Mukha Svanasana",
 			image2Alt: "Demonstration of The side plank pose, also known as Vasisthasana, is a balancing yoga pose that strengthens the core and shoulders.",

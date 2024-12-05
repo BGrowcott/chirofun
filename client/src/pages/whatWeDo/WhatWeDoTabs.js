@@ -1,6 +1,21 @@
 import WhatWeDoContent from "./WhatWeDoContent";
+import { useParams } from "react-router"
 
-function WhatWeDoTabs({therapyTypes}){
+function WhatWeDoTabs({therapyTypes}) {
+
+    const params = useParams();
+
+    function setActiveClass (param, typeCode, index) {
+        if (param === typeCode) {
+            return "active";
+        }
+
+        if (!param && index === 0) {
+            return "active";
+        }
+    };
+
+    
     return (
         <div className="p-2 bg-secondary">
         <div>
@@ -8,7 +23,7 @@ function WhatWeDoTabs({therapyTypes}){
                 {therapyTypes.map((it, index) => (
                     <li className="nav-item rounded-0" role="presentation" style={{ width: "20%" }} key={it.title}>
                         <button
-                            className={`p-2 rounded-0 nav-link ${index === 0 ? "active" : ""}`}
+                            className={`p-2 rounded-0 nav-link ${setActiveClass(params.therapy, it.therapyTypeCode, index)}`}
                             id={`${it.therapyTypeCode}-tab`}
                             data-bs-toggle="tab"
                             data-bs-target={`#${it.therapyTypeCode}`}
@@ -32,7 +47,7 @@ function WhatWeDoTabs({therapyTypes}){
             <div className="tab-content bg-white" id="myTabContent">
                 {therapyTypes.map((it, index) => (
                     <div
-                        className={`tab-pane fade show ${index === 0 ? "active" : ""} p-xl-5 p-lg-3 pt-2 pt-xl-2`}
+                        className={`tab-pane fade show ${setActiveClass(params.therapy, it.therapyTypeCode, index)} p-xl-5 p-lg-3 pt-2 pt-xl-2`}
                         id={it.therapyTypeCode}
                         role="tabpanel"
                         aria-labelledby={`${it.therapyTypeCode}-tab`}
