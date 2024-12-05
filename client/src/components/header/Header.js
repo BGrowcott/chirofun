@@ -43,7 +43,7 @@ const Header = () => {
                                     </div>
                                 </Link>
                                 <div
-                                    className="navDropDownContents d-none d-md-block bg-light rounded"
+                                    className="navDropDownContents d-none d-xl-block bg-light rounded"
                                 >
                                   <div className="px-3">
                                     <Link to={"/what-we-do/chiropractic"} className="nav-link">
