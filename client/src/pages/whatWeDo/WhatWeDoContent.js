@@ -1,6 +1,6 @@
 function WhatWeDoContent({ it }) {
     return (
-        <div>
+        <article>
             <div style={{ fontSize: "1.2em" }}>
                 <div className="d-block d-xl-none">
                     <div className="row">
@@ -26,7 +26,7 @@ function WhatWeDoContent({ it }) {
 
                 <div className="mt-2">{it.text.p2}</div>
             </div>
-        </div>
+        </article>
     );
 }
 

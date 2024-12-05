@@ -7,6 +7,8 @@ import orthotic3 from "../../images/ortho3.jpg";
 import orthotic4 from "../../images/ortho4.jpg";
 import sportsMass from "../../images/whatWeSportsMass.jpg";
 import sportsMass2 from "../../images/sportsmass2.jpg";
+import botox from "../../images/botox1.jpeg";
+import botox2 from "../../images/botox2.jpeg";
 import PageHeader from "../../components/utils/PageHeader";
 import WhatWeDoTabs from "./WhatWeDoTabs";
 import WhatWeDoAccordion from "./WhatWeDoAccordion";
@@ -71,6 +73,87 @@ function WhatWeDo() {
 			imageAlt: "Chiropractor demostrates spinal manipulation",
 			image2Alt: "Dr Austin Everill demonstrates spinal manipulation in his clinic.",
 			image2: chiropractic2,
+		},
+		{
+			title: "Medi-Aesthetics",
+			text: {
+				p1: (
+					<div>
+						<div className="fs-4">
+							<p>Book your consultation now and experience the difference!</p>
+						</div>
+						<div>
+							<h3 className="h5 fw-bold">Migraine Treatment.</h3>
+							<p>
+								We offer the latest clinically proven medical treatment for migraines, as recommended by the National Institute of Clinical
+								Excellence. This procedure reduces the hypersensitivity of the nerves that trigger migraines. This well-researched method uses
+								very fine needles to inject Type A Botox at exact points. We prioritise your health and comfort, striving to make this
+								cutting-edge treatment affordable and accessible. Don't let migraines control your life. Take the first step towards relief
+								today.
+							</p>
+						</div>
+					</div>
+				),
+				p2: (
+					<div>
+						<div>
+							<h3 className="h5 fw-bold">Vitamin B12 injections.</h3>
+							<p>
+								Vitamin B12 is essential for maintaining energy, mental clarity, and a healthy nervous system. Our Vitamin B12 injections offer
+								a fast and effective way to support your overall well-being. By bypassing the digestive system, these injections ensure maximum
+								absorption and deliver noticeable results more quickly than oral supplements.
+							</p>
+							<div>
+								<h4 className="h6 fw-bold">Key Benefits of B12 Injections:</h4>
+								<ul>
+									<li>
+										<strong>Boost Energy Levels:</strong> Say goodbye to fatigue and embrace a revitalised, energetic you.
+									</li>
+									<li>
+										<strong>Enhance Cognitive Function:</strong> Support sharper focus, improved memory, and mental clarity.
+									</li>
+									<li>
+										<strong>Improve Mood:</strong> B12 helps regulate neurotransmitters, promoting emotional balance.
+									</li>
+									<li>
+										<strong>Support a Healthy Nervous System:</strong> Vital for nerve function and the production of red blood cells and
+										DNA.
+									</li>
+								</ul>
+								<p>
+									These injections are especially beneficial for individuals with <strong>pernicious anaemia, digestive disorders,</strong> or
+									anyone struggling to absorb B12 from food or supplements. They can also aid metabolism and alleviate symptoms like weakness
+									or nerve pain.
+								</p>
+							</div>
+						</div>
+						<div>
+							<h3 className="h5 fw-bold">Other Aesthetic Procedures.</h3>
+							<p>
+								Dr Austin Everill has established Precision Aesthetics at our Birmingham clinic. Our staff have been highly trained to
+								administer Precision Aesthetics anti-ageing treatments and provide expert patient care. Botox injections - the effective
+								non-surgical anti-wrinkle procedure - are the most popular treatment globally and have a proven safety record.
+							</p>
+						</div>
+						<p>
+							We aim to make all our treatments affordable for patients. Please enquire about our full range of treatments and competitive
+							pricing. <a className="text-dark fw-bold" href="tel:07898903772">Call</a> or{" "}
+							<a
+								className="text-dark fw-bold"
+								href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf"
+								target="_blank"
+							>
+								book online.
+							</a>
+						</p>
+					</div>
+				),
+			},
+			therapyTypeCode: "medi-aesthetics",
+			image: botox,
+			imageAlt: "Demonstration of botox injection, a woman lies back with her eyes closed as the doctor administers the botox by injection just above the eyebrows.",
+			image2Alt: "Demonstration of botox injection, a man lies back with his eyes closed as the doctor administers the botox by injection just above the eyebrows.",
+			image2: botox2,
 		},
 		{
 			title: "Yoga",

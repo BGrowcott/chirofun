@@ -30,14 +30,14 @@ function Hero() {
 									<div>
 										<a
 											target="_blank"
-											href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
+											href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/"
 											className="d-none d-md-block btn btn-lg btn-dark p-3"
 										>
 											Make an Appointment Today!
 										</a>
 										<a
 											target="_blank"
-											href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true"
+											href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/"
 											className="d-md-none btn btn-dark p-3"
 										>
 											Make an Appointment Today!

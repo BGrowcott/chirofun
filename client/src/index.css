@@ -85,13 +85,16 @@ main {
 
 .navDropDownContents {
   max-height: 0px;
+  z-index: 1;
   overflow: hidden;
   position: absolute;
   transition: 0.5s all;
+  box-shadow: 0px 0px 0px #0000004d;
 }
 
 .navDropDownContainer:hover .navDropDownContents {
-  max-height: 180px;
+  max-height: 268px;
+  box-shadow: 4px 4px 4px #00000071;
 }
 
 .text-shadow {
