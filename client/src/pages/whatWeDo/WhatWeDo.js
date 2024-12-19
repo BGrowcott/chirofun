@@ -7,8 +7,8 @@ import orthotic3 from "../../images/ortho3.jpg";
 import orthotic4 from "../../images/ortho4.jpg";
 import sportsMass from "../../images/whatWeSportsMass.jpg";
 import sportsMass2 from "../../images/sportsmass2.jpg";
-import botox from "../../images/botox1.jpeg";
-import botox2 from "../../images/botox2.jpeg";
+import mediAesthetics1 from "../../images/medi-aesthetics1.jpeg";
+import mediAesthetics2 from "../../images/medi-aesthetics2.jpeg";
 import PageHeader from "../../components/utils/PageHeader";
 import WhatWeDoTabs from "./WhatWeDoTabs";
 import WhatWeDoAccordion from "./WhatWeDoAccordion";
@@ -85,7 +85,7 @@ function WhatWeDo() {
                             <h3 className="h5 fw-bold">Migraine Treatment.</h3>
                             <p>
                                 We offer the latest clinically proven medical treatment for migraines, as recommended by the National Institute of Clinical Excellence. This procedure reduces the
-                                hypersensitivity of the nerves that trigger migraines. This well-researched method uses very fine needles to inject Type A Botox at exact points. We prioritise your
+                                hypersensitivity of the nerves that trigger migraines. This well-researched method uses very fine needles to inject at exact points. We prioritise your
                                 health and comfort, striving to make this cutting-edge treatment affordable and accessible. Don't let migraines control your life. Take the first step towards relief
                                 today.
                             </p>
@@ -125,8 +125,8 @@ function WhatWeDo() {
                         <div>
                             <h3 className="h5 fw-bold">Other Aesthetic Procedures.</h3>
                             <p>
-                                Dr Austin Everill has established Precision Aesthetics at our Birmingham clinic. All our staff are highly trained and provide expert patient care. Botox injections -
-                                the effective non-surgical anti-wrinkle procedure - are the most popular treatment globally and have a proven safety record.
+                                Dr Austin Everill has established Precision Aesthetics at our Birmingham clinic. All our staff are highly trained and provide expert patient care. 
+                                We use effective non-surgical anti-wrinkle procedure - the most popular treatment globally and have a proven safety record.
                             </p>
                         </div>
                         <p>
@@ -143,10 +143,10 @@ function WhatWeDo() {
                 ),
             },
             therapyTypeCode: "medi-aesthetics",
-            image: botox,
-            imageAlt: "Demonstration of botox injection, a woman lies back with her eyes closed as the doctor administers the botox by injection just above the eyebrows.",
-            image2Alt: "Demonstration of botox injection, a man lies back with his eyes closed as the doctor administers the botox by injection just above the eyebrows.",
-            image2: botox2,
+            image: mediAesthetics1,
+            imageAlt: "Demonstration of a medi-aesthetics procedure, a woman lies back with her eyes closed as the doctor administers the injection just above the eyebrows.",
+            image2Alt: "Demonstration of a medi-aesthetics procedure, a man lies back with his eyes closed as the doctor administers the injection just above the eyebrows.",
+            image2: mediAesthetics2,
         },
         {
             title: "Yoga",
