@@ -22,7 +22,7 @@ function Main() {
         >
           <a
             target="_blank"
-            href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?allOffer=true"
+            href="https://www.fresha.com/book-now/birmingham-chiropractic-hhdevkrf/all-offer?share&pId=34323"
             className={`rounded-0 rounded-top btn btn-lg btn-warm`}
             style={{ boxShadow: "-2px -2px 7px black" }}
           >

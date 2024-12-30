@@ -112,7 +112,7 @@ function Fees() {
       </ContentBox>
       <a
         target="_blank"
-        href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?allOffer=true"
+        href="https://www.fresha.com/book-now/birmingham-chiropractic-hhdevkrf/all-offer?share&pId=34323"
         className="d-block btn btn-lg btn-dark p-3 rounded-0 rounded-bottom"
       >
         Book now{" "}
