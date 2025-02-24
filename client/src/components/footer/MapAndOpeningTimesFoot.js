@@ -1,8 +1,11 @@
 import { regular, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useGlobalContext } from "../../utils/GlobalState";
 
 function MapAndOpeningTimesFoot() {
     const openingTimes = ["Monday: 9am - 7pm", "Tuesday: 9am - 7pm", "Wednesday: Closed", "Thursday: 9am - 7pm", "Friday: 9am - 2pm", "Saturday: 9am - 2pm", "Sunday: Closed"];
+
+    const [state, dispatch] = useGlobalContext();
 
     return (
         <>
@@ -85,7 +88,7 @@ function MapAndOpeningTimesFoot() {
                                 </div>
                             </address>
                             <div className="d-block d-md-none mb-2">
-                                <a role="button" target="_blank" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/" className="btn btn-light btn-lg">Book Online</a>
+                                <a role="button" target="_blank" href={state.bookingUrl} className="btn btn-light btn-lg">Book Online</a>
                             </div>
                         </div>
                     </div>

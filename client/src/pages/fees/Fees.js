@@ -7,11 +7,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 import PageContainer from "../../components/utils/PageContainer";
 import ContentBox from "../../components/utils/ContentBox";
+import { useGlobalContext } from "../../utils/GlobalState";
 
 function Fees() {
   useEffect(() => {
     document.title = "Fees - Birmingham Chiropractic";
   }, []);
+
+  const [state, dispatch] = useGlobalContext();
 
   const firstExamList = [
     "Full consultation & Treatment with a Chiropractor",
@@ -87,7 +90,7 @@ function Fees() {
               <h3 className="h1 josefinSans-text text-dark">
                 Existing Patient
               </h3>
-              <p className="fs-3 fw-bold">£40</p>
+              <p className="fs-3 fw-bold">£43</p>
             </div>
           </div>
           <div className="col">
@@ -112,7 +115,7 @@ function Fees() {
       </ContentBox>
       <a
         target="_blank"
-        href="https://www.fresha.com/book-now/birmingham-chiropractic-hhdevkrf/all-offer?share&pId=34323"
+        href={state.bookingUrl}
         className="d-block btn btn-lg btn-dark p-3 rounded-0 rounded-bottom"
       >
         Book now{" "}

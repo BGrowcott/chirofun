@@ -6,8 +6,12 @@ import WhatWeDo from "./pages/whatWeDo/WhatWeDo";
 import { useEffect, useState } from "react";
 import PrivacyPolicy from "./pages/privacyPolicy/PrivacyPolicy";
 import PageNotFound from "./components/PageNotFound";
+import { useGlobalContext } from "./utils/GlobalState";
 
 function Main() {
+
+  const [state] = useGlobalContext();
+
   return (
     <main>
       <aside className="d-none d-md-block">
@@ -22,7 +26,7 @@ function Main() {
         >
           <a
             target="_blank"
-            href="https://www.fresha.com/book-now/birmingham-chiropractic-hhdevkrf/all-offer?share&pId=34323"
+            href={state.bookingUrl}
             className={`rounded-0 rounded-top btn btn-lg btn-warm`}
             style={{ boxShadow: "-2px -2px 7px black" }}
           >

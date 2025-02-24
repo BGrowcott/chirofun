@@ -14,11 +14,14 @@ import WhatWeDoTabs from "./WhatWeDoTabs";
 import WhatWeDoAccordion from "./WhatWeDoAccordion";
 import PageContainer from "../../components/utils/PageContainer";
 import ContentBox from "../../components/utils/ContentBox";
+import { useGlobalContext } from "../../utils/GlobalState";
 
 function WhatWeDo() {
     useEffect(() => {
         document.title = "What We Do - Birmingham Chiropractic";
     }, []);
+
+    const [state, dispatch] = useGlobalContext();
 
     const therapyTypes = [
         {
@@ -126,7 +129,7 @@ function WhatWeDo() {
                             <h3 className="h5 fw-bold">Other Aesthetic Procedures.</h3>
                             <p>
                                 Dr Austin Everill has established Precision Aesthetics at our Birmingham clinic. All our staff are highly trained and provide expert patient care. 
-                                We use effective non-surgical anti-wrinkle procedure - the most popular treatment globally and have a proven safety record.
+                                We use an effective, non-surgical, anti-wrinkle procedure. This technique uses neuromodulators, which is the most popular method globally, as well as having a long established safety record.
                             </p>
                         </div>
                         <p>
@@ -135,7 +138,7 @@ function WhatWeDo() {
                                 Call
                             </a>{" "}
                             or{" "}
-                            <a className="text-dark fw-bold" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf" target="_blank">
+                            <a className="text-dark fw-bold" href={state.bookingUrl} target="_blank">
                                 book online.
                             </a>
                         </p>
