@@ -90,7 +90,7 @@ function Fees() {
               <h3 className="h1 josefinSans-text text-dark">
                 Existing Patient
               </h3>
-              <p className="fs-3 fw-bold">£40</p>
+              <p className="fs-3 fw-bold">£43</p>
             </div>
           </div>
           <div className="col">
