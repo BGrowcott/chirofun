@@ -7,7 +7,8 @@ const { Provider } = GlobalContext;
 const GlobalProvider = ({ value = [], ...props }) => {
   const [state, dispatch] = useGlobalReducer({
     setModalExample: false,
-    reviews: []
+    reviews: [],
+    bookingUrl: "https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true&pId=34323&dppub=true&employeeId=96632"
   });
 
   return <Provider value={[state, dispatch]} {...props} />;

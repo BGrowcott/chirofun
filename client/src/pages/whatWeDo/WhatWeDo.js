@@ -14,11 +14,14 @@ import WhatWeDoTabs from "./WhatWeDoTabs";
 import WhatWeDoAccordion from "./WhatWeDoAccordion";
 import PageContainer from "../../components/utils/PageContainer";
 import ContentBox from "../../components/utils/ContentBox";
+import { useGlobalContext } from "../../utils/GlobalState";
 
 function WhatWeDo() {
     useEffect(() => {
         document.title = "What We Do - Birmingham Chiropractic";
     }, []);
+
+    const [state, dispatch] = useGlobalContext();
 
     const therapyTypes = [
         {
@@ -135,7 +138,7 @@ function WhatWeDo() {
                                 Call
                             </a>{" "}
                             or{" "}
-                            <a className="text-dark fw-bold" href="https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf" target="_blank">
+                            <a className="text-dark fw-bold" href={state.bookingUrl} target="_blank">
                                 book online.
                             </a>
                         </p>

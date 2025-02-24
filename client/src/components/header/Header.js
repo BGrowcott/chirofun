@@ -103,7 +103,7 @@ const Header = () => {
                     Call: 07898 903772
                   </a>
                   <a
-                    href="https://www.fresha.com/book-now/birmingham-chiropractic-hhdevkrf/all-offer?share&pId=34323"
+                    href={state.bookingUrl}
                     target="_blank"
                     className="btn btn-outline-dark"
                   >
