@@ -129,7 +129,7 @@ function WhatWeDo() {
                             <h3 className="h5 fw-bold">Other Aesthetic Procedures.</h3>
                             <p>
                                 Dr Austin Everill has established Precision Aesthetics at our Birmingham clinic. All our staff are highly trained and provide expert patient care. 
-                                We use an effective non-surgical anti-wrinkle procedure - the most popular treatment globally and which has a proven safety record.
+                                We use an effective, non-surgical, anti-wrinkle procedure. This technique uses neuromodulators, which is the most popular method globally, as well as having a long established safety record.
                             </p>
                         </div>
                         <p>
