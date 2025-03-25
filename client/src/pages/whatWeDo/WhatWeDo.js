@@ -9,6 +9,12 @@ import sportsMass from "../../images/whatWeSportsMass.jpg";
 import sportsMass2 from "../../images/sportsmass2.jpg";
 import mediAesthetics1 from "../../images/medi-aesthetics1.jpeg";
 import mediAesthetics2 from "../../images/medi-aesthetics2.jpeg";
+import vitaminTherapy1 from "../../images/vitaminTherapy1.jpg";
+import vitaminTherapy2 from "../../images/vitaminTherapy2.jpg";
+import vitaminTherapy3 from "../../images/vitaminTherapy3.jpg";
+import vitaminTherapy4 from "../../images/vitaminTherapy4.jpg";
+import vitaminTherapy5 from "../../images/vitaminTherapy5.jpg";
+import vitaminTherapy6 from "../../images/vitaminTherapy6.jpg";
 import PageHeader from "../../components/utils/PageHeader";
 import WhatWeDoTabs from "./WhatWeDoTabs";
 import WhatWeDoAccordion from "./WhatWeDoAccordion";
@@ -98,34 +104,6 @@ function WhatWeDo() {
                 p2: (
                     <div>
                         <div>
-                            <h3 className="h5 fw-bold">Vitamin B12 injections.</h3>
-                            <p>
-                                Vitamin B12 is essential for maintaining energy, mental clarity, and a healthy nervous system. Our Vitamin B12 injections offer a fast and effective way to support your
-                                overall well-being. By bypassing the digestive system, these injections ensure maximum absorption and deliver noticeable results more quickly than oral supplements.
-                            </p>
-                            <div>
-                                <h4 className="h6 fw-bold">Key Benefits of B12 Injections:</h4>
-                                <ul>
-                                    <li>
-                                        <strong>Boost Energy Levels:</strong> Say goodbye to fatigue and embrace a revitalised, energetic you.
-                                    </li>
-                                    <li>
-                                        <strong>Enhance Cognitive Function:</strong> Support sharper focus, improved memory, and mental clarity.
-                                    </li>
-                                    <li>
-                                        <strong>Improve Mood:</strong> B12 helps regulate neurotransmitters, promoting emotional balance.
-                                    </li>
-                                    <li>
-                                        <strong>Support a Healthy Nervous System:</strong> Vital for nerve function and the production of red blood cells and DNA.
-                                    </li>
-                                </ul>
-                                <p>
-                                    These injections are especially beneficial for individuals with <strong>pernicious anaemia, digestive disorders,</strong> or anyone struggling to absorb B12 from
-                                    food or supplements. They can also aid metabolism and alleviate symptoms like weakness or nerve pain.
-                                </p>
-                            </div>
-                        </div>
-                        <div>
                             <h3 className="h5 fw-bold">Other Aesthetic Procedures.</h3>
                             <p>
                                 Dr Austin Everill has established Precision Aesthetics at our Birmingham clinic. All our staff are highly trained and provide expert patient care. 
@@ -150,6 +128,99 @@ function WhatWeDo() {
             imageAlt: "Demonstration of a medi-aesthetics procedure, a woman lies back with her eyes closed as the doctor administers the injection just above the eyebrows.",
             image2Alt: "Demonstration of a medi-aesthetics procedure, a man lies back with his eyes closed as the doctor administers the injection just above the eyebrows.",
             image2: mediAesthetics2,
+        },
+        {
+            title: "Vitamin Therapy",
+            text: {
+                p1: (
+                    <div>
+                        <div>
+                            <h3 className="h5 fw-bold">Vitamin B12 injections.</h3>
+                            <p>
+                                Vitamin B12 is essential for maintaining energy, mental clarity, and a healthy nervous system. Our Vitamin B12 injections offer a fast and effective way to support your
+                                overall well-being. By bypassing the digestive system, these injections ensure maximum absorption and deliver noticeable results fast and effectively.
+                            </p>
+                            <div>
+                                <h4 className="h6 fw-bold">Key Benefits of B12 Injections:</h4>
+                                <ul>
+                                    <li>
+                                        <strong>Boost Energy Levels:</strong> Say goodbye to fatigue and embrace a revitalised, energetic you.
+                                    </li>
+                                    <li>
+                                        <strong>Enhance Cognitive Function:</strong> Support sharper focus, improved memory, and mental clarity.
+                                    </li>
+                                    <li>
+                                        <strong>Improve Mood:</strong> B12 helps regulate neurotransmitters, promoting emotional balance.
+                                    </li>
+                                    <li>
+                                        <strong>Support a Healthy Nervous System:</strong> Vital for nerve function and the production of red blood cells and DNA.
+                                    </li>
+                                </ul>
+                                <p>
+                                    These injections are especially beneficial for individuals with <strong>pernicious anaemia, digestive disorders,</strong> or anyone struggling to absorb B12 from
+                                    food or supplements. They can also aid metabolism and alleviate symptoms like weakness or nerve pain.
+                                </p>
+                            </div>
+                        </div>                    
+                    </div>
+                ),
+                p2: (
+                    <div>
+                    <div>
+                        <h3 className="h5 fw-bold">
+                            Glutathione 
+                        </h3>
+
+                        <p>
+                            Glutathione booster injections are a
+                            powerful antioxidant therapy
+                            designed to promote detoxification,
+                            improve skin health & enhance overall
+                            wellness. Gltathione, called the
+                            "master antioxidant" helps
+                            neutralise free radicals, reduce
+                            oxidative stress & support the body's
+                            natural detoxification process.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h3 className="h5 fw-bold">
+                            Vitamin C Injections
+                        </h3>
+
+                        <p>
+                            A powerful therapy
+                            to strengthen
+                            the immune system,
+                            improve skin health
+                            
+                            & combat oxidative stress.
+                            This vital antioxidant,
+                            supports collagen production,
+                            boosts energy levels
+                            & fights off infection.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 className="h5 fw-bold">
+                            Combination Injection Therapy
+                        </h3>
+
+                        <p>
+                        For combination injection therapy, it's not necessary to book separately. You can request your preference when using the online booking system for one of the single injection therapies or call us to book.
+                        </p>
+                    </div>
+
+                    </div>
+                ),
+            },
+            therapyTypeCode: "vitamin-therapy",
+            image: vitaminTherapy3,
+            imageAlt: "Demonstration of a medi-aesthetics procedure, a woman lies back with her eyes closed as the doctor administers the injection just above the eyebrows.",
+            image2Alt: "Demonstration of a medi-aesthetics procedure, a man lies back with his eyes closed as the doctor administers the injection just above the eyebrows.",
+            image2: vitaminTherapy5,
         },
         {
             title: "Yoga",

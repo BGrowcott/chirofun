@@ -12,7 +12,7 @@ function WhatWeDoTabs({therapyTypes}) {
 
         if (!param && index === 0) {
             return "active";
-        }
+        }       
     };
 
     
@@ -21,7 +21,7 @@ function WhatWeDoTabs({therapyTypes}) {
         <div>
             <ul className="nav nav-tabs" id="myTab" role="tablist">
                 {therapyTypes.map((it, index) => (
-                    <li className="nav-item rounded-0" role="presentation" style={{ width: "20%" }} key={it.title}>
+                    <li className="nav-item rounded-0" role="presentation" style={{ width: "16.666667%" }} key={it.title}>
                         <button
                             className={`p-2 rounded-0 nav-link ${setActiveClass(params.therapy, it.therapyTypeCode, index)}`}
                             id={`${it.therapyTypeCode}-tab`}
@@ -36,7 +36,7 @@ function WhatWeDoTabs({therapyTypes}) {
                                 <div className="card border-0 rounded-0">
                                     <img src={it.image} className="card-img-top rounded-0" alt={it.imageAlt} />
                                     <div className="card-body px-1">
-                                        <h2 className="card-text text-dark fs-4 fw-bold josefinSans-text">{it.title}</h2>
+                                        <h2 className="card-text text-dark fs-5 fw-bold josefinSans-text">{it.title}</h2>
                                     </div>
                                 </div>
                             </div>

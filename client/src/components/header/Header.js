@@ -59,6 +59,12 @@ const Header = () => {
                     >
                       Precision Medi-Aesthetics
                     </Link>
+                    <Link
+                      to={"/what-we-do/vitamin-therapy"}
+                      className="nav-link"
+                    >
+                      Vitamin Therapy
+                    </Link>
                     <Link to={"/what-we-do/yoga"} className="nav-link">
                       Yoga
                     </Link>
