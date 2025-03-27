@@ -182,7 +182,7 @@ function WhatWeDo() {
 
 							<p>
 								Glutathione booster injections are a powerful antioxidant therapy designed to promote detoxification, improve skin health &
-								enhance overall wellness. Gltathione, called the "master antioxidant" helps neutralise free radicals, reduce oxidative stress &
+								enhance overall wellness. Glutathione, called the "master antioxidant" helps neutralise free radicals, reduce oxidative stress &
 								support the body's natural detoxification process.
 							</p>
 						</div>
