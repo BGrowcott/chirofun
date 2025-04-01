@@ -84,9 +84,6 @@ function WhatWeDo() {
 			text: {
 				p1: (
 					<div>
-						<div className="fs-4">
-							<p>Book your consultation now and experience the difference!</p>
-						</div>
 						<div>
 							<h3 className="h5 fw-bold">Migraine Treatment.</h3>
 							<p>
@@ -153,16 +150,16 @@ function WhatWeDo() {
 								<h4 className="h6 fw-bold">Key Benefits of B12 Injections:</h4>
 								<ul>
 									<li>
-										<strong>Boost Energy Levels:</strong> Say goodbye to fatigue and embrace a revitalised, energetic you.
+										<strong>Reduce stress and fatique</strong> Improve energy and cell metabolism.
 									</li>
 									<li>
-										<strong>Enhance Cognitive Function:</strong> Support sharper focus, improved memory, and mental clarity.
+										<strong>Enhance cognitive function:</strong> Support sharper focus, improved memory, and mental clarity.
 									</li>
 									<li>
-										<strong>Improve Mood:</strong> B12 helps regulate neurotransmitters, promoting emotional balance.
+										<strong>Improve mood:</strong> B12 helps regulate neurotransmitters, promoting emotional balance.
 									</li>
 									<li>
-										<strong>Support a Healthy Nervous System:</strong> Vital for nerve function and the production of red blood cells and
+										<strong>Support a healthy nervous system:</strong> Vital for nerve function and the production of red blood cells and
 										DNA.
 									</li>
 								</ul>
