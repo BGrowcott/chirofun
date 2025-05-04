@@ -3,12 +3,10 @@ import chiropractic from "../../images/whatWeChiro.jpeg";
 import chiropractic2 from "../../images/therapy3.jpg";
 import yoga from "../../images/whatWeYoga.jpeg";
 import yoga2 from "../../images/yoga2.jpeg";
-import orthotic3 from "../../images/ortho3.jpg";
-import orthotic4 from "../../images/ortho4.jpg";
 import sportsMass from "../../images/whatWeSportsMass.jpg";
 import sportsMass2 from "../../images/sportsmass2.jpg";
 import mediAesthetics1 from "../../images/medi-aesthetics1.jpeg";
-import mediAesthetics2 from "../../images/medi-aesthetics2.jpeg";
+import neuromodulation from "../../images/neuromodulation.jpeg";
 import vitaminTherapy7 from "../../images/vitaminTherapy7.jpg";
 import vitaminTherapy8 from "../../images/vitaminTherapy8.jpg";
 import PageHeader from "../../components/utils/PageHeader";
@@ -86,7 +84,7 @@ function WhatWeDo() {
                         <h3 className="h5 fw-bold">Treatments We Offer:</h3>
                         <div>
                             <ul>
-                                <li>Migraine Relief - using an NHS-recommended treatment with neuromodulators (Botox Type A) to prevent migraine symptoms.</li>
+                                <li>Migraine Relief - using an NHS-recommended treatment with neuromodulators to prevent migraine symptoms.</li>
                                 <li>Jaw Pain & Tension Headaches</li>
                                 <li>Teeth Grinding (Bruxism)</li>
                                 <li>TMJ Disorder</li>
@@ -94,19 +92,20 @@ function WhatWeDo() {
                         </div>
 
                         <div>
-                            <p>Botox can alleviate jaw pain and tension, including symptoms of Bruxism (teeth grinding) and TMJ disorders, by relaxing the masseter muscle.</p>
+                            <p>Neuromodulation (achieved through painless injections) can alleviate jaw pain and tension, including symptoms of Bruxism (teeth grinding) and TMJ disorders, by relaxing the masseter muscle.</p>
                         </div>
 
                         <h3 className="h5 fw-bold">Benefits of these treatments:</h3>
                         <div>
                             <ol>
-                                <li>Treatment is convenient and can be carried out to suit your schedule. Typical treatment time is usually no longer than 30 minutes</li>
-                                <li>No invasive procedures. Once the treatment is complete, you can usually go back to normal activities straight after treatment</li>
-                                <li>
-                                    Effective treatment. Typically, noticeable results can be seen in a few days to a week with full effects usually becoming apparent after 2-4 weeks All the above
-                                    treatments require a consultation and a small deposit paid upfront. This will be deducted from the total amount. You can book online or call to discuss.
-                                </li>
+                                <li>Treatment is convenient and can be carried out to suit your schedule. Typical treatment time is usually no longer than 30 minutes.</li>
+                                <li>No invasive procedures. You can generally go back to normal activities once the treatment is complete.</li>
+                                <li>Effective treatment. Noticeable results can typically be seen in a few days to a week, with full effects becoming apparent after 2-4 weeks.</li>
                             </ol>
+
+                            <p>
+                                All the above treatments require a consultation and a small deposit paid upfront. This will be deducted from the total amount. You can book online or call to discuss.
+                            </p>
                         </div>
                     </div>
                 ),
@@ -116,7 +115,7 @@ function WhatWeDo() {
                             <h3 className="h5 fw-bold">Aesthetic Procedures.</h3>
                             <p>
                                 Dr Austin Everill has established Precision Aesthetics at our Birmingham clinic. All our staff are highly trained and provide expert patient care. We use an effective,
-                                non-surgical, anti-wrinkle procedure. This technique uses neuromodulators, which is the most popular method globally, as well as having a long established safety
+                                non-surgical, anti-wrinkle procedure. This technique uses neuromodulators, which is the most popular method globally, as well as having a long-established safety
                                 record.
                             </p>
                         </div>
@@ -136,8 +135,8 @@ function WhatWeDo() {
             therapyTypeCode: "neuromodulator-treatments",
             image: mediAesthetics1,
             imageAlt: "Demonstration of a medi-aesthetics procedure, a woman lies back with her eyes closed as the doctor administers the injection just above the eyebrows.",
-            image2Alt: "Demonstration of a medi-aesthetics procedure, a man lies back with his eyes closed as the doctor administers the injection just above the eyebrows.",
-            image2: mediAesthetics2,
+            image2Alt: "Demonstration of using neuromodulators, a doctor administers the injection just above the eyebrows.",
+            image2: neuromodulation,
         },
         {
             title: "Vitamin Therapy",

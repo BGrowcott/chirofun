@@ -74,9 +74,6 @@ const Header = () => {
                     >
                       Sports Massage
                     </Link>
-                    <Link to={"/what-we-do/orthotics"} className="nav-link">
-                      Orthotics
-                    </Link>
                   </div>
                 </div>
               </li>

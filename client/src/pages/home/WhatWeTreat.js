@@ -19,7 +19,6 @@ function WhatWeTreat() {
 		"Some sports injuries depending on diagnosis",
 		"Plantar fasciitis",
 		"Rotator Cuff Injuries",
-		"We also offer Orthotic fitting at affordable prices",
 	];
 
 	return (
