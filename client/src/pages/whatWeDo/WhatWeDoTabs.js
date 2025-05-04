@@ -20,8 +20,8 @@ function WhatWeDoTabs({therapyTypes}) {
         <div className="p-2 bg-secondary">
         <div>
             <ul className="nav nav-tabs" id="myTab" role="tablist">
-                {therapyTypes.map((it, index) => (
-                    <li className="nav-item rounded-0" role="presentation" style={{ width: "16.666667%" }} key={it.title}>
+                {therapyTypes.map((it, index, array) => (
+                    <li className="nav-item rounded-0" role="presentation" style={{ width: `${1/array.length*100}%` }} key={it.title}>
                         <button
                             className={`p-2 rounded-0 nav-link ${setActiveClass(params.therapy, it.therapyTypeCode, index)}`}
                             id={`${it.therapyTypeCode}-tab`}
@@ -36,7 +36,7 @@ function WhatWeDoTabs({therapyTypes}) {
                                 <div className="card border-0 rounded-0">
                                     <img src={it.image} className="card-img-top rounded-0" alt={it.imageAlt} />
                                     <div className="card-body px-1">
-                                        <h2 className="card-text text-dark fs-5 fw-bold josefinSans-text">{it.title}</h2>
+                                        <h2 className={`card-text text-dark fw-bold josefinSans-text fs-5`}>{it.title}</h2>
                                     </div>
                                 </div>
                             </div>

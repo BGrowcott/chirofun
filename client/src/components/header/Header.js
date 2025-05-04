@@ -54,10 +54,10 @@ const Header = () => {
                       Chiropractic
                     </Link>
                     <Link
-                      to={"/what-we-do/medi-aesthetics"}
+                      to={"/what-we-do/neuromodulator-treatments"}
                       className="nav-link"
                     >
-                      Precision Medi-Aesthetics
+                      Neuromodulator Treatments
                     </Link>
                     <Link
                       to={"/what-we-do/vitamin-therapy"}
@@ -73,9 +73,6 @@ const Header = () => {
                       className="nav-link"
                     >
                       Sports Massage
-                    </Link>
-                    <Link to={"/what-we-do/orthotics"} className="nav-link">
-                      Orthotics
                     </Link>
                   </div>
                 </div>
