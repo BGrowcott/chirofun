@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import chiropractic from "../../images/whatWeChiro.jpeg";
 import chiropractic2 from "../../images/therapy3.jpg";
+import chiropractic3 from "../../images/chiroNew.png";
+import xRay from "../../images/xray.jpeg"
 import yoga from "../../images/whatWeYoga.jpeg";
 import yoga2 from "../../images/yoga2.jpeg";
 import sportsMass from "../../images/whatWeSportsMass.jpg";
@@ -71,10 +73,10 @@ function WhatWeDo() {
                 ),
             },
             therapyTypeCode: "chiropractic",
-            image: chiropractic,
+            image: chiropractic3,
             imageAlt: "Chiropractor demostrates spinal manipulation",
             image2Alt: "Dr Austin Everill demonstrates spinal manipulation in his clinic.",
-            image2: chiropractic2,
+            image2: xRay,
         },
         {
             title: "Neuromodulation",
