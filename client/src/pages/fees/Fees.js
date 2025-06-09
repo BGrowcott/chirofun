@@ -79,12 +79,12 @@ function Fees() {
 								<img className="img-fluid border border-5" src={therapy5x4} alt="Dr Austin Everill with a patient in the clinic."></img>
 							</div>
 							<div>
-								<h3 className="h1 mb-0 josefinSans-text text-dark">Returning Patient</h3>
+								<h3 className="h3 mb-0 josefinSans-text text-dark">Returning Patient</h3>
 								<p className="fs-5 m-0">If we haven't seen you in two or more years.</p>
 								<p className="fs-4 fw-bold">£46</p>
 							</div>
 							<div>
-								<h3 className="h1 josefinSans-text text-dark">Existing Patient</h3>
+								<h3 className="h3 josefinSans-text text-dark">Existing Patient</h3>
 								<p className="fs-4 fw-bold">£43</p>
 							</div>
 						</div>
@@ -94,18 +94,21 @@ function Fees() {
 							<div className="mb-2">
 								<img className="img-fluid border border-5" alt="Example of a medical treatment, a woman is having a injection administered to her face" src={botox1}></img>
 							</div>
-							<h3 className="h1 josefinSans-text text-dark">Medical Treatments</h3>
-							<ul className="list-group list-group-flush fs-5">
+							<h3 className="h4 josefinSans-text text-dark">Neuromodulator Treatments</h3>
+							<ul className="list-group list-group-flush ">
 								<li class="list-group-item bg-transparent">Precise Preempt Protocol for migraine - £390</li>
 								<li class="list-group-item bg-transparent">Masseter/TMJ - £275</li>
 								<li class="list-group-item bg-transparent">Jaw pain - £275</li>
 								<li class="list-group-item bg-transparent">Tension headache - £275</li>
 								<li class="list-group-item bg-transparent">Neuromodulator Facial - £190 (one area) + £40 per additional area</li>
+							</ul>
+
+							<h3 className="mt-3 h4 josefinSans-text text-dark">Vitamin Injections</h3>
+							<ul className="list-group list-group-flush ">
 								<li class="list-group-item bg-transparent">B12 Injection - £35</li>
 								<li class="list-group-item bg-transparent">Glutathione - £50</li>
 								<li class="list-group-item bg-transparent">Vitamin C - £40</li>
 							</ul>
-
 							
 						</div>
 					</div>

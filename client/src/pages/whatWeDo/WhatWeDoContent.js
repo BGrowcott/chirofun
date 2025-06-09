@@ -8,17 +8,23 @@ function WhatWeDoContent({ it }) {
                             <div>{it.text.p1}</div>
                         </div>
                         <div className="col-12">
-                            <div className="">
-                                <img className="img-fluid white-border shadow" src={it.image2} alt={it.image2Alt}></img>
+                            <div className="row">
+                                <div className={it.image3 ? "col-6" : "col-12"}>
+                                    <img className="img-fluid white-border shadow" src={it.image2} alt={it.image2Alt}></img>
+                                </div>
+                                <div className="col-6">
+                                    {it.image3 ? <img className="img-fluid white-border shadow" src={it.image3} alt={it.image2Alt}></img> : null}
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="d-none d-xl-block">
-                    <div className="m-3" style={{ float: "right", width: "55%" }}>
+                    <div className="m-3" style={{ float: "right", width: `${it.image3 ? "42.5%" : "55%"}` }}>
                         <div >
                             <img className="img-fluid white-border shadow" src={it.image2} alt={it.image2Alt}></img>
+                            {it.image3 ? <img className="img-fluid white-border shadow mt-2" src={it.image3} alt={it.image2Alt}></img> : null}
                         </div>
                     </div>
                     <div>{it.text.p1}</div>
