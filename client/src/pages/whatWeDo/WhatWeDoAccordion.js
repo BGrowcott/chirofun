@@ -14,14 +14,14 @@ function WhatWeDoAccordion({ therapyTypes }) {
 						<div className="accordion-item" key={it.title}>
 							<h2 className="accordion-header">
 								<button
-									className="accordion-button collapsed"
+									className="accordion-button collapsed p-2 p-md-3 "
 									type="button"
 									data-bs-toggle="collapse"
 									data-bs-target={`#accord-${it.therapyTypeCode}`}
 									aria-expanded="false"
 									aria-controls={`accord-${it.therapyTypeCode}`}
 								>
-									<img className="image-fluid border border-secondary border-3 shadow me-3" src={it.image} width={120}></img>
+									<img className="image-fluid border border-secondary border-3 shadow me-2 me-md-3" src={it.image} width={120}></img>
 									<span className="text-dark fs-3 fw-bold josefinSans-text">{it.title}</span>
 								</button>
 							</h2>

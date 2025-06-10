@@ -1,7 +1,11 @@
 import PageHeader from "../../components/utils/PageHeader";
 import therapy2 from "../../images/therapy2.jpg";
+import therapy5x4 from "../../images/therapy5x4.jpg";
 import therapy3 from "../../images/IMG_2727.jpeg";
 import building from "../../images/building-sign.jpg";
+import botox from "../../images/botox.jpeg";
+import botox1 from "../../images/botox1.jpeg";
+import reception1 from "../../images/reception1.jpeg"
 import { regular, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
@@ -36,21 +40,21 @@ function Fees() {
 					<div className="col-12 mb-3">
 						<div className="p-1 p-md-3 white-border shadow bg-offLight">
 							<div className="d-flex justify-content-center">
-								<h3 className="h1 josefinSans-text text-dark">New Patient</h3>
+								<h3 className="h1 josefinSans-text text-dark">New Patient</h3>								
 							</div>
+							<p className="fs-2 fw-bold text-center">£55 Consultation & Treatment Includes:</p>
 							<div className="container-fluid">
-								<div className="row">
-									<div className="col-12 col-lg-5">
+								<div className="row align-items-center">
+									<div className="col-12 col-lg-6">
 										<div className="d-none d-lg-block">
 											<img
 												className="w-100 border border-5"
-												src={building}
+												src={reception1}
 												alt="Birmingham Chiropratic sign outside of the clinic. The sign is blue with white writing and lists the businesses name and contact information."
 											></img>
 										</div>
 									</div>
-									<div className="col-12 col-lg-7 bg-offLight">
-										<p className="fs-2 fw-bold">£55 Consultation & Treatment Includes:</p>
+									<div className="col-12 col-lg-6 bg-offLight">										
 										<ul className="fs-5 text-black list-group list-group-flush">
 											{firstExamList.map((it) => (
 												<li className="ms-0 ms-md-2 py-2" key={it} style={{ listStyleType: "none" }}>
@@ -72,20 +76,40 @@ function Fees() {
 					<div className="col-12 col-md-6 mb-3 mb-md-0">
 						<div className="p-3 h-100 white-border shadow bg-offLight">
 							<div className="mb-2">
-								<img className="img-fluid border border-5" src={therapy2} alt="Dr Austin Everill with a patient in the clinic."></img>
+								<img className="img-fluid border border-5" src={therapy5x4} alt="Dr Austin Everill with a patient in the clinic."></img>
 							</div>
-							<h3 className="h1 josefinSans-text text-dark">Existing Patient</h3>
-							<p className="fs-3 fw-bold">£43</p>
+							<div>
+								<h3 className="h3 mb-0 josefinSans-text text-dark">Returning Patient</h3>
+								<p className="fs-5 m-0">If we haven't seen you in two or more years.</p>
+								<p className="fs-4 fw-bold">£46</p>
+							</div>
+							<div>
+								<h3 className="h3 josefinSans-text text-dark">Existing Patient</h3>
+								<p className="fs-4 fw-bold">£43</p>
+							</div>
 						</div>
 					</div>
-					<div className="col">
+					<div className="col-12 col-md-6">
 						<div className="p-3 h-100 white-border shadow bg-offLight">
 							<div className="mb-2">
-								<img className="img-fluid border border-5" alt="Dr Austin Everill with a patient in the clinic." src={therapy3}></img>
+								<img className="img-fluid border border-5" alt="Example of a medical treatment, a woman is having a injection administered to her face" src={botox1}></img>
 							</div>
-							<h3 className="h1  josefinSans-text text-dark">Returning Patient</h3>
-							<p className="fs-3 fw-bold">£46</p>
-							<p className="fs-4">If we haven't seen you in two or more years.</p>
+							<h3 className="h4 josefinSans-text text-dark">Neuromodulator Treatments</h3>
+							<ul className="list-group list-group-flush ">
+								<li class="list-group-item bg-transparent">Precise Preempt Protocol for migraine - £390</li>
+								<li class="list-group-item bg-transparent">Masseter/TMJ - £275</li>
+								<li class="list-group-item bg-transparent">Jaw pain - £275</li>
+								<li class="list-group-item bg-transparent">Tension headache - £275</li>
+								<li class="list-group-item bg-transparent">Neuromodulator Facial - £190 (one area) + £40 per additional area</li>
+							</ul>
+
+							<h3 className="mt-3 h4 josefinSans-text text-dark">Vitamin Injections</h3>
+							<ul className="list-group list-group-flush ">
+								<li class="list-group-item bg-transparent">B12 Injection - £35</li>
+								<li class="list-group-item bg-transparent">Glutathione - £50</li>
+								<li class="list-group-item bg-transparent">Vitamin C - £40</li>
+							</ul>
+							
 						</div>
 					</div>
 				</div>
