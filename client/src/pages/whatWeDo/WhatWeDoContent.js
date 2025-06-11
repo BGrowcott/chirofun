@@ -9,11 +9,11 @@ function WhatWeDoContent({ it }) {
                         </div>
                         <div className="col-12">
                             <div className="row">
-                                <div className={it.image3 ? "col-6" : "col-12"}>
+                                <div className={it.image3 ? "col-12 col-md-6" : "col-12"}>
                                     <img className="img-fluid white-border shadow" src={it.image2} alt={it.image2Alt}></img>
                                 </div>
-                                <div className="col-6">
-                                    {it.image3 ? <img className="img-fluid white-border shadow" src={it.image3} alt={it.image2Alt}></img> : null}
+                                <div className="col-12 col-md-6">
+                                    {it.image3 ? <img className="img-fluid white-border shadow mt-2 mt-md-0" src={it.image3} alt={it.image2Alt}></img> : null}
                                 </div>
                             </div>
                         </div>
