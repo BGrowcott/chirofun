@@ -16,13 +16,14 @@ const Home = () => {
         <section>
             <Hero></Hero>
             <div className="home-container">
+                
+                <Testimonials></Testimonials>
+
                 <WhatWeDo></WhatWeDo>
 
                 <WhatWeTreat></WhatWeTreat>
 
                 <MigraineTreatment></MigraineTreatment>
-
-                <Testimonials></Testimonials>
             </div>
         </section>
     );

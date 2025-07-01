@@ -31,3 +31,26 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
         border-bottom: 4px solid $warm;
       }
    }
+
+   .slim-scroll {
+    /* width */
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background: #d2cdcd;
+    }
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: #645e5e;
+    }
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background: #3a3a3a;
+    }
+}
+
+.review-quote-size {
+  height: 120px;
+}
