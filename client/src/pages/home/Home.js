@@ -5,6 +5,7 @@ import WhatWeTreat from "./WhatWeTreat";
 import Testimonials from "./Testimonials";
 import WhatToExpect from "./WhatToExpect";
 import MigraineTreatment from "./MigraineTreatment";
+import OurClinic from "./OurClinic";
 
 const Home = () => {
     useEffect(() => {
@@ -23,7 +24,9 @@ const Home = () => {
 
                 <WhatWeTreat></WhatWeTreat>
 
-                <MigraineTreatment></MigraineTreatment>
+                <OurClinic/>
+
+                {/* <MigraineTreatment></MigraineTreatment> */}
             </div>
         </section>
     );
