@@ -1,5 +1,5 @@
 import austin1 from "../../images/austin.jpg";
-import austin2 from "../../images/austin3.jpeg";
+import austin2 from "../../images/austin4.jpeg";
 import gccReg from "../../images/gccReg.png";
 
 function WhatWeDo() {

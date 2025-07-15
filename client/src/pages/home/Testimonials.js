@@ -37,7 +37,7 @@ function Testimonials() {
 						<div className="container-fluid bg-light border-top border-bottom border-secondary border-3 shadow-inset">
 							<div className="row">
 								<div className="col-12 col-lg-2 d-flex align-items-center justify-content-center justify-content-lg-end">
-									<div class="text-center">
+									<div className="text-center">
 										<strong className="fs-5">Google Reviews</strong>
 										<div className="d-flex justify-content-center">
 											{new Array(rating.rating).fill(0).map((it, index) => (

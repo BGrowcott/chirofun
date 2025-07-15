@@ -1,12 +1,9 @@
 import PageHeader from "../../components/utils/PageHeader";
-import therapy2 from "../../images/therapy2.jpg";
 import therapy5x4 from "../../images/therapy5x4.jpg";
-import therapy3 from "../../images/IMG_2727.jpeg";
-import building from "../../images/building-sign.jpg";
-import botox from "../../images/botox.jpeg";
 import botox1 from "../../images/botox1.jpeg";
 import reception1 from "../../images/reception1.jpeg"
-import { regular, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
+import chiroFriend from "../../images/feesPage1.jpeg"
+import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 import PageContainer from "../../components/utils/PageContainer";
@@ -76,7 +73,7 @@ function Fees() {
 					<div className="col-12 col-md-6 mb-3 mb-md-0">
 						<div className="p-3 h-100 white-border shadow bg-offLight">
 							<div className="mb-2">
-								<img className="img-fluid border border-5" src={therapy5x4} alt="Dr Austin Everill with a patient in the clinic."></img>
+								<img className="img-fluid border border-5" src={chiroFriend} alt="Dr Austin Everill with a patient in the clinic."></img>
 							</div>
 							<div>
 								<h3 className="h3 mb-0 josefinSans-text text-dark">Returning Patient</h3>

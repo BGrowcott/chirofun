@@ -1,4 +1,5 @@
 import austin from "../../images/austinFull.jpg";
+import austin4 from "../../images/austin4.jpeg";
 import claire from "../../images/Claire.jpg";
 import adrian from "../../images/Adrian.jpg";
 import TeamCard from "./TeamCard";
@@ -17,7 +18,7 @@ function MeetTheTeam() {
         {
             title: "Dr Austin Everill - MChiro DC",
             summary: "Restore Wellness and Elevate Your Health.",
-            image: austin,
+            image: austin4,
             alt: "Dr Austin Everill portrait, he is standing and smiling. His arms are crossed and he is wearing medical scrubs. He looks professional and approachable",
             textHtml: (
                 <>

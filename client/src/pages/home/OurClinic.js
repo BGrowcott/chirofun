@@ -10,39 +10,37 @@ const imageWidth33 = {
 	width: "33.333333333333333%",
 };
 
-const imageWidth50 = {
-	width: "50%",
-};
-
 const OurClinic = (props) => {
 	return (
 		<section>
-			<div className="d-none d-md-flex">
-				<img style={imageWidth33} src={clinic1}></img>
-				<img className="border-start border-end border-2 border-white" style={imageWidth33} src={clinic2}></img>
-				<img style={imageWidth33} src={clinic4}></img>
-			</div>
-			<div className="d-flex d-md-none">
-				<div id="clinicCarousel" class="carousel slide">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src={clinic1} class="d-block w-100" alt="..." />
+			<div>
+				<div className="d-none d-md-flex">
+					<img style={imageWidth33} src={clinic1}></img>
+					<img className="border-start border-end border-2 border-white" style={imageWidth33} src={clinic2}></img>
+					<img style={imageWidth33} src={clinic4}></img>
+				</div>
+				<div className="d-flex d-md-none">
+					<div id="clinicCarousel" class="carousel slide">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src={clinic1} class="d-block w-100" alt="..." />
+							</div>
+							<div class="carousel-item">
+								<img src={clinic2} class="d-block w-100" alt="..." />
+							</div>
+							<div class="carousel-item">
+								<img src={clinic4} class="d-block w-100" alt="..." />
+							</div>
 						</div>
-						<div class="carousel-item">
-							<img src={clinic2} class="d-block w-100" alt="..." />
-						</div>
-						<div class="carousel-item">
-							<img src={clinic4} class="d-block w-100" alt="..." />
-						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#clinicCarousel" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#clinicCarousel" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
 					</div>
-					<button class="carousel-control-prev" type="button" data-bs-target="#clinicCarousel" data-bs-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Previous</span>
-					</button>
-					<button class="carousel-control-next" type="button" data-bs-target="#clinicCarousel" data-bs-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Next</span>
-					</button>
 				</div>
 			</div>
 			<div className="container-md">
@@ -50,8 +48,10 @@ const OurClinic = (props) => {
 					<blockquote class="blockquote">
 						<p class="fs-5">
 							<FontAwesomeIcon className="fs-5 text-black" icon={solid("quote-left")} />
-							<em className="mx-2">From the moment I walked in, the atmosphere was warm and welcoming. The staff was friendly and professional, and I felt comfortable
-							right away.</em>
+							<em className="mx-2">
+								From the moment I walked in, the atmosphere was warm and welcoming. The staff was friendly and professional, and I felt
+								comfortable right away.
+							</em>
 							<FontAwesomeIcon className="fs-5 text-black" icon={solid("quote-right")} />
 						</p>
 					</blockquote>

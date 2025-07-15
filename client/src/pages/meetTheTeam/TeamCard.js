@@ -7,7 +7,7 @@ function TeamCard({ teamMember }) {
         <div className="shadow white-border bg-offLight">
             <div>
                 <div className="d-none d-sm-block">
-                    <div style={{ minHeight: "584px" }}>
+                    <div style={{ minHeight: "620px" }}>
                         <div>
                             <div className="float-end ps-3" style={{ width: "40%" }}>
                                 <img className="img-fluid max-width border border-5" src={image}></img>

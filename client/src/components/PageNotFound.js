@@ -7,7 +7,7 @@ function PageNotFound() {
                 <h1 className="text-center">Whoops! &#128549; The page you were looking for doesn't exist!</h1>
                 <div className="text-center">
                     <Link className="btn btn-outline-dark" to={"/"}>
-                        You're drunk, go home &#127969; &#128522;
+                        Whoops! Looks like you've gotten lost - go home &#127969; &#128522;
                     </Link>
                 </div>
             </div>
