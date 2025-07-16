@@ -15,7 +15,7 @@ const HomePageCarousel = ({ id: carouselId, images }) => {
 					<div className="carousel-inner">
 						{images.map((item, index) => {
 							return (
-								<div key={item.alt} className={`carousel-item ${index === 0 ? "active" : ""}`}>
+								<div key={item.alt} className={`carousel-item ${item.active ? "active" : ""}`}>
 									<img src={item.image} className={`d-block w-100`} alt={item.alt} />
 								</div>
 							);

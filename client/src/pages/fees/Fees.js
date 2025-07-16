@@ -47,7 +47,7 @@ function Fees() {
 											<img
 												className="w-100 border border-5"
 												src={reception1}
-												alt="Birmingham Chiropratic sign outside of the clinic. The sign is blue with white writing and lists the businesses name and contact information."
+												alt="A patient is sitting the bright reception of Birmingham Chiropractic. The patient is having a friendly chat with the receptionist."
 											></img>
 										</div>
 									</div>
