@@ -29,10 +29,11 @@ function WhatWeTreat() {
 						<div className="col-12 col-lg-7">
 							<div className="h-100 w-100 d-flex flex-column justify-content-center align-items-start py-3">
 								<h3 className="we-do-h3 fw-bold josefinSans-text text-light w-100">What we treat</h3>
-								<div className="text-white fs-4">
+								<div className="text-white fs-5">
 									<p>
-										We are an evidence-based chiropractic clinic and keep up to date with the latest clinical research and techniques. We
-										provide our patients with first-class care to <strong>achieve the fastest results.</strong>
+										Our evidence-based clinic keeps current with the latest clinical research and techniques. We use the most up-to-date
+										orthopaedic testing to find the underlying cause of your symptoms and fast-track MRI and X-Ray scanning if necessary. We
+										provide our patients with first-class care to achieve the fastest results.
 										<br></br>
 									</p>
 								</div>

@@ -6,7 +6,7 @@ function Hero() {
   const [state] = useGlobalContext();
 
   return (
-    <section className="hero position-relative mb-5">
+    <section className="hero position-relative">
       <div
         className="hero-img"
         style={{ backgroundImage: `url(${hero2})` }}

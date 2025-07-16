@@ -30,7 +30,7 @@ function Main() {
             className={`rounded-0 rounded-top btn btn-lg btn-warm`}
             style={{ boxShadow: "-2px -2px 7px black" }}
           >
-            Book Online
+            Book online
           </a>
         </div>
       </aside>

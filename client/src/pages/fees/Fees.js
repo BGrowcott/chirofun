@@ -1,12 +1,9 @@
 import PageHeader from "../../components/utils/PageHeader";
-import therapy2 from "../../images/therapy2.jpg";
 import therapy5x4 from "../../images/therapy5x4.jpg";
-import therapy3 from "../../images/IMG_2727.jpeg";
-import building from "../../images/building-sign.jpg";
-import botox from "../../images/botox.jpeg";
 import botox1 from "../../images/botox1.jpeg";
 import reception1 from "../../images/reception1.jpeg"
-import { regular, solid } from "@fortawesome/fontawesome-svg-core/import.macro";
+import chiroFriend from "../../images/feesPage1.jpeg"
+import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 import PageContainer from "../../components/utils/PageContainer";
@@ -50,7 +47,7 @@ function Fees() {
 											<img
 												className="w-100 border border-5"
 												src={reception1}
-												alt="Birmingham Chiropratic sign outside of the clinic. The sign is blue with white writing and lists the businesses name and contact information."
+												alt="A patient is sitting the bright reception of Birmingham Chiropractic. The patient is having a friendly chat with the receptionist."
 											></img>
 										</div>
 									</div>
@@ -76,7 +73,7 @@ function Fees() {
 					<div className="col-12 col-md-6 mb-3 mb-md-0">
 						<div className="p-3 h-100 white-border shadow bg-offLight">
 							<div className="mb-2">
-								<img className="img-fluid border border-5" src={therapy5x4} alt="Dr Austin Everill with a patient in the clinic."></img>
+								<img className="img-fluid border border-5" src={chiroFriend} alt="Dr Austin Everill with a patient in the clinic."></img>
 							</div>
 							<div>
 								<h3 className="h3 mb-0 josefinSans-text text-dark">Returning Patient</h3>
@@ -96,18 +93,18 @@ function Fees() {
 							</div>
 							<h3 className="h4 josefinSans-text text-dark">Neuromodulator Treatments</h3>
 							<ul className="list-group list-group-flush ">
-								<li class="list-group-item bg-transparent">Precise Preempt Protocol for migraine - £390</li>
-								<li class="list-group-item bg-transparent">Masseter/TMJ - £275</li>
-								<li class="list-group-item bg-transparent">Jaw pain - £275</li>
-								<li class="list-group-item bg-transparent">Tension headache - £275</li>
-								<li class="list-group-item bg-transparent">Neuromodulator Facial - £190 (one area) + £40 per additional area</li>
+								<li className="list-group-item bg-transparent">Precise Preempt Protocol for migraine - £390</li>
+								<li className="list-group-item bg-transparent">Masseter/TMJ - £275</li>
+								<li className="list-group-item bg-transparent">Jaw pain - £275</li>
+								<li className="list-group-item bg-transparent">Tension headache - £275</li>
+								<li className="list-group-item bg-transparent">Neuromodulator Facial - £190 (one area) + £40 per additional area</li>
 							</ul>
 
 							<h3 className="mt-3 h4 josefinSans-text text-dark">Vitamin Injections</h3>
 							<ul className="list-group list-group-flush ">
-								<li class="list-group-item bg-transparent">B12 Injection - £35</li>
-								<li class="list-group-item bg-transparent">Glutathione - £50</li>
-								<li class="list-group-item bg-transparent">Vitamin C - £40</li>
+								<li className="list-group-item bg-transparent">B12 Injection - £35</li>
+								<li className="list-group-item bg-transparent">Glutathione - £50</li>
+								<li className="list-group-item bg-transparent">Vitamin C - £40</li>
 							</ul>
 							
 						</div>
