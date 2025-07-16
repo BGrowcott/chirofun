@@ -5,51 +5,28 @@ import clinic4 from "../../images/clinic4.jpeg";
 
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-const imageWidth33 = {
-	width: "33.333333333333333%",
-};
+import HomePageCarousel from "./HomePageCarousel";
 
 const OurClinic = (props) => {
+
+	const carouselImages = [
+		{image: clinic2, alt: "Claire Corfield goes through a treatment plan with a patient"},
+		{image: clinic1, alt: "Dr Austin talks through a diagnosis with a patient"},
+		{image: clinic4, alt: "Dr Austin carrying out Chiropratic treatment"}
+	]
+
 	return (
 		<section>
-			<div>
-				<div className="d-none d-md-flex">
-					<img style={imageWidth33} src={clinic1}></img>
-					<img className="border-start border-end border-2 border-white" style={imageWidth33} src={clinic2}></img>
-					<img style={imageWidth33} src={clinic4}></img>
-				</div>
-				<div className="d-flex d-md-none">
-					<div id="clinicCarousel" class="carousel slide">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src={clinic1} class="d-block w-100" alt="..." />
-							</div>
-							<div class="carousel-item">
-								<img src={clinic2} class="d-block w-100" alt="..." />
-							</div>
-							<div class="carousel-item">
-								<img src={clinic4} class="d-block w-100" alt="..." />
-							</div>
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#clinicCarousel" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#clinicCarousel" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
-					</div>
-				</div>
-			</div>
+
+			<HomePageCarousel id={"clinicCarousel"} images={carouselImages} />
+
 			<div className="container-md">
-				<figure class="text-center mt-2">
-					<blockquote class="blockquote">
-						<p class="fs-5">
+				<figure className="text-center mt-2">
+					<blockquote className="blockquote">
+						<p className="fs-5">
 							<FontAwesomeIcon className="fs-5 text-black" icon={solid("quote-left")} />
 							<em className="mx-2">
-								From the moment I walked in, the atmosphere was warm and welcoming. The staff was friendly and professional, and I felt
+								From the moment I walked in, the atmosphere was warm and welcoming. The staff were friendly and professional, and I felt
 								comfortable right away.
 							</em>
 							<FontAwesomeIcon className="fs-5 text-black" icon={solid("quote-right")} />
@@ -73,7 +50,7 @@ const OurClinic = (props) => {
 									</p>
 									<p>
 										At Birmingham Chiropractic we treat the underlying causes of your condition and provide full aftercare advice,
-										rehabilitation programs, following you on your journey to pain-free. We are proud of our high success rate and have been
+										rehabilitation programs, following you on your journey to being pain-free. We are proud of our high success rate and have been
 										rated as one of the top-performing clinics in Birmingham for the last 12 years. Expert chiropractic care in a friendly
 										environment. <strong>Putting you first.</strong>
 									</p>

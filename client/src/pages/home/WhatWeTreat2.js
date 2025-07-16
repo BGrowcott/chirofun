@@ -5,6 +5,7 @@ import WelcomeVideo from "./WelcomeVideo";
 import treatmentCaro1 from "../../images/treatCaro1.jpeg";
 import treatmentCaro2 from "../../images/whatWeTreatCaro22.jpg";
 import clinic3 from "../../images/clinic3.jpeg";
+import HomePageCarousel from "./HomePageCarousel";
 
 function WhatWeTreat2() {
 	const whatWeTreat = [
@@ -28,44 +29,17 @@ function WhatWeTreat2() {
 		],
 	];
 
-    const imageWidth33 = {
-        width: "33.333333333333333%",
-    };
+	const carouselImages = [
+		{image: treatmentCaro1, alt: "Dr Austin carrying out Chiropratic treatment on a woman to help with lower back pain"},
+		{image: treatmentCaro2, alt: "Dr Austin carrying out Chiropratic treatment on a woman to help neck pain"},
+		{image: clinic3, alt: "Dr Austin carrying out Chiropratic treatment on a man to help with back pain"}
+	]
 
 	return (
 		<>
 			<section className="bg-dark border-top border-bottom border-10 border-secondary shadow-inset">
 
-            <div>
-				<div className="d-none d-md-flex">
-					<img style={imageWidth33} src={treatmentCaro1}></img>
-					<img className="border-start border-end border-2 border-white" style={imageWidth33} src={treatmentCaro2}></img>
-					<img style={imageWidth33} src={clinic3}></img>
-				</div>
-				<div className="d-flex d-md-none">
-					<div id="whatWeTreatCarousel" class="carousel slide">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src={treatmentCaro1} class="d-block w-100" alt="..." />
-							</div>
-							<div class="carousel-item">
-								<img src={treatmentCaro2} class="d-block w-100" alt="..." />
-							</div>
-							<div class="carousel-item">
-								<img src={clinic3} class="d-block w-100" alt="..." />
-							</div>
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#whatWeTreatCarousel" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#whatWeTreatCarousel" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
-					</div>
-				</div>
-			</div>
+            	<HomePageCarousel id={"whatWeTreatCarousel"} images={carouselImages}/>
 
 				<div className="container-md">
 					<div className="">
@@ -75,7 +49,7 @@ function WhatWeTreat2() {
 								<div className="text-white fs-5">
 									<p>
 										Our evidence-based clinic keeps current with the latest clinical research and techniques. We use the most up-to-date
-										orthopaedic testing to find the underlying cause of your symptoms and fast-track MRI and X-Ray scanning if necessary. We
+										orthopaedic testing and fast-track MRI and X-Ray scanning if necessary. We
 										provide our patients with first-class care to achieve the fastest results.
 										<br></br>
 									</p>

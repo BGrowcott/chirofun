@@ -93,18 +93,18 @@ function Fees() {
 							</div>
 							<h3 className="h4 josefinSans-text text-dark">Neuromodulator Treatments</h3>
 							<ul className="list-group list-group-flush ">
-								<li class="list-group-item bg-transparent">Precise Preempt Protocol for migraine - £390</li>
-								<li class="list-group-item bg-transparent">Masseter/TMJ - £275</li>
-								<li class="list-group-item bg-transparent">Jaw pain - £275</li>
-								<li class="list-group-item bg-transparent">Tension headache - £275</li>
-								<li class="list-group-item bg-transparent">Neuromodulator Facial - £190 (one area) + £40 per additional area</li>
+								<li className="list-group-item bg-transparent">Precise Preempt Protocol for migraine - £390</li>
+								<li className="list-group-item bg-transparent">Masseter/TMJ - £275</li>
+								<li className="list-group-item bg-transparent">Jaw pain - £275</li>
+								<li className="list-group-item bg-transparent">Tension headache - £275</li>
+								<li className="list-group-item bg-transparent">Neuromodulator Facial - £190 (one area) + £40 per additional area</li>
 							</ul>
 
 							<h3 className="mt-3 h4 josefinSans-text text-dark">Vitamin Injections</h3>
 							<ul className="list-group list-group-flush ">
-								<li class="list-group-item bg-transparent">B12 Injection - £35</li>
-								<li class="list-group-item bg-transparent">Glutathione - £50</li>
-								<li class="list-group-item bg-transparent">Vitamin C - £40</li>
+								<li className="list-group-item bg-transparent">B12 Injection - £35</li>
+								<li className="list-group-item bg-transparent">Glutathione - £50</li>
+								<li className="list-group-item bg-transparent">Vitamin C - £40</li>
 							</ul>
 							
 						</div>

@@ -319,15 +319,76 @@ function WhatWeDo() {
 	return (
 		<PageContainer>
 			<PageHeader text={"What We Do"}></PageHeader>
-			<ContentBox>
-				<div className="d-none d-xl-block">
-					<WhatWeDoTabs therapyTypes={therapyTypes}></WhatWeDoTabs>
-				</div>
+			<div className="d-none d-xl-block">
+				<div className="my-4">
+					<h2>What is Chiropractic?</h2>
 
-				<div className="d-xl-none d-block">
-					<WhatWeDoAccordion therapyTypes={therapyTypes}></WhatWeDoAccordion>
+					<div className="row mb-4">
+						<div className="col">
+							<img className="img-fluid white-border shadow" src={chiropractic}></img>
+						</div>
+						<div className="col-9 fs-5">
+							<p>
+								<strong>Chiropractic</strong> is concerned with diagnosing, treating and preventing disorders of the musculoskeletal system and
+								the effects of these conditions on the nervous system and general health. Chiropractic is now the UK's third largest primary
+								healthcare profession, behind Medicine and Dentistry.
+							</p>
+							<p>
+								As Primary Healthcare Providers, you do not need a GP referral to see a Chiropractor. Chiropractors offer safe and gentle
+								treatments for everyone from young children to older adults. Your practitioner will tailor a specific care program to suit your
+								needs and symptoms.
+							</p>
+						</div>
+					</div>
+
+					<div className="row">
+						<div className="col-8 fs-5">
+							<p>
+								Chiropractors are best known for using manual therapy, such as spinal manipulation and mobilisation, to improve joint mobility
+								and function. They may use other recommended techniques such as electrotherapy, stretching, sports massage, exercise and
+								nutritional advice as part of a tailored care package.
+							</p>
+							<p>
+								The title Chiropractor is statutorily regulated, and this means Chiropractors must be registered with the General Chiropractic
+								Council
+							</p>
+							<div>
+								For more information:
+								<ul className="mt-2 fw-bold">
+									<li>
+										<a className="text-dark" href="https://www.gcc-uk.org/" target="_blank">
+											The General Chiropractic Council
+										</a>
+									</li>
+									<li>
+										<a className="text-dark" href="https://rcc-uk.org/" target="_blank">
+											The Royal College of Chiropractors
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div className="col">
+							<img className="img-fluid white-border shadow" src={chiropractic5}></img>
+						</div>
+					</div>
 				</div>
-			</ContentBox>
+				<hr/>
+			</div>
+			<div>
+				<div className="d-none d-xl-block">
+					<h2>Other treatments</h2>
+				</div>
+				<ContentBox>
+					<div className="d-none d-xl-block">
+						<WhatWeDoTabs therapyTypes={therapyTypes.slice(1)}></WhatWeDoTabs>
+					</div>
+
+					<div className="d-xl-none d-block">
+						<WhatWeDoAccordion therapyTypes={therapyTypes}></WhatWeDoAccordion>
+					</div>
+				</ContentBox>
+			</div>
 		</PageContainer>
 	);
 }
