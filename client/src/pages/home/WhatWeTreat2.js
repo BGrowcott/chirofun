@@ -1,7 +1,5 @@
 import { regular } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import TherapyCarousel from "./TherapyCarousel";
-import WelcomeVideo from "./WelcomeVideo";
 import treatmentCaro1 from "../../images/treatCaro1.jpeg";
 import treatmentCaro2 from "../../images/whatWeTreatCaro22.jpg";
 import clinic3 from "../../images/clinic3.jpeg";

@@ -85,6 +85,77 @@ function WhatWeDo() {
 			//image3: chiropractic4,
 		},
 		{
+			title: "Sports Massage",
+			text: {
+				p1: (
+					<div>
+						<p className="fs-4">
+							<strong>Sports massage</strong> is a specialised form of massage therapy aimed at active individuals to help prevent injuries,
+							improve performance, and facilitate faster recovery.
+						</p>
+						<p>
+							However, sports massage is for more than just the active sportsperson. Whether you are a stay-at-home parent, have an office-based
+							job, or are a manual worker, we provide practical and beneficial treatment for all individuals.
+						</p>
+						<p>
+							We will aim to correct problems and imbalances in soft tissue structures caused by trauma, repetitive movements or physical activity
+							using various massage techniques. In doing so, we bring clients back to the optimal levels of functional, occupational and
+							sports-specific fitness - regardless of age and ability.
+						</p>
+					</div>
+				),
+				p2: (
+					<div>
+						<p>
+							The benefits of sports massage go beyond simple relaxation: Reduced muscle tension, improved circulation, injury prevention,
+							improved recovery, pain management, enhanced performance, and stress relief.
+						</p>
+					</div>
+				),
+			},
+			therapyTypeCode: "sports-massage",
+			image: sportsMass,
+			imageAlt: "Demonstration of a sports massage. The masseur is shown massaging the calf muscle.",
+			image2Alt: "Demonstration of a sports massage. The masseur is shown massaging the neck.",
+			image2: sportsMass2,
+		},
+		{
+			title: "Yoga",
+			text: {
+				p1: (
+					<div>
+						<div className="fs-4">
+							<p>
+								Along with Chiropractic, <strong>Yoga</strong> is recommended by the National Institute of Clinical Excellence as part of a
+								first basis approach to Back Pain care.
+							</p>
+						</div>
+					</div>
+				),
+				p2: (
+					<div>
+						<p>
+							Claire came to yoga after years of back pain. The yoga practice helped with the back pain, but the mindfulness and inner calm kept
+							Claire interested and coming back for more. Claire teaches at various studios across Birmingham and offers online/in-person 1-2-1s.
+						</p>
+						<p>
+							In a 1-2-1 session, we will examine how yoga techniques can support your current treatment with Birmingham Chiropractic. We will
+							explore how you can improve flexibility, mobility, posture, and increasing strength.
+						</p>
+						<p>
+							You can also book a 1-2-1 to help with meditation/mindfulness or to prepare you for attending a class at a yoga studio. Please call
+							to book.
+						</p>
+					</div>
+				),
+			},
+			therapyTypeCode: "yoga",
+			image: yoga,
+			imageAlt: "Demonstration of Three-Legged Downward Dog, also known as Tri Pada Adho Mukha Svanasana",
+			image2Alt: "Demonstration of The side plank pose, also known as Vasisthasana, is a balancing yoga pose that strengthens the core and shoulders.",
+			image2: yoga2,
+		},
+		{
 			title: "Neuromodulation",
 			text: {
 				p1: (
@@ -242,77 +313,6 @@ function WhatWeDo() {
 			image2Alt:
 				"Demonstration of a medi-aesthetics procedure, a man lies back with his eyes closed as the doctor administers the injection just above the eyebrows.",
 			image2: vitaminTherapy8,
-		},
-		{
-			title: "Yoga",
-			text: {
-				p1: (
-					<div>
-						<div className="fs-4">
-							<p>
-								Along with Chiropractic, <strong>Yoga</strong> is recommended by the National Institute of Clinical Excellence as part of a
-								first basis approach to Back Pain care.
-							</p>
-						</div>
-					</div>
-				),
-				p2: (
-					<div>
-						<p>
-							Claire came to yoga after years of back pain. The yoga practice helped with the back pain, but the mindfulness and inner calm kept
-							Claire interested and coming back for more. Claire teaches at various studios across Birmingham and offers online/in-person 1-2-1s.
-						</p>
-						<p>
-							In a 1-2-1 session, we will examine how yoga techniques can support your current treatment with Birmingham Chiropractic. We will
-							explore how you can improve flexibility, mobility, posture, and increasing strength.
-						</p>
-						<p>
-							You can also book a 1-2-1 to help with meditation/mindfulness or to prepare you for attending a class at a yoga studio. Please call
-							to book.
-						</p>
-					</div>
-				),
-			},
-			therapyTypeCode: "yoga",
-			image: yoga,
-			imageAlt: "Demonstration of Three-Legged Downward Dog, also known as Tri Pada Adho Mukha Svanasana",
-			image2Alt: "Demonstration of The side plank pose, also known as Vasisthasana, is a balancing yoga pose that strengthens the core and shoulders.",
-			image2: yoga2,
-		},
-		{
-			title: "Sports Massage",
-			text: {
-				p1: (
-					<div>
-						<p className="fs-4">
-							<strong>Sports massage</strong> is a specialised form of massage therapy aimed at active individuals to help prevent injuries,
-							improve performance, and facilitate faster recovery.
-						</p>
-						<p>
-							However, sports massage is for more than just the active sportsperson. Whether you are a stay-at-home parent, have an office-based
-							job, or are a manual worker, we provide practical and beneficial treatment for all individuals.
-						</p>
-						<p>
-							We will aim to correct problems and imbalances in soft tissue structures caused by trauma, repetitive movements or physical activity
-							using various massage techniques. In doing so, we bring clients back to the optimal levels of functional, occupational and
-							sports-specific fitness - regardless of age and ability.
-						</p>
-					</div>
-				),
-				p2: (
-					<div>
-						<p>
-							The benefits of sports massage go beyond simple relaxation: Reduced muscle tension, improved circulation, injury prevention,
-							improved recovery, pain management, enhanced performance, and stress relief.
-						</p>
-					</div>
-				),
-			},
-			therapyTypeCode: "sports-massage",
-			image: sportsMass,
-			imageAlt: "Demonstration of a sports massage. The masseur is shown massaging the calf muscle.",
-			image2Alt: "Demonstration of a sports massage. The masseur is shown massaging the neck.",
-			image2: sportsMass2,
 		},
 	];
 

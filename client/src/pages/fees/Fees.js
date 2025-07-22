@@ -1,5 +1,6 @@
 import PageHeader from "../../components/utils/PageHeader";
 import therapy5x4 from "../../images/therapy5x4.jpg";
+import other5x4 from "../../images/test.jpeg";
 import botox1 from "../../images/botox1.jpeg";
 import reception1 from "../../images/reception1.jpeg"
 import chiroFriend from "../../images/feesPage1.jpeg"
@@ -89,7 +90,7 @@ function Fees() {
 					<div className="col-12 col-md-6">
 						<div className="p-3 h-100 white-border shadow bg-offLight">
 							<div className="mb-2">
-								<img className="img-fluid border border-5" alt="Example of a medical treatment, a woman is having a injection administered to her face" src={botox1}></img>
+								<img className="img-fluid border border-5" alt="Example of a medical treatment, a woman is having a injection administered to her face" src={other5x4}></img>
 							</div>
 							<h3 className="h4 josefinSans-text text-dark">Neuromodulator Treatments</h3>
 							<ul className="list-group list-group-flush ">
