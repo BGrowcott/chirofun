@@ -29,13 +29,11 @@ function WhatWeDo() {
 						</p>
 						<div className="row align-items-center">
 							<div className="col-12 col-xl-4 text-center">
-								<a target="_blank" href="https://threebestrated.co.uk/chiropractors-in-birmingham">
-									<img
-										width="180"
-										src="https://threebestrated.co.uk/awards/chiropractors-birmingham-2024-drk.svg"
-										alt="Best Chiropractors in Birmingham"
-									/>
-								</a>
+								<img
+									width="180"
+									src="https://threebestrated.co.uk/awards/chiropractors-birmingham-2024-drk.svg"
+									alt="Best Chiropractors in Birmingham -Three Best Rated award"
+								/>
 							</div>
 							<div className="col-12 col-xl-4 d-flex d-xl-block justify-content-center">
 								<img style={{ width: "300px", display: "block" }} src={gccReg} alt="GCC Registered Certified logo"></img>
