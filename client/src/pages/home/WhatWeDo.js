@@ -18,13 +18,13 @@ function WhatWeDo() {
 							Fast results.<br></br>
 						</p>
 						<p className="fs-5">
-							We are proud to have been rated one of the top three Chiropractic Clinics in Birmingham for the last 6 years. At Birmingham Chiropractic we find the
-							underlying causes of our patients' pain to return them to a full and active life. Experience personalised care with our
+							We are proud to have been rated one of the top three Chiropractic Clinics in Birmingham for the last 6 years. At Birmingham Chiropractic, we identify the
+							underlying causes of our patients' pain to help them return to a full and active life. Experience personalised care with our
 							chiropractor-led treatments, the best aftercare and rehabilitation advice.
 						</p>
 						<p className="fs-5">
-							Choose from comprehensive spinal manipulation techniques, hands-on therapies, specialist manual therapy and effective postural
-							correction to help you feel your best. Our treatments are tailored to the needs of each patient, whether older or younger. We are a
+							Choose from comprehensive spinal manipulation techniques, hands-on therapies, specialist manual therapy, and effective postural
+							correction to help you feel your best. Our treatments are tailored to the needs of each patient, regardless of age. We are a
 							family-friendly clinic and always put patients' needs first.
 						</p>
 						<div className="row align-items-center">

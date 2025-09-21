@@ -44,12 +44,12 @@ const OurClinic = (props) => {
 										<span className="fs-4">Start your journey to being pain-free with our friendly team at our clinic in Kings Heath.</span>
 										<br />
 										Experience personalised, tailored and professional care for each patient. We pride ourselves on listening to our patients'
-										needs and taking our time to help you choose the right treatment options. There are a range of gentle treatments for those who
+										needs and taking our time to help you choose the right treatment options. There is a range of gentle treatments for those who
 										need them. Caring for all our patients, young and old. We provide many manual treatment modalities and the latest
 										technology to get you back to an active, pain-free life.
 									</p>
 									<p>
-										At Birmingham Chiropractic we treat the underlying causes of your condition and provide full aftercare advice,
+										At Birmingham Chiropractic, we treat the underlying causes of your condition and provide full aftercare advice,
 										rehabilitation programs, following you on your journey to being pain-free. We are proud of our high success rate and have been
 										rated as one of the top-performing clinics in Birmingham for the last 12 years. Expert chiropractic care in a friendly
 										environment. <strong>Putting you first.</strong>
