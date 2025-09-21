@@ -43,9 +43,9 @@ const OurClinic = (props) => {
 									<p>
 										<span className="fs-4">Start your journey to being pain-free with our friendly team at our clinic in Kings Heath.</span>
 										<br />
-										We offer personalised, tailored and professional care for each patient. We pride ourselves on listening to our patients'
-										needs and taking our time to help you choose the right treatment options. We offer more gentle treatments for those who
-										need them. Caring for all our patients, young and old. We offer many manual treatment modalities and the latest
+										Experience personalised, tailored and professional care for each patient. We pride ourselves on listening to our patients'
+										needs and taking our time to help you choose the right treatment options. There are a range of gentle treatments for those who
+										need them. Caring for all our patients, young and old. We provide many manual treatment modalities and the latest
 										technology to get you back to an active, pain-free life.
 									</p>
 									<p>
