@@ -92,8 +92,9 @@ function Fees() {
 							<div className="mb-2">
 								<img className="img-fluid border border-5" alt="Example of a medical treatment, a woman is having a injection administered to her face" src={other5x4}></img>
 							</div>
-							<h3 className="h4 josefinSans-text text-dark">Neuromodulator Treatments</h3>
+							<h3 className="h4 josefinSans-text text-dark">Neuromodulator & Medical</h3>
 							<ul className="list-group list-group-flush ">
+								<li className="list-group-item bg-transparent">Chronic neck pain (upper cervical & trapezius) - £275</li>
 								<li className="list-group-item bg-transparent">Precise Preempt Protocol for migraine - £390</li>
 								<li className="list-group-item bg-transparent">Masseter/TMJ - £275</li>
 								<li className="list-group-item bg-transparent">Jaw pain - £275</li>
