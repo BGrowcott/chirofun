@@ -82,7 +82,7 @@ function MapAndOpeningTimesFoot() {
                                 </a>
                                 <br></br>
                                 <div className="d-md-block fs-6">
-                                    <a className="text-white" href="mail:info@birminghamchiropractic.uk.com">
+                                    <a className="text-white" href="mailto:info@birminghamchiropractic.uk.com">
                                         info@birminghamchiropractic.uk.com
                                     </a>
                                 </div>
