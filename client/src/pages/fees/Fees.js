@@ -24,6 +24,9 @@ function Fees() {
 		"Orthopedic & neurological assessments",
 		"Gait & postural analysis",
 		"Confidential Report of Findings",
+	];
+
+	const firstExamList2 = [
 		"Explanation of treatment procedure",
 		"Free referral to appropriate specialist if required",
 		"Advice on exercise & diet",
@@ -44,17 +47,22 @@ function Fees() {
 							<div className="container-fluid">
 								<div className="row align-items-center">
 									<div className="col-12 col-lg-6">
-										<div className="d-none d-lg-block">
-											<img
-												className="w-100 border border-5"
-												src={reception1}
-												alt="A patient is sitting the bright reception of Birmingham Chiropractic. The patient is having a friendly chat with the receptionist."
-											></img>
-										</div>
+									<ul className="fs-5 text-black list-group list-group-flush">
+											{firstExamList.map((it) => (
+												<li className="ms-0 ms-md-2 py-2" key={it} style={{ listStyleType: "none" }}>
+													<div className="d-flex align-items-center">
+														<div className="me-2">
+															<FontAwesomeIcon className="fs-3 text-success" icon={solid("plus")} />
+														</div>
+														<div className="">{it}</div>
+													</div>
+												</li>
+											))}
+										</ul>
 									</div>
 									<div className="col-12 col-lg-6 bg-offLight">										
 										<ul className="fs-5 text-black list-group list-group-flush">
-											{firstExamList.map((it) => (
+											{firstExamList2.map((it) => (
 												<li className="ms-0 ms-md-2 py-2" key={it} style={{ listStyleType: "none" }}>
 													<div className="d-flex align-items-center">
 														<div className="me-2">

@@ -1,9 +1,10 @@
-import austin1 from "../../images/austin.jpg";
-import austin2 from "../../images/austin4.jpeg";
+import austin2 from "../../images/newImg4.jpeg";
+import banner from "../../images/newImg5.jpeg";
 import gccReg from "../../images/gccReg.png";
 
 function WhatWeDo() {
 	return (
+		<>
 		<section className="container-md">
 			<div className="row flex-row-reverse">
 				<div className="col-12 col-lg-6 d-flex justify-content-center py-lg-5 p-3">
@@ -28,15 +29,22 @@ function WhatWeDo() {
 							family-friendly clinic and always put patients' needs first.
 						</p>
 						<div className="row align-items-center">
-							<div className="col-12 col-xl-4 text-center">
+							<div className="col-6 col-xl-4 text-center">
 								<img
-									width="180"
+									width="160"
 									src="https://threebestrated.co.uk/awards/chiropractors-birmingham-2024-drk.svg"
 									alt="Best Chiropractors in Birmingham -Three Best Rated award"
 								/>
 							</div>
+							<div className="col-6 col-xl-4 text-center">
+								<img
+									width="160"
+									src="https://threebestrated.co.uk/awards/chiropractors-birmingham-2025-drk.svg"
+									alt="Best Chiropractors in Birmingham -Three Best Rated award"
+								/>
+							</div>
 							<div className="col-12 col-xl-4 d-flex d-xl-block justify-content-center">
-								<img style={{ width: "300px", display: "block" }} src={gccReg} alt="GCC Registered Certified logo"></img>
+								<img style={{ width: "280px", display: "block" }} src={gccReg} alt="GCC Registered Certified logo"></img>
 							</div>
 						</div>
 					</div>
@@ -61,6 +69,10 @@ function WhatWeDo() {
 				</div>
 			</div>
 		</section>
+		<div className="border-top border-10 border-secondary">
+			<img src={banner} className="w-100"/>
+		</div>
+		</>
 	);
 }
 

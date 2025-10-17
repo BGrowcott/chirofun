@@ -1,4 +1,4 @@
-import clinic1 from "../../images/clinic1.jpeg";
+import clinic1 from "../../images/newImg3.jpeg";
 import clinic2 from "../../images/clinic2.jpeg";
 import clinic3 from "../../images/clinic3.jpeg";
 import clinic4 from "../../images/clinic4.jpeg";
