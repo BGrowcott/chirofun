@@ -1,5 +1,5 @@
 import austin from "../../images/austinFull.jpg";
-import austin4 from "../../images/austin4.jpeg";
+import austin4 from "../../images/newImg4.jpeg";
 import claire from "../../images/Claire.jpg";
 import adrian from "../../images/Adrian.jpg";
 import TeamCard from "./TeamCard";
