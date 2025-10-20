@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react";
 import chiropractic from "../../images/whatWeChiro.jpeg";
-import chiropractic2 from "../../images/therapy3.jpg";
-import chiropractic3 from "../../images/chiroNew.png";
-import chiropractic4 from "../../images/chiroNew2.png";
 import chiropractic5 from "../../images/chiropractic.jpeg";
-import xRay from "../../images/xray.jpeg";
 import yoga from "../../images/whatWeYoga.jpeg";
 import yoga2 from "../../images/yoga2.jpeg";
 import sportsMass from "../../images/whatWeSportsMass.jpg";

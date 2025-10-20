@@ -1,7 +1,6 @@
-import austin from "../../images/austinFull.jpg";
-import austin4 from "../../images/austin4.jpeg";
-import claire from "../../images/Claire.jpg";
-import adrian from "../../images/Adrian.jpg";
+import austin4 from "../../images/newImg4.jpeg";
+import claire from "../../images/claire2.jpeg";
+import pete from "../../images/pete.jpeg";
 import TeamCard from "./TeamCard";
 import React, { useEffect } from "react";
 
@@ -67,7 +66,7 @@ function MeetTheTeam() {
         {
             title: "Pete Mander - Sports Massage Therapist",
             summary: "Relieve. Recover. Perform Better.",
-            image: adrian,
+            image: pete,
             alt: "Portrait of Pete Mander. Pete is standing with his arms crossed, wearing a black top. Pete looks fit and sporty. He is smiling and looks friendly.",
             textHtml: (
                 <>

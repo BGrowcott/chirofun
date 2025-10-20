@@ -1,8 +1,8 @@
 import { regular } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import treatmentCaro1 from "../../images/treatCaro1.jpeg";
-import treatmentCaro2 from "../../images/whatWeTreatCaro22.jpg";
-import clinic3 from "../../images/clinic3.jpeg";
+import treatmentCaro2 from "../../images/newImg1A.jpeg";
+import clinic3 from "../../images/newImg2.jpeg";
 import HomePageCarousel from "./HomePageCarousel";
 
 function WhatWeTreat2() {
@@ -28,8 +28,8 @@ function WhatWeTreat2() {
 	];
 
 	const carouselImages = [
-		{image: treatmentCaro1, alt: "Dr Austin carrying out Chiropratic treatment on a woman to help with lower back pain", active: true},
-		{image: treatmentCaro2, alt: "Dr Austin carrying out Chiropratic treatment on a woman to help neck pain"},
+		//{image: treatmentCaro1, alt: "Dr Austin carrying out Chiropratic treatment on a woman to help with lower back pain", active: true},
+		{image: treatmentCaro2, alt: "Dr Austin carrying out Chiropratic treatment on a woman to help neck pain", active: true},
 		{image: clinic3, alt: "Dr Austin carrying out Chiropratic treatment on a man to help with back pain"}
 	]
 

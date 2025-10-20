@@ -1,4 +1,4 @@
-import clinic1 from "../../images/clinic1.jpeg";
+import clinic1 from "../../images/newImg3.jpeg";
 import clinic2 from "../../images/clinic2.jpeg";
 import clinic3 from "../../images/clinic3.jpeg";
 import clinic4 from "../../images/clinic4.jpeg";
@@ -12,7 +12,7 @@ const OurClinic = (props) => {
 	const carouselImages = [
 		{image: clinic1, alt: "Dr Austin talks through a diagnosis with a patient", active: false},
 		{image: clinic2, alt: "Claire Corfield goes through a treatment plan with a patient", active: true},
-		{image: clinic4, alt: "Dr Austin carrying out Chiropratic treatment", active: false}
+		//{image: clinic4, alt: "Dr Austin carrying out Chiropratic treatment", active: false}
 	]
 
 	return (

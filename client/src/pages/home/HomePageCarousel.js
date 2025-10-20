@@ -1,20 +1,16 @@
 const HomePageCarousel = ({ id: carouselId, images }) => {
-	const imageWidth33 = {
-		width: "33.333333333333333%",
-	};
-
 	return (
 		<div>
 			<div className="d-none d-md-flex">
 				{images.map((item, index, array) => {
-					return <img key={item.alt} style={imageWidth33} className={index !==0 || index !== array.length -1 ? `border-start border-end border-2 border-white` : ""} src={item.image} alt={item.alt}></img>;
+					return <img key={item.alt} style={{width: `${1/array.length*100}%`}} className={index !==0 || index !== array.length -1 ? `border-start border-end border-2 border-white` : ""} src={item.image} alt={item.alt}></img>;
 				})}
 			</div>
 			<div className="d-flex d-md-none">
 				<div id={carouselId} className="carousel slide" data-bs-ride="carousel">
 					<div className="carousel-inner">
 						{images.map((item, index) => {
-							return (
+							return (								
 								<div key={item.alt} className={`carousel-item ${item.active ? "active" : ""}`}>
 									<img src={item.image} className={`d-block w-100`} alt={item.alt} />
 								</div>

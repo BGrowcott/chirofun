@@ -98,7 +98,7 @@ main {
 }
 
 .text-shadow {
-  text-shadow: 2px 2px black;
+  text-shadow: 0px 0px 4px black;
 }
 
 .shadow-inset {
@@ -150,3 +150,42 @@ main {
 }
 
 
+.banner {
+  background-image: url(./images/banner.jpeg);
+  height: 32vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-font {
+  font-size: 3.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    background-image: url(./images/banner-sm.jpeg);
+  }
+
+  .banner-font {
+    font-size: 3rem;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .banner-font {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner-font {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner-font {
+    font-size: 1.55rem;
+  }
+}
