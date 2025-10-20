@@ -1,8 +1,5 @@
 import PageHeader from "../../components/utils/PageHeader";
-import therapy5x4 from "../../images/therapy5x4.jpg";
 import other5x4 from "../../images/test.jpeg";
-import botox1 from "../../images/botox1.jpeg";
-import reception1 from "../../images/reception1.jpeg"
 import chiroFriend from "../../images/feesPage1.jpeg"
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

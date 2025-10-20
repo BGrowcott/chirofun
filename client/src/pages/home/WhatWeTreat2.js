@@ -28,8 +28,8 @@ function WhatWeTreat2() {
 	];
 
 	const carouselImages = [
-		{image: treatmentCaro1, alt: "Dr Austin carrying out Chiropratic treatment on a woman to help with lower back pain", active: true},
-		{image: treatmentCaro2, alt: "Dr Austin carrying out Chiropratic treatment on a woman to help neck pain"},
+		//{image: treatmentCaro1, alt: "Dr Austin carrying out Chiropratic treatment on a woman to help with lower back pain", active: true},
+		{image: treatmentCaro2, alt: "Dr Austin carrying out Chiropratic treatment on a woman to help neck pain", active: true},
 		{image: clinic3, alt: "Dr Austin carrying out Chiropratic treatment on a man to help with back pain"}
 	]
 

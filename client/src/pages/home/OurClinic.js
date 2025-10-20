@@ -12,7 +12,7 @@ const OurClinic = (props) => {
 	const carouselImages = [
 		{image: clinic1, alt: "Dr Austin talks through a diagnosis with a patient", active: false},
 		{image: clinic2, alt: "Claire Corfield goes through a treatment plan with a patient", active: true},
-		{image: clinic4, alt: "Dr Austin carrying out Chiropratic treatment", active: false}
+		//{image: clinic4, alt: "Dr Austin carrying out Chiropratic treatment", active: false}
 	]
 
 	return (

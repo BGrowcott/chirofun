@@ -1,5 +1,5 @@
 import austin2 from "../../images/newImg4.jpeg";
-import banner from "../../images/newImg5.jpeg";
+import banner from "../../images/banner.jpeg";
 import gccReg from "../../images/gccReg.png";
 
 function WhatWeDo() {
@@ -70,7 +70,12 @@ function WhatWeDo() {
 			</div>
 		</section>
 		<div className="border-top border-10 border-secondary">
-			<img src={banner} className="w-100"/>
+			<div className="w-100 banner d-flex align-items-center justify-content-center">
+				<div className="banner-font fw-bold text-white text-shadow p-1 p-md-3 p-lg-5">
+					Our treatment follow up survey showed 98% of patients would recommend us to family and friends.
+				</div>
+			</div>
+			{/* <img src={banner} className="w-100"/> */}
 		</div>
 		</>
 	);
