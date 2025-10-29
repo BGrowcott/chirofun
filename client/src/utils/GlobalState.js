@@ -8,6 +8,8 @@ const GlobalProvider = ({ value = [], ...props }) => {
   const [state, dispatch] = useGlobalReducer({
     setModalExample: false,
     reviews: [],
+    rating: 0,
+    userRatingCount: 0,
     bookingUrl: "https://www.fresha.com/a/birmingham-chiropractic-birmingham-264-alcester-road-south-xp8i2pdf/booking?menu=true&pId=34323&dppub=true&employeeId=96632"
   });
 

@@ -13,6 +13,8 @@ export const reducer = (state, action) => {
 			return {
 				...state,
 				reviews: [...action.reviews],
+				rating: action.rating,
+				userRatingCount: action.userRatingCount
 			};
 
 		default:
