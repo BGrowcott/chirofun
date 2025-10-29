@@ -7,27 +7,8 @@ import { useGlobalContext } from "../../utils/GlobalState";
 import { LOAD_REVIEWS } from "../../utils/actions";
 
 function Testimonials() {
+
 	const [state, dispatch] = useGlobalContext();
-	const [reviews, setReviews] = useState(reviewsJson);
-	const [rating, setRating] = useState({ rating: 5, userRatingCount: 237 });
-
-	useEffect(() => {
-		if (state.reviews.length) {
-			// if reviews exists in the global context we don't need to call the api again
-			setReviews([...state.reviews]);
-			return;
-		}
-
-		(async () => {
-			try {
-				const res = await fetch("/api/reviews");
-				const json = await res.json();
-				dispatch({ type: LOAD_REVIEWS, reviews: [...json.reviews] });
-				setReviews(json.reviews);
-				setRating({ rating: json.rating, userRatingCount: json.userRatingCount });
-			} catch (error) {}
-		})();
-	}, []);
 
 	return (
 		<>
@@ -40,14 +21,14 @@ function Testimonials() {
 									<div className="text-center">
 										<strong className="fs-5">Google Reviews</strong>
 										<div className="d-flex justify-content-center">
-											{new Array(rating.rating).fill(0).map((it, index) => (
+											{new Array(state.rating).fill(0).map((it, index) => (
 												<div key={index}>
 													<FontAwesomeIcon className="fs-4 text-warning" icon={solid("star")} />
 												</div>
 											))}
 										</div>
 										<div>
-											<strong>{rating.rating}</strong> Stars | <strong>{rating.userRatingCount}</strong> reviews
+											<strong>{state.rating}</strong> Stars | <strong>{state.userRatingCount}</strong> reviews
 										</div>
 									</div>
 								</div>
@@ -55,7 +36,7 @@ function Testimonials() {
 								<div className="col-12 col-lg-10">
 									<div id="carouselTestimonialSlides" className="carousel carousel-dark slide my-3" data-bs-ride="carousel">
 										<div className="carousel-indicators">
-											{reviews.map((slide, index) => (
+											{state.reviews.map((slide, index) => (
 												<button
 													key={index}
 													type="button"
@@ -68,7 +49,7 @@ function Testimonials() {
 											))}
 										</div>
 										<div className="carousel-inner">
-											{reviews.map((testimonial, index) => (
+											{state.reviews.map((testimonial, index) => (
 												<div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
 													<div className="px-lg-5 d-flex align-items-center" style={{ }}>
 														<div className="px-lg-5">

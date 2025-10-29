@@ -12,8 +12,8 @@ function WhatWeDo() {
 						<h3 className="we-do-h3 fw-bold josefinSans-text text-dark mb-1 mb-md-3">About us</h3>
 						<p className="fs-3 lh-lg fw-bold mb-3 mb-lg-3">
 							Always evidence based.<br></br>
-							Award winning<br></br>
-							Established clinic<br></br>
+							Award winning.<br></br>
+							Established clinic.<br></br>
 							<abbr title="General Chiropractic Council">GCC</abbr> registered.<br></br>
 							The best after care.<br></br>
 							Fast results.<br></br>
@@ -72,7 +72,7 @@ function WhatWeDo() {
 		<div className="border-top border-10 border-secondary">
 			<div className="w-100 banner d-flex align-items-center justify-content-center">
 				<div className="banner-font fw-bold text-white text-shadow p-1 p-md-3 p-lg-5">
-					Our treatment follow up survey showed 98% of patients would recommend us to family and friends.
+					Our treatment follow up survey showed 98% of patients would recommend us to family and friends
 				</div>
 			</div>
 			{/* <img src={banner} className="w-100"/> */}

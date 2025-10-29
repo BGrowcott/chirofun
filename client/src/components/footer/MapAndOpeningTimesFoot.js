@@ -73,7 +73,7 @@ function MapAndOpeningTimesFoot() {
                                     <br />
                                     264 Alcester Rd South,
                                     <br />
-                                    King's Heath,
+                                    Kings Heath,
                                     <br />
                                     Birmingham B14 6DR
                                 </p>
