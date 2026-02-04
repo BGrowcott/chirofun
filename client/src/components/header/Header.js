@@ -15,10 +15,26 @@ const Header = () => {
 
 	return (
 		<header id="head">
+			<div className="bg-dark text-light p-1 pt-0">
+				<ul className="navbar-nav align-items-center text-uppercase">
+					<li className="nav-item ms-xl-4 ms-lg-2 fs-6">
+						<div className="d-flex flex-column text-center">
+							<a className="nav-link pb-0 mb-1 border-bottom" href={state.bookingUrl} target="_blank">
+								New Patient Offer £55 for consultation & treatment
+							</a>
+							<div>
+								<a href={state.bookingUrl} target="_blank" className="fs-6 btn btn-sm btn-light p-1">
+									Get the offer
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
 			<nav className="navbar navbar-expand-xl navbar-light py-0 px-md-4 px-0 bg-light">
 				<div className="container-fluid ps-0">
 					<Link className="navbar-brand  d-flex align-items-center" to={"/"}>
-						<img width={"70"} src={logo} alt="Birmingham Chiropractic Logo" />
+						<img width={"60"} src={logo} alt="Birmingham Chiropractic Logo" />
 						<h1 className="ms-1 ms-md-3 h2 text-dark fw-bold josefinSans-text">
 							<span className="d-block">Birmingham</span> Chiropractic
 						</h1>
@@ -42,25 +58,6 @@ const Header = () => {
 										What We Do
 									</div>
 								</Link>
-								{/* <div className="navDropDownContents d-none d-xl-block bg-light rounded">
-									<div className="px-3">
-										<Link to={"/what-we-do/chiropractic"} className="nav-link">
-											Chiropractic
-										</Link>
-										<Link to={"/what-we-do/neuromodulator-treatments"} className="nav-link">
-											Neuromodulator Treatments
-										</Link>
-										<Link to={"/what-we-do/vitamin-therapy"} className="nav-link">
-											Vitamin Therapy
-										</Link>
-										<Link to={"/what-we-do/yoga"} className="nav-link">
-											Yoga
-										</Link>
-										<Link to={"/what-we-do/sports-massage"} className="nav-link">
-											Sports Massage
-										</Link>
-									</div>
-								</div> */}
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link mx-xl-4 mx-lg-2" to={"/the-team"}>
