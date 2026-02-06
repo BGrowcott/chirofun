@@ -116,12 +116,12 @@ main {
 .hero-img {
   margin-left: auto;
   height: 70vh;
-  width: 70%;
+  width: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size: cover;
-  background-position-y: 60%;
-  background-image: url(./images/mainBuilding4x4.jpeg)
+  background-position-y: 100%;
+  background-image: url(./images/altBuild3x2.jpeg)
 }
 
 .hero-overlay {
@@ -132,8 +132,7 @@ main {
 @media screen and (max-width: 1400px) {
   .hero-img {
     height: 65vh;
-    width: 85%;
-    background-position-y: 45%;
+    /* width: 85%; */
   }
 
   .hero-overlay {
@@ -144,7 +143,7 @@ main {
 
 @media screen and (max-width: 1000px) {
   .hero-img {
-    width: 85%;
+    /* width: 85%; */
   }
 
   .hero-overlay {
