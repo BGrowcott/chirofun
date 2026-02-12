@@ -16,7 +16,9 @@ const Home = () => {
             <Hero></Hero>
             <div className="home-container">
                 
-                <Testimonials></Testimonials>
+                <div className="d-block d-xxl-none">
+                    <Testimonials></Testimonials>
+                </div>
 
                 <WhatWeDo></WhatWeDo>
 

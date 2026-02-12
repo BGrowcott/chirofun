@@ -27,22 +27,6 @@ main {
   font-family: "Inter", "Josefin Sans", sans-serif;
 }
 
-.about-header {
-  font-size: 3.2rem;
-}
-
-@media screen and (max-width: 768px) {
-  .about-header {
-    font-size: 2.5em;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .about-header {
-    font-size: 2em;
-  }
-}
-
 .click {
   cursor: pointer;
 }
@@ -116,17 +100,17 @@ main {
 .hero-img {
   margin-left: auto;
   height: 70vh;
-  width: 70%;
+  width: 55%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-position-y: 60%;
-  background-image: url(./images/mainBuilding4x4.jpeg)
+  background-position-y: 35%;
+  background-image: url(./images/alt3.png)
 }
 
 .hero-overlay {
     height: 70vh;
-    background-image: linear-gradient(to right, #ffffff 65%, transparent);
+    background-image: linear-gradient(to right, #ffffff 50%, transparent);
 }
 
 @media screen and (max-width: 1400px) {

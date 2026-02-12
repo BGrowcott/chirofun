@@ -12,9 +12,7 @@ function Testimonials() {
 
 	return (
 		<>
-			<section className="">
-				<div className=" ">
-					<div className="">
+			<section>
 						<div className="container-fluid bg-light border-top border-bottom border-secondary border-3 shadow-inset">
 							<div className="row">
 								<div className="col-12 col-lg-2 d-flex align-items-center justify-content-center justify-content-lg-end">
@@ -113,8 +111,6 @@ function Testimonials() {
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
 			</section>
 		</>
 	);
