@@ -120,8 +120,8 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-position-y: 60%;
-  background-image: url(./images/mainBuilding4x4.jpeg)
+  background-position-y: bottom;
+  background-image: url(./images/al4.jpeg)
 }
 
 .hero-overlay {
@@ -133,7 +133,7 @@ main {
   .hero-img {
     height: 65vh;
     width: 85%;
-    background-position-y: 45%;
+    background-position-y: 70%;
   }
 
   .hero-overlay {
@@ -148,17 +148,21 @@ main {
   }
 
   .hero-overlay {
-    background-image: linear-gradient(to right, #ffffff 20%, transparent);
+    background-image: linear-gradient(to right, #ffffff 25%, transparent);
   }
 }
 
 @media screen and (max-width: 768px) {
   .hero-img {
+    height: 55vh;
     width: 100%;
+    background-image: url(./images/al5.jpeg);
+    background-position-x: 20%;
   }
 
   .hero-overlay {
-    background-image: linear-gradient(to right, #ffffffe9 15%, transparent);
+    height: 55vh;
+    background-image: linear-gradient(to right, #ffffffe9 10%, transparent);
   }
 
   .hero-header-font {

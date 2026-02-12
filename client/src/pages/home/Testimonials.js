@@ -15,7 +15,7 @@ function Testimonials() {
 			<section className="">
 				<div className=" ">
 					<div className="">
-						<div className="container-fluid bg-light border-top border-bottom border-secondary border-3 shadow-inset">
+						<div className="container-fluid bg-light border border-secondary border-3 shadow-inset">
 							<div className="row">
 								<div className="col-12 col-lg-2 d-flex align-items-center justify-content-center justify-content-lg-end">
 									<div className="text-center">

@@ -13,11 +13,11 @@ const Home = () => {
 
     return (
         <section>
-            <Hero></Hero>
-            <div className="home-container">
-                
+            <div className="container-xxl p-0">
+                <Hero></Hero>
                 <Testimonials></Testimonials>
-
+            </div>
+            <div className="home-container">
                 <WhatWeDo></WhatWeDo>
 
                 <WhatWeTreat2 />
