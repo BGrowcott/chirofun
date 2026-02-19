@@ -20,7 +20,7 @@ const Header = () => {
 					<li className="nav-item ms-xl-4 ms-lg-2 fs-6">
 						<div className="d-flex flex-column text-center">
 							<a className="nav-link pb-0 mb-1 border-bottom" href={state.bookingUrl} target="_blank">
-								New Patient Offer £55 for consultation & treatment
+								£55 New patient offer - consultation & treatment
 							</a>
 							<div>
 								<a href={state.bookingUrl} target="_blank" className="fs-6 btn btn-sm btn-light p-1">

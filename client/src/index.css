@@ -116,20 +116,20 @@ main {
 .hero-img {
   margin-left: auto;
   height: 70vh;
-  width: 70%;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-position-y: bottom;
-  background-image: url(./images/al4.jpeg)
+  background-position-y: 45%;
+  background-image: url(./images/hero2.5.jpg)
 }
 
 .hero-overlay {
     height: 70vh;
-    background-image: linear-gradient(to right, #ffffff 65%, transparent);
+    background-image: linear-gradient(to right, #ffffffc2 35%, transparent);
 }
 
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
   .hero-img {
     height: 65vh;
     width: 85%;
@@ -150,19 +150,19 @@ main {
   .hero-overlay {
     background-image: linear-gradient(to right, #ffffff 25%, transparent);
   }
-}
+} */
 
 @media screen and (max-width: 768px) {
   .hero-img {
     height: 55vh;
-    width: 100%;
+    /* width: 100%;
     background-image: url(./images/al5.jpeg);
-    background-position-x: 20%;
+    background-position-x: 20%; */
   }
 
   .hero-overlay {
     height: 55vh;
-    background-image: linear-gradient(to right, #ffffffe9 10%, transparent);
+    /* background-image: linear-gradient(to right, #ffffffe9 10%, transparent); */
   }
 
   .hero-header-font {

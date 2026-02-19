@@ -11,7 +11,7 @@ function Hero() {
 			<div className="hero-img"></div>
 			<div className="container-fluid p-0">
 				<div className="row">
-					<div className="position-absolute top-0 col-8 col-xxl-6 hero-overlay">
+					<div className="position-absolute top-0 col-11 col-md-9 col-lg-7 col-xxl-6 hero-overlay">
 						<div className="row h-100 d-flex align-items-md-center">
 							<div className="py-3 p-3 px-md-5 p-lg-5 col-12 col-md-8 d-flex flex-column justify-content-md-between">
 								<div>
