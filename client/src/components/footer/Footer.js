@@ -7,7 +7,7 @@ const Footer = () => {
     const year = d.getFullYear();
 
     return (
-        <footer className="mt-3 mt-lg-5" style={{ color: "#F8F9F5" }}>
+        <footer className="mt-3 mt-lg-5 pb-3 pb-lg-1" style={{ color: "#F8F9F5" }}>
             <div className="bg-dark p-lg-4 border-top border-bottom border-10 border-secondary shadow-inset">
                 <div className="container-fluid">
                     <div className="row text-center align-items-center">
