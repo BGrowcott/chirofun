@@ -84,11 +84,11 @@ function Fees() {
 							<div>
 								<h3 className="h3 mb-0 josefinSans-text text-dark">Returning Patient</h3>
 								<p className="fs-5 m-0">If we haven't seen you in two or more years.</p>
-								<p className="fs-4 fw-bold">£46</p>
+								<p className="fs-4 fw-bold">£48</p>
 							</div>
 							<div>
 								<h3 className="h3 josefinSans-text text-dark">Existing Patient</h3>
-								<p className="fs-4 fw-bold">£43</p>
+								<p className="fs-4 fw-bold">£45</p>
 							</div>
 						</div>
 					</div>
