@@ -28,7 +28,7 @@ function MapAndOpeningTimesFoot() {
                                         <div className="collapse" id="openingHoursList">
                                             <ul className="list-group list-group-flush text-lg-start">
                                                 {openingTimes.map((it, index) => (
-                                                    <li className="list-group-item bg-dark text-white" key={it}>
+                                                    <li className="list-group-item bg-dark text-white border-0" key={it}>
                                                         {it}
                                                     </li>
                                                 ))}
@@ -40,7 +40,7 @@ function MapAndOpeningTimesFoot() {
                                     <div className="d-none d-lg-block">
                                         <ul className="list-group list-group-flush text-lg-start">
                                             {openingTimes.map((it, index) => (
-                                                <li className="list-group-item bg-dark text-white" key={it}>
+                                                <li className="list-group-item bg-dark text-white border-0" key={it}>
                                                     {it}
                                                 </li>
                                             ))}

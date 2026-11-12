@@ -57,7 +57,7 @@ function WhatWeTreat2() {
 										<div key={i} className="col-12 col-md-6">
 											<ul className="fs-5 we-treat-list text-uppercase text-black list-group list-group-flush">
 												{item.map((it) => (
-													<li key={it} className="list-group-item bg-dark text-light fw-bold px-0 px-md-2">
+													<li key={it} className="list-group-item bg-dark text-light fw-bold px-0 px-md-2 border-0">
 														<div className="d-flex align-items-center">
 															<div className="me-2">
 																<FontAwesomeIcon className="fs-3 text-success" icon={regular("circle-check")} />
