@@ -274,7 +274,6 @@ function WhatWeDo() {
 					<div>
 						<div>
 							<h3 className="h5 fw-bold">Glutathione</h3>
-
 							<p>
 								Glutathione booster injections are a powerful antioxidant therapy designed to promote detoxification, improve skin health &
 								enhance overall wellness. Glutathione, called the "master antioxidant" helps neutralise free radicals, reduce oxidative stress &
@@ -284,7 +283,6 @@ function WhatWeDo() {
 
 						<div>
 							<h3 className="h5 fw-bold">Vitamin C Injections</h3>
-
 							<p>
 								A powerful therapy to strengthen the immune system, improve skin health & combat oxidative stress. This vital antioxidant,
 								supports collagen production, boosts energy levels & fights off infection.
@@ -292,8 +290,14 @@ function WhatWeDo() {
 						</div>
 
 						<div>
-							<h3 className="h5 fw-bold">Combination Injection Therapy</h3>
+							<h3 className="h5 fw-bold">Vitamin D 300,000 IU</h3>
+							<p>
+								We are pleased to offer Vitamin D 300,000 IU treatment. Contact us to find out more.
+							</p>
+						</div>
 
+						<div>
+							<h3 className="h5 fw-bold">Combination Injection Therapy</h3>
 							<p>
 								For combination injection therapy, it's not necessary to book separately. You can request your preference when using the online
 								booking system for one of the single injection therapies or call us to book.
