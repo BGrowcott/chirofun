@@ -107,11 +107,12 @@ function Fees() {
 								<li className="list-group-item bg-transparent">Neuromodulator Facial - £190 (one area) + £40 per additional area</li>
 							</ul>
 
-							<h3 className="mt-3 h4 josefinSans-text text-dark">Vitamin Injections</h3>
+							<h3 className="mt-3 h4 josefinSans-text text-dark">Vitamin Therapies/Injections</h3>
 							<ul className="list-group list-group-flush ">
 								<li className="list-group-item bg-transparent">B12 Injection - £35</li>
 								<li className="list-group-item bg-transparent">Glutathione - £50</li>
 								<li className="list-group-item bg-transparent">Vitamin C - £40</li>
+								<li className="list-group-item bg-transparent">Vitamin D - £65</li>
 							</ul>
 							
 						</div>
