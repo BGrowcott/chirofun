@@ -1,56 +1,76 @@
 $dark: #12485a;
 //$light: #f9f7f7;
-$warm: #DF6C53;
-$offLight: #F0EFEF;
+$warm: #df6c53;
+$offLight: #f0efef;
 $secondary: #36718f;
 
-@import "~bootstrap/scss/_functions.scss"; 
-@import "~bootstrap/scss/_variables.scss";   //then import native bootstrap variables
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss"; //then import native bootstrap variables
 
-$custom-colors: ( 
-    "warm": $warm, 
-    "offLight": $offLight
+
+$custom-colors: (
+	"warm": $warm,
+	"offLight": $offLight,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-@import '~bootstrap/scss/bootstrap.scss';
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+$font-sizes: map-merge($font-sizes,(xxs: 0.5rem, xs: 0.8rem, xxl: 3rem));
+
+$utilities: map-merge(
+	$utilities,
+	(
+		"font-size": (
+			property: font-size,
+			class: fs,
+			responsive: true,
+			values: $font-sizes,
+		),
+	)
+);
+
+@import "~bootstrap/scss/bootstrap.scss";
+
 
 .we-do-h3 {
-    font-size: 3em;
-    border-bottom: 4px solid $warm;
-  }
+	font-size: 3em;
+	border-bottom: 4px solid $warm;
+}
 
-  .border-10 {
-    --bs-border-width: 10px;
-  }
+.border-10 {
+	border-width: 10px !important;
+}
 
-  @media (max-width: 575.98px) { 
-    .we-do-h3 {
-        font-size: 2.4em;
-        border-bottom: 4px solid $warm;
-      }
-   }
+@media (max-width: 575.98px) {
+	.we-do-h3 {
+		font-size: 2.4em;
+		border-bottom: 4px solid $warm;
+	}
+}
 
-   .slim-scroll {
-    /* width */
-    &::-webkit-scrollbar {
-        width: 4px;
-    }
-    /* Track */
-    &::-webkit-scrollbar-track {
-        background: #d2cdcd;
-    }
-    /* Handle */
-    &::-webkit-scrollbar-thumb {
-        background: #645e5e;
-    }
-    /* Handle on hover */
-    &::-webkit-scrollbar-thumb:hover {
-        background: #3a3a3a;
-    }
+.slim-scroll {
+	/* width */
+	&::-webkit-scrollbar {
+		width: 4px;
+	}
+	/* Track */
+	&::-webkit-scrollbar-track {
+		background: #d2cdcd;
+	}
+	/* Handle */
+	&::-webkit-scrollbar-thumb {
+		background: #645e5e;
+	}
+	/* Handle on hover */
+	&::-webkit-scrollbar-thumb:hover {
+		background: #3a3a3a;
+	}
 }
 
 .review-quote-size {
-  height: 120px;
+	height: 120px;
 }

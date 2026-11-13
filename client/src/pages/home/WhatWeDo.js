@@ -1,4 +1,5 @@
 import austin2 from "../../images/newImg4.jpeg";
+import img2 from "../../images/twist.jpeg";
 import banner from "../../images/banner.jpeg";
 import gccReg from "../../images/gccReg.png";
 
@@ -12,7 +13,7 @@ function WhatWeDo() {
 					<div className="col-12 col-lg-6 d-flex justify-content-center py-lg-5 p-3">
 						<div className="rounded d-flex flex-column justify-content-center ">
 							<h3 className="we-do-h3 fw-bold josefinSans-text text-dark mb-1 mb-md-3">About us</h3>
-							<p className="fs-3 lh-lg fw-bold mb-3 mb-lg-3">
+							<p className="fs-5 fs-xl-4 lh-lg fw-bold mb-3 mb-lg-3">
 								Always evidence based.<br></br>
 								Award winning.<br></br>
 								Established clinic.<br></br>
@@ -20,19 +21,19 @@ function WhatWeDo() {
 								The best after care.<br></br>
 								Fast results.<br></br>
 							</p>
-							<p className="fs-5">
+							<p className="fs-6 fs-xl-5">
 								We are proud to have been rated one of the top three Chiropractic Clinics in Birmingham for the last 8 years. At Birmingham
 								Chiropractic, we identify the underlying causes of our patients' pain to help them return to a full and active life. Experience
 								personalised care with our chiropractor-led treatments, the best aftercare and rehabilitation advice.
 							</p>
-							<p className="fs-5">
+							<p className="fs-6 fs-xl-5">
 								Choose from comprehensive spinal manipulation techniques, hands-on therapies, specialist manual therapy, and effective postural
 								correction to help you feel your best. Our treatments are tailored to the needs of each patient, regardless of age. We are a
 								family-friendly clinic and always put patients' needs first.
 							</p>
 							<div className="row align-items-center">
 								{bestRatedYears.map((year) => (
-									<div className="col-4 text-center">
+									<div className="col-4 text-center" key={year}>
 										<div>
 											<img
 												className="w-100"
@@ -48,7 +49,7 @@ function WhatWeDo() {
 							</div>
 						</div>
 					</div>
-					<div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+					<div className="col-12 col-lg-6 col-xl-5 d-flex flex-column p-3 justify-content-center align-items-center">
 						<figure className="m-0">
 							<div className="white-border shadow">
 								<img
@@ -65,6 +66,11 @@ function WhatWeDo() {
 								</p>
 							</figcaption>
 						</figure>
+						<div className="d-none d-lg-block">
+							<div className="white-border shadow">
+								<img className="img-fluid" src={img2}></img>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
